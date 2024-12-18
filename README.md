@@ -22,11 +22,6 @@ Skirmisher- L95<br>
 Spear Fighter- SALVAGED<br>
 Spellblade- VelvetKitsune, BatimaTheBat<br>
 
-Combat Animations<br>
-Skirmisher- DerTheVaporeon, Pikmin1211<br>
-Spear Fighter- SALVAGED<br>
-Spellblade- The Last Promise, DH_Ninja<br>
-
 Item Icons<br>
 Fire, Ice, Wind, Water, Earth, Light, Dark, Almighty- CardCafe<br>
 FE13 Icon Pack- Zelix <br>
