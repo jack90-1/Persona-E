@@ -3,10 +3,10 @@
         "nid": "Evil_Touch",
         "name": "Evil Touch",
         "desc": "",
-        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
-            8,
-            0
+            0,
+            80
         ],
         "components": [
             [

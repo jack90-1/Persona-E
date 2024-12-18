@@ -2,7 +2,7 @@
     {
         "nid": "S_Toxin",
         "name": "Toxin",
-        "desc": "-2 to all combat stats except LCK. Can stack up to 5 times.",
+        "desc": "<brown>Biological. </>-2 to all combat stats except LCK. Can stack up to 5 times.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             1,
@@ -49,6 +49,10 @@
             [
                 "stack",
                 5
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
             ]
         ]
     }

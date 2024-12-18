@@ -580,5 +580,87 @@
         "priority": 20,
         "offense_bias": 2.0,
         "roam_ai": false
+    },
+    {
+        "nid": "Provoke_Jordan",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Name",
+                    "Jordan"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "Provoke_Juliette",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Name",
+                    "Juliette"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
     }
 ]

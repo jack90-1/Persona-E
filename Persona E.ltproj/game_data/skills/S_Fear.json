@@ -2,7 +2,7 @@
     {
         "nid": "S_Fear",
         "name": "Fear",
-        "desc": "Can't attack or counterattack. +15 AVO.",
+        "desc": "<violet>Cognitive. </>Can't attack or counterattack. +15 AVO.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             0,
@@ -14,10 +14,6 @@
                 null
             ],
             [
-                "unit_anim",
-                "MapSilence"
-            ],
-            [
                 "avoid",
                 15
             ],
@@ -27,7 +23,15 @@
             ],
             [
                 "end_time",
-                1
+                2
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }
