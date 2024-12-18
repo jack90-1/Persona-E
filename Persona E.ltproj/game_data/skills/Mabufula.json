@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Mabufula",
+        "name": "Mabufula",
+        "desc": "Ice. Damages adjacent foes. MT: 7 HIT: 90 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mabufula"
+            ]
+        ]
+    }
+]

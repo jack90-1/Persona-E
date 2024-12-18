@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Flow:Phys",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "unit.nid == 'Vernon' and 'Weak_Phys' in target.tags",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Rally",
+            "give_skill;Vernon;Flow;no_banner"
+        ],
+        "nid": "Global Flow:Phys"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "1_25_N",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_weather;night",
+            "add_weather;snow",
+            "set_game_board_bounds;2;2;77;67"
+        ],
+        "nid": "1_25_N Intro"
+    }
+]

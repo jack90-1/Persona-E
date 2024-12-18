@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Agi",
+        "name": "Agi",
+        "desc": "Fire. MT: 4 HIT:90 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Agi"
+            ]
+        ]
+    }
+]

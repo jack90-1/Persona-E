@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Dia",
+        "name": "Dia",
+        "desc": "Heals target for user's MAG + 5.\nSP: 5",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Dia"
+            ]
+        ]
+    }
+]

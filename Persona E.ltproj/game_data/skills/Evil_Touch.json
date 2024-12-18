@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Evil_Touch",
+        "name": "Evil Touch",
+        "desc": "Inflicts <violet>fear</> on target for 1 turn.\nSP: 13",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Evil_Touch"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills"
+            ]
+        ]
+    }
+]

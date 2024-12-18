@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Magarula",
+        "name": "Magarula",
+        "desc": "Wind. Damages adjacent foes. Brave. MT: 4 HIT: 100 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magarula"
+            ]
+        ]
+    }
+]

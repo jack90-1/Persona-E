@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Garu",
+        "name": "Garu",
+        "desc": "Wind. Brave. MT: 1 HIT:100 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Garu"
+            ]
+        ]
+    }
+]

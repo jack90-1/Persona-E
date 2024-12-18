@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Angel_Stats",
+        "name": "Angel Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        7
+                    ],
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        5
+                    ],
+                    [
+                        "RES",
+                        8
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

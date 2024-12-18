@@ -1,0 +1,444 @@
+[
+    {
+        "nid": "F2_Samir",
+        "name": "Floor 2",
+        "tilemap": "New Tilemap_5",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "B.O.B. - Bombs Over Baghdad- Outkast",
+            "enemy_phase": "B.O.B. - Bombs Over Baghdad- Outkast"
+        },
+        "objective": {
+            "simple": "Reach stairs",
+            "win": "Reach stairs",
+            "loss": "{v:ProtagFirstName} is defeated"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "Battle"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Marina",
+                "team": "other",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 2,
+                "klass": "Armor",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ],
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Rakunda",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 2,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 2,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 2,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 2,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Aqua",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack_In_2",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Aqua",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Hand_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ],
+                    [
+                        "Iron_Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack_In_2",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Agi",
+                        false
+                    ],
+                    [
+                        "Iron_Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 2,
+                "klass": "Cleric",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Kouha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    1,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation_1",
+                "region_type": "formation",
+                "position": [
+                    2,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation_2",
+                "region_type": "formation",
+                "position": [
+                    0,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    }
+]

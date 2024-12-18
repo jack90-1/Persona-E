@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Persona Choice 5",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Jordan'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:Protag_Level}' == '5'",
+            "    choice;PersonaChoice;Choose a new persona.;Jack Frost,Slime,Fortuna",
+            "    inc_game_var;Protag_Level",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Jack Frost'",
+            "    give_skill;{unit};P_Jack_Frost;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 5: Jack Frost\"] + [\"Lv. 5: Slime\"] + [\"Lv. 5: Fortuna\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Slime'",
+            "    give_skill;{unit};P_Slime;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 5: Jack Frost\"] + [\"Lv. 5: Slime\"] + [\"Lv. 5: Fortuna\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Fortuna'",
+            "    give_skill;{unit};P_Fortuna;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 5: Jack Frost\"] + [\"Lv. 5: Slime\"] + [\"Lv. 5: Fortuna\"]",
+            "end",
+            "game_var;Flexibility;+1",
+            ""
+        ],
+        "nid": "Global Persona Choice 5"
+    }
+]

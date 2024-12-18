@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Myrm_Charge",
+        "trigger": "turn_change",
+        "level_nid": "F1_Samir",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;109;Charge"
+        ],
+        "nid": "F1_Samir Myrm_Charge"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Kouga",
+        "name": "Kouga",
+        "desc": "Light. MT: 6 HIT: 100 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Kouga"
+            ]
+        ]
+    }
+]

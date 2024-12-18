@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Down_Earth",
+        "name": "Down_Earth",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakEarth' in target.tags"
+            ]
+        ]
+    }
+]

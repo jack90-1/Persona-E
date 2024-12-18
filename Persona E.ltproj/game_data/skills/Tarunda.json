@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Tarunda",
+        "name": "Tarunda",
+        "desc": "Decreases target's STR/MAG by 3 for 2 turns.\nSP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Tarunda"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Steel_Sword",
+        "name": "Steel Sword",
+        "desc": "Physical.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                480
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Down_Phys",
+                    "Press_Phys"
+                ]
+            ]
+        ]
+    }
+]

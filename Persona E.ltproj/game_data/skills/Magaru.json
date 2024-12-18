@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Magaru",
+        "name": "Magaru",
+        "desc": "Wind. Damages adjacent foes.. Brave. MT: 1 HIT:100 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magaru"
+            ]
+        ]
+    }
+]

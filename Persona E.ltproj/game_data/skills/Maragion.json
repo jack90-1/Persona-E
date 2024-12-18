@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Maragion",
+        "name": "Maragion",
+        "desc": "Fire. MT: 7 HIT: 90 SP: 16 ",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maragion"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Ara_Mitama_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        9
+                    ],
+                    [
+                        "MAG",
+                        0
+                    ],
+                    [
+                        "SKL",
+                        6
+                    ],
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        6
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        7
+                    ]
+                ]
+            ]
+        ]
+    }
+]

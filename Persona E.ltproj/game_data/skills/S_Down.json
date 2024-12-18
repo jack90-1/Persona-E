@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "S_Down",
+        "name": "Down",
+        "desc": "This unit cannot counterattack for one round of combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    166,
+                    166,
+                    0
+                ]
+            ]
+        ]
+    }
+]

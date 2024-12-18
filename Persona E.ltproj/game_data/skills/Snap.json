@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Snap",
+        "name": "Snap",
+        "desc": "Gun.\nMT: 3 HIT: 105 HP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Snap"
+            ]
+        ]
+    }
+]

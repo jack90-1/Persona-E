@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Iron_Sword",
+        "name": "Iron Sword",
+        "desc": "Physical.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                460
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Down_Phys",
+                    "Press_Phys"
+                ]
+            ]
+        ]
+    }
+]

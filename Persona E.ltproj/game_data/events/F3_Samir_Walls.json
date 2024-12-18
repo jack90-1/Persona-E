@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Walls",
+        "trigger": "unit_death",
+        "level_nid": "F3_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid== 'Wall1'",
+            "sound;VillageDestroyed",
+            "map_anim;Snag;8,0",
+            "show_layer;NorthWall",
+            "end",
+            "if;unit.nid== 'Wall2'",
+            "sound;VillageDestroyed",
+            "map_anim;Snag;9,10",
+            "show_layer;SouthWall",
+            "end"
+        ],
+        "nid": "F3_Samir Walls"
+    }
+]

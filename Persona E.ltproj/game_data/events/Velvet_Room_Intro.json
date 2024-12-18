@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "Velvet_Room",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_weather;night",
+            "music;Aria of the Soul- Persona 3 Reload",
+            "center_cursor;10,11;immediate",
+            "add_portrait;ButchP;Right;no_block",
+            "speak;Butch;Welcome to the Velvet Room.",
+            "remove_portrait;ButchP",
+            "trigger_script;Menu"
+        ],
+        "nid": "Velvet_Room Intro"
+    }
+]

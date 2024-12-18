@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Persona Choice 2",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Jordan'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:Protag_Level}' == '2'",
+            "    game_var;VRoom_Personas;[]",
+            "    choice;PersonaChoice;Choose a new persona.;Pixie,Angel,Mokoi",
+            "    inc_game_var;Protag_Level",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Pixie'",
+            "    give_skill;{unit};P_Pixie;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Exit\"] + [\"Lv. 2: Pixie\"] + [\"Lv. 2: Angel\"] + [\"Lv. 2: Mokoi\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Angel'",
+            "    give_skill;{unit};P_Angel;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Exit\"] + [\"Lv. 2: Pixie\"] + [\"Lv. 2: Angel\"] + [\"Lv. 2: Mokoi\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Mokoi'",
+            "    give_skill;{unit};P_Mokoi;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Exit\"] + [\"Lv. 2: Pixie\"] + [\"Lv. 2: Angel\"] + [\"Lv. 2: Mokoi\"]",
+            "end",
+            "game_var;Flexibility;+1",
+            "add_lore;Pixie",
+            "add_lore;Angel",
+            "add_lore;Mokoi",
+            "add_lore;Nekomata",
+            "add_lore;Apsaras",
+            "add_lore;Ara_Mitama"
+        ],
+        "nid": "Global Persona Choice 2"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Mokoi_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "SKL",
+                        3
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        9
+                    ]
+                ]
+            ]
+        ]
+    }
+]

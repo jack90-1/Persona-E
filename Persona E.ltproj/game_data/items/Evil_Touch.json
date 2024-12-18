@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Evil_Touch",
+        "name": "Evil Touch",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "status_after_combat_on_hit",
+                "S_Fear"
+            ],
+            [
+                "mana_cost",
+                13
+            ],
+            [
+                "map_hit_sfx",
+                "Battle Cry"
+            ]
+        ]
+    }
+]

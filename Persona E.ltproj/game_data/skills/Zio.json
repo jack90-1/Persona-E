@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Zio",
+        "name": "Zio",
+        "desc": "Electric Damage. MT: 6 HIT: 80 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Zio"
+            ]
+        ]
+    }
+]

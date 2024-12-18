@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Aqua",
+        "name": "Aqua",
+        "desc": "Water. User heals for 1/4 damage dealt. MT: 3 HIT: 85 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Aqua"
+            ]
+        ]
+    }
+]

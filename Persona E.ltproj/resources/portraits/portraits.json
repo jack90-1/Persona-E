@@ -1,0 +1,194 @@
+[
+    {
+        "nid": "Protag (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "John",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lanh (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            18,
+            38
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Vernon (Battle)",
+        "blinking_offset": [
+            21,
+            31
+        ],
+        "smiling_offset": [
+            19,
+            41
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Marina (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            15,
+            43
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Samir (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            17,
+            47
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Juliette (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            17,
+            42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Go (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            14,
+            45
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cynthia (Battle)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            15,
+            44
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "IgorP",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ButchP",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            9,
+            38
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Protag (Casual)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lanh (Casual)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Vernon (Casual)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Samir (Casual)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cynthia (Casual)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    }
+]

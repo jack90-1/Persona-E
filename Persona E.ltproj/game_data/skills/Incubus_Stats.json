@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Incubus_Stats",
+        "name": "Incubus Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        8
+                    ],
+                    [
+                        "SKL",
+                        4
+                    ],
+                    [
+                        "SPD",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Rakukaja",
+        "name": "Rakukaja",
+        "desc": "Increases target's DEF/RES by 3 for 2 turns.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Rakukaja"
+            ]
+        ]
+    }
+]

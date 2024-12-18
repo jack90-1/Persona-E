@@ -1,0 +1,20 @@
+[
+    {
+        "name": "2.Get Party Units",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Specify alive for only living units, all to include dead ones",
+            "if;'{e:state}' == 'alive'",
+            "    lvar;all_playable_units;[u.nid for u in game.get_units_in_party()]",
+            "elif;'{e:state}' == 'all'",
+            "    lvar;all_playable_units;[u.nid for u in game.get_all_units_in_party()]",
+            "end"
+        ],
+        "nid": "Global 2.Get Party Units"
+    }
+]

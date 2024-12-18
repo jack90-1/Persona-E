@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Apsaras_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        3
+                    ],
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "DEF",
+                        0
+                    ],
+                    [
+                        "RES",
+                        10
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

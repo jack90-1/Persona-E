@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Chest2",
+        "trigger": "Unlock",
+        "level_nid": "F1_Samir",
+        "condition": "region.nid == 'Chest2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;Chest2",
+            "give_money;15",
+            "has_attacked;{unit}"
+        ],
+        "nid": "F1_Samir Chest2"
+    }
+]

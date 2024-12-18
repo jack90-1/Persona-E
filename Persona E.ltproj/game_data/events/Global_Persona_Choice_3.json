@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Persona Choice 3",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Jordan'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:Protag_Level}' == '3'",
+            "    choice;PersonaChoice;Choose a new persona.;Nekomata,Apsaras,Ara Mitama",
+            "    inc_game_var;Protag_Level",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Nekomata'",
+            "    give_skill;{unit};P_Nekomata;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 3: Nekomata\"] + [\"Lv. 3: Apsaras\"] + [\"Lv. 3: Ara Mitama\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Apsaras'",
+            "    give_skill;{unit};P_Apsaras;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 3: Nekomata\"] + [\"Lv. 3: Apsaras\"] + [\"Lv. 3: Ara Mitama\"]",
+            "end",
+            "if;'{v:PersonaChoice}' == 'Ara Mitama'",
+            "    give_skill;{unit};P_Ara_Mitama;no_banner",
+            "    game_var;VRoom_Personas;{v:VRoom_Personas} + [\"Lv. 3: Nekomata\"] + [\"Lv. 3: Apsaras\"] + [\"Lv. 3: Ara Mitama\"]",
+            "end",
+            "game_var;Flexibility;+1",
+            "add_lore;Forneus",
+            "add_lore;Incubus",
+            "add_lore;Valkyrie"
+        ],
+        "nid": "Global Persona Choice 3"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "P_Jiibayaabooz",
+        "name": "Jiibayaabooz",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Fool"
+                ]
+            ]
+        ]
+    }
+]

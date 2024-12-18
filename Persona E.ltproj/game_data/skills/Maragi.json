@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Maragi",
+        "name": "Maragi",
+        "desc": "Fire. Damages adjacent foes. MT: 4 HIT:90 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maragi"
+            ]
+        ]
+    }
+]

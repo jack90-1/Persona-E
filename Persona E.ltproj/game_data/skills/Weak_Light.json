@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Weak_Light",
+        "name": "Weak: Light",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakLight"
+                ]
+            ]
+        ]
+    }
+]

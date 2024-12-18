@@ -1,0 +1,73 @@
+[
+    {
+        "nid": "Bronze_Axe",
+        "name": "Bronze Axe",
+        "desc": "Physical.",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            7,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                420
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global Flow:Phys"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Down_Phys",
+                    "Press_Phys"
+                ]
+            ]
+        ]
+    }
+]

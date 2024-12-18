@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Bronze_Sword",
+        "name": "Bronze Sword",
+        "desc": "Physical.",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                480
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Down_Phys",
+                    "Press_Phys"
+                ]
+            ]
+        ]
+    }
+]

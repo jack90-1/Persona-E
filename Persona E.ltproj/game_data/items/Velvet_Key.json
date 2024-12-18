@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Velvet_Key",
+        "name": "Velvet Key",
+        "desc": "A key given to you by Igor that grants access to the Velvet Room.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": []
+    }
+]

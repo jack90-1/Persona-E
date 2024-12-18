@@ -1,0 +1,197 @@
+[
+    {
+        "nid": "Sword",
+        "name": "Sword",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": 2,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": -2,
+                "resist": 0,
+                "accuracy": -15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Lance",
+        "name": "Lance",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": 2,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": -2,
+                "resist": 0,
+                "accuracy": -15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            1,
+            1
+        ]
+    },
+    {
+        "nid": "Axe",
+        "name": "Axe",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": 2,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": -2,
+                "resist": 0,
+                "accuracy": -15,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            2,
+            1
+        ]
+    },
+    {
+        "nid": "Bow",
+        "name": "Bow",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            4,
+            1
+        ]
+    },
+    {
+        "nid": "Knife",
+        "name": "Knife",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            6,
+            1
+        ]
+    },
+    {
+        "nid": "Gun",
+        "name": "Gun",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            8,
+            1
+        ]
+    },
+    {
+        "nid": "Magic",
+        "name": "Magic",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "{LordGlenn} FE10 GBA Affinity Weapon Levels",
+        "icon_index": [
+            9,
+            2
+        ]
+    },
+    {
+        "nid": "Default",
+        "name": "Consumable",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Staff",
+        "name": "Staff",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            4
+        ]
+    }
+]

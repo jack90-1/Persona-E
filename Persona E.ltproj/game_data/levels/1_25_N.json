@@ -1,0 +1,227 @@
+[
+    {
+        "nid": "1_25_N",
+        "name": "January 25, 2024",
+        "tilemap": "New Tilemap_3",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "_Blizzard Ambience"
+        },
+        "objective": {
+            "simple": "1/25/24",
+            "win": "None",
+            "loss": "None"
+        },
+        "roam": true,
+        "roam_unit": "Jordan",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [
+            "Roam"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    38
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ButchP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    90,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Vernon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    109,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    108,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Samir",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    106,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Cynthia",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    109,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "MarkHall",
+                "region_type": "event",
+                "position": [
+                    54,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EleanorHall",
+                "region_type": "event",
+                "position": [
+                    17,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EleanorHallF1",
+                "region_type": "event",
+                "position": [
+                    87,
+                    0
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "PierceCenter",
+                "region_type": "event",
+                "position": [
+                    11,
+                    59
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MainHall",
+                "region_type": "event",
+                "position": [
+                    35,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BrownLibrary",
+                "region_type": "event",
+                "position": [
+                    64,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TrinityBuilding",
+                "region_type": "event",
+                "position": [
+                    4,
+                    36
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    }
+]

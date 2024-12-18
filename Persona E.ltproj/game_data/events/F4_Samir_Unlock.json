@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Unlock",
+        "trigger": "Unlock",
+        "level_nid": "F4_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;region.nid == 'Door1'",
+            "sound;Unlock",
+            "show_layer;Door1",
+            "has_attacked;{unit}",
+            "end",
+            "if;region.nid == 'Door2'",
+            "sound;Unlock",
+            "show_layer;Door2",
+            "has_attacked;{unit}",
+            "end",
+            "if;region.nid == 'Chest'",
+            "sound;Unlock",
+            "show_layer;Chest",
+            "has_attacked;{unit}",
+            "end"
+        ],
+        "nid": "F4_Samir Unlock"
+    }
+]

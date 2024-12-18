@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Maeiga",
+        "name": "Maeiga",
+        "desc": "Dark. Damages adjacent foes. Pierce's target's RES. MT: 4 HIT: 80 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maeiga"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Weak_Ice",
+        "name": "Weak: Ice",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakIce"
+                ]
+            ]
+        ]
+    }
+]

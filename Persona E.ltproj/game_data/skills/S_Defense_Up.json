@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "S_Defense_Up",
+        "name": "Defense Up",
+        "desc": "+3 DEF/RES.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

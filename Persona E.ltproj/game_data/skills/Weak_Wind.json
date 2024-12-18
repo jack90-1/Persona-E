@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Weak_Wind",
+        "name": "Weak: Wind",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakWind"
+                ]
+            ]
+        ]
+    }
+]

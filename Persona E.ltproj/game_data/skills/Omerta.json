@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Omerta",
+        "name": "Omert\u00e0",
+        "desc": "This unit is immune to <violet>cognitive</> ailments.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            6,
+            85
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

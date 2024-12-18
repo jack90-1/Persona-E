@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "S_Fear",
+        "name": "Fear",
+        "desc": "Can't attack or counterattack. +15 AVO.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            80
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapSilence"
+            ],
+            [
+                "avoid",
+                15
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

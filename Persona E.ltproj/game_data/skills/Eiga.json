@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Eiga",
+        "name": "Eiga",
+        "desc": "Dark. Pierce's target's RES. MT: 4 HIT: 80 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Eiga"
+            ]
+        ]
+    }
+]

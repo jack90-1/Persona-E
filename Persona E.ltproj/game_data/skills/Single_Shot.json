@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Single_Shot",
+        "name": "Single Shot",
+        "desc": "Gun. Pierces DEF.\nMT: 6 HIT: 105 HP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Single_Shot"
+            ]
+        ]
+    }
+]

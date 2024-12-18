@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bash",
+        "name": "Bash",
+        "desc": "Phys.\nMT: 9 HIT: 95 HP: 9",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Bash"
+            ]
+        ]
+    }
+]

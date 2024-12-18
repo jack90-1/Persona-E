@@ -1,0 +1,255 @@
+[
+    {
+        "nid": "None",
+        "name": "None",
+        "desc": "No affinity",
+        "bonus": [],
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Fool",
+        "name": "Fool",
+        "desc": "0. The Fool",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Magician",
+        "name": "Magician",
+        "desc": "I. The Magician",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            1,
+            0
+        ]
+    },
+    {
+        "nid": "Priestess",
+        "name": "Priestess",
+        "desc": "II. The High Priestess",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            2,
+            0
+        ]
+    },
+    {
+        "nid": "Empress",
+        "name": "Empress",
+        "desc": "III. The Empress",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            3,
+            0
+        ]
+    },
+    {
+        "nid": "Emperor",
+        "name": "Emperor",
+        "desc": "IV. The Emperor",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            4,
+            0
+        ]
+    },
+    {
+        "nid": "Hierophant",
+        "name": "Hierophant",
+        "desc": "V. The Hierophant",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Lovers",
+        "name": "Lovers",
+        "desc": "VI. The Lovers",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            1,
+            1
+        ]
+    },
+    {
+        "nid": "Chariot",
+        "name": "Chariot",
+        "desc": "VII. The Chariot",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            2,
+            1
+        ]
+    },
+    {
+        "nid": "Justice",
+        "name": "Justice",
+        "desc": "VIII. Justice",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            1,
+            2
+        ]
+    },
+    {
+        "nid": "Hermit",
+        "name": "Hermit",
+        "desc": "IX. The Hermit",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            4,
+            1
+        ]
+    },
+    {
+        "nid": "Fortune",
+        "name": "Fortune",
+        "desc": "X. Fortune",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Strength",
+        "name": "Strength",
+        "desc": "XI. Strength",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            3,
+            1
+        ]
+    },
+    {
+        "nid": "Hanged",
+        "name": "Hanged",
+        "desc": "XII. The Hanged Man",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            2,
+            2
+        ]
+    },
+    {
+        "nid": "Death",
+        "name": "Death",
+        "desc": "XIII. Death",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            3,
+            2
+        ]
+    },
+    {
+        "nid": "Temperance",
+        "name": "Temperance",
+        "desc": "XIV. Temperance",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            4,
+            2
+        ]
+    },
+    {
+        "nid": "Devil",
+        "name": "Devil",
+        "desc": "XV. The Devil",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Tower",
+        "name": "Tower",
+        "desc": "XVI. The Tower",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            1,
+            3
+        ]
+    },
+    {
+        "nid": "Star",
+        "name": "Star",
+        "desc": "XVII. The Star",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            2,
+            3
+        ]
+    },
+    {
+        "nid": "Moon",
+        "name": "Moon",
+        "desc": "XVIII. The Moon",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            3,
+            3
+        ]
+    },
+    {
+        "nid": "Sun",
+        "name": "Sun",
+        "desc": "XIX. The Sun",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            4,
+            3
+        ]
+    },
+    {
+        "nid": "Judgement",
+        "name": "Judgement",
+        "desc": "XX. Judgement",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "World",
+        "name": "World",
+        "desc": "XI. The World",
+        "bonus": [],
+        "icon_nid": "Arcana",
+        "icon_index": [
+            1,
+            4
+        ]
+    }
+]
