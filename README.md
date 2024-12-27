@@ -16,6 +16,7 @@ Portraits<br>
 * Briar- Base portrait by Backer minor edits by me<br>
 * LeClerc- Parts from Cynon and Garytop<br>
 * Brandon- Parts from Nobody and Melia<br>
+* Brutal Shadow- Parts from Zelkami<br>
 
 Map Sprites<br>
 * Skirmisher- L95<br>
