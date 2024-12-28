@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "S_Bomb",
+        "name": "Bomb",
+        "desc": "<brown>Biological. </>Unit will explode after taking damage, instantly killing them and dealing 10 damage to enemies within 2 spaces.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

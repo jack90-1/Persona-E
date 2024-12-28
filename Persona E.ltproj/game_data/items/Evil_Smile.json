@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Evil_Smile",
+        "name": "Evil Smile",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            80
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "status_after_combat_on_hit",
+                "S_Fear"
+            ],
+            [
+                "mana_cost",
+                26
+            ],
+            [
+                "map_hit_sfx",
+                "Battle Cry"
+            ],
+            [
+                "enemy_blast_aoe",
+                1
+            ]
+        ]
+    }
+]

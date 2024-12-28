@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Makajam",
+        "name": "Makajam",
+        "desc": "Inflicts <brown>silence</> on target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            88
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Makajam"
+            ]
+        ]
+    }
+]

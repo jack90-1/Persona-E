@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pulinpa",
+        "name": "Pulinpa",
+        "desc": "Inflicts <violet>confused</> on target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Pulinpa"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills"
+            ]
+        ]
+    }
+]

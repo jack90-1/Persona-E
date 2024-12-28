@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Enervation",
+        "name": "Makajam",
+        "desc": "Inflicts <brown>enervation</> on target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            3,
+            87
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Enervation"
+            ]
+        ]
+    }
+]

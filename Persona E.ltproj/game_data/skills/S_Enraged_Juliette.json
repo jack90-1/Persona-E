@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "S_Enraged_Juliette",
+        "name": "Enraged",
+        "desc": "<violet>Cognitive. </>Unit will charge at and only attack the unit that angered them.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            5,
+            81
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "change_ai",
+                "Provoke_Juliette"
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    }
+]

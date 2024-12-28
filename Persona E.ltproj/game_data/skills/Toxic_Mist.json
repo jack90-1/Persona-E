@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Toxic_Mist",
+        "name": "Toxic Mist",
+        "desc": "Inflicts <brown>toxin</> on target and adjacent foes for 2 turns.\nSP: 15",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            1,
+            79
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Toxic_Mist"
+            ]
+        ]
+    }
+]

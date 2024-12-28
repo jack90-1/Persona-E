@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Pulinpa",
+        "name": "Pulinpa",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "status_after_combat_on_hit",
+                "S_Confused"
+            ],
+            [
+                "mana_cost",
+                13
+            ],
+            [
+                "map_hit_sfx",
+                "Berserk"
+            ]
+        ]
+    }
+]

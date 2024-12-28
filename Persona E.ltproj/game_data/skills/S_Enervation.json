@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "S_Enervation",
+        "name": "Enervation",
+        "desc": "<brown>Biological. </>-10 STR/SPD.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            3,
+            87
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapStun"
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -10
+                    ],
+                    [
+                        "SPD",
+                        -10
+                    ]
+                ]
+            ]
+        ]
+    }
+]

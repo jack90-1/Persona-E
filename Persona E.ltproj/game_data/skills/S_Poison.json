@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "S_Poison",
+        "name": "Poisoned",
+        "desc": "<brown>Biological. </>Unit takes 5 damage at the start of every turn.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            80
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_damage",
+                5
+            ],
+            [
+                "unit_anim",
+                "MapPoison"
+            ]
+        ]
+    }
+]
