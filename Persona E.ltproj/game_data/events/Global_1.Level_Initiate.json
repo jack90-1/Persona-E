@@ -66,7 +66,7 @@
             "    if;game.get_unit(\"{enemy_unit}\").klass == 'Brigand'",
             "        change_affinity;{enemy_unit};Devil",
             "    end",
-            "    if;game.get_unit(\"{enemy_unit}\").klass == 'Soldier'",
+            "    if;game.get_unit(\"{enemy_unit}\").klass == 'Soldier' and 'Boss' not in game.get_unit(\"{enemy_unit}\").tags",
             "        change_affinity;{enemy_unit};Tower",
             "    end",
             "    if;game.get_unit(\"{enemy_unit}\").klass == 'Flagbearer'",
