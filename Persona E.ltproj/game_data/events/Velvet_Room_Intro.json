@@ -11,9 +11,9 @@
             "add_weather;night",
             "music;Aria of the Soul- Persona 3 Reload",
             "center_cursor;10,11;immediate",
-            "add_portrait;ButchP;Right;no_block",
-            "speak;Butch;Welcome to the Velvet Room.",
-            "remove_portrait;ButchP",
+            "add_portrait;IgorP;Right;no_block",
+            "speak;Igor;Welcome to the Velvet Room.",
+            "remove_portrait;IgorP",
             "trigger_script;Menu"
         ],
         "nid": "Velvet_Room Intro"

@@ -103,5 +103,10 @@
     "F4_Samir_Unlock",
     "Global_FlowPhys",
     "Global_FlowGun",
-    "Global_FlowWater"
+    "Global_FlowWater",
+    "F3_Samir_Intro",
+    "F3_Samir_Velvet_Room",
+    "F2_Samir_Debug",
+    "F4_Samir_Intro",
+    "F4_Samir_Velvet_Room"
 ]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Debug",
+        "trigger": "unit_wait",
+        "level_nid": "F2_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;region.nid == 'Debug'",
+            "win_game"
+        ],
+        "nid": "F2_Samir Debug"
+    }
+]

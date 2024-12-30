@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Velvet Room",
+        "trigger": null,
+        "level_nid": "F4_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "skip_save;t",
+            "set_next_chapter;Velvet_Room",
+            "game_var;Current_Floor;\"F4_Samir\"",
+            "win_game"
+        ],
+        "nid": "F4_Samir Velvet Room"
+    }
+]
