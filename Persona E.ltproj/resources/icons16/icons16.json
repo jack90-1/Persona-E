@@ -307,5 +307,9 @@
                 0
             ]
         }
+    },
+    {
+        "nid": "items",
+        "subicon_dict": {}
     }
 ]

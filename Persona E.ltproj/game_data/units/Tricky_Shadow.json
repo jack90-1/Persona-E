@@ -1,33 +1,37 @@
 [
     {
-        "nid": "Brutal_Shadow",
-        "name": "Brutal Shadow",
+        "nid": "Tricky_Shadow",
+        "name": "Tricky Shadow",
         "desc": "A shadow that seems to be much stronger than its brethren.",
         "variant": "",
         "level": 5,
-        "klass": "Soldier",
+        "klass": "Thief",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 30,
+            "HP": 21,
             "SP": 500,
-            "STR": 9,
-            "MAG": 2,
-            "SKL": 6,
-            "SPD": 7,
+            "STR": 3,
+            "MAG": 5,
+            "SKL": 10,
+            "SPD": 12,
             "LCK": 4,
-            "DEF": 5,
-            "RES": 3,
-            "CON": 20,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 6,
             "MOV": 5
         },
         "growths": {},
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Heavy_Spear",
+                "Toxic_Dagger",
                 true
+            ],
+            [
+                "Poisma",
+                false
             ]
         ],
         "learned_skills": [],
@@ -35,12 +39,22 @@
         "wexp_gain": {
             "Lance": [
                 false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Knife": [
+                false,
                 71,
                 null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Brutal Shadow",
+        "portrait_nid": "Tricky Shadow",
         "affinity": "Judgement",
         "fields": []
     }

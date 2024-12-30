@@ -202,5 +202,17 @@
             0
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Tricky Shadow",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
     }
 ]

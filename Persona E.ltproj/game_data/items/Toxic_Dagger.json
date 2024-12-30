@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Bronze_Lance",
-        "name": "Bronze Lance",
-        "desc": "Physical.",
-        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "nid": "Toxic_Dagger",
+        "name": "Toxic Dagger",
+        "desc": "Physical. Inflicts <brown>Toxin</> on target.",
+        "icon_nid": "items",
         "icon_index": [
-            0,
+            13,
             2
         ],
         "components": [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                420
+                480
             ],
             [
                 "target_enemy",
@@ -27,15 +27,15 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "damage",
-                4
+                3
             ],
             [
                 "hit",
-                85
+                90
             ],
             [
                 "crit",
@@ -51,11 +51,11 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Knife"
             ],
             [
                 "weapon_rank",
-                "E"
+                "D"
             ],
             [
                 "multi_status_on_equip",
@@ -63,6 +63,10 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "status_after_combat_on_hit",
+                "S_Toxin"
             ]
         ]
     }
