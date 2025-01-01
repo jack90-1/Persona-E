@@ -51,12 +51,12 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Soldier",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Iron_Lance",
                         false
                     ]
                 ],
@@ -84,6 +84,354 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 3,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 3,
+                "klass": "Thief",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Tarunda",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Hand_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 3,
+                "klass": "Cleric",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Kouha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 3,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 3,
+                "klass": "Mercenary",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 3,
+                "klass": "Armor",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 3,
+                "klass": "Armor",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 3,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Magna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "1",
+                "starting_position": [
+                    1,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 3,
+                "klass": "Shaman",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ],
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "1",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 3,
+                "klass": "Cleric",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Rakunda",
+                        false
+                    ],
+                    [
+                        "Bandage",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -205,10 +553,31 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "NextFloor",
+                "region_type": "event",
+                "position": [
+                    1,
+                    0
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Next Floor",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
         "ai_groups": [
+            {
+                "nid": "1",
+                "trigger_threshold": 1
+            },
             {
                 "nid": "",
                 "trigger_threshold": 1

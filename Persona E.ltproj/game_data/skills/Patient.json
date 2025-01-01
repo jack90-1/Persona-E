@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Patient",
+        "name": "Patient",
+        "desc": "This unit is patient and will wait 1 turn before attacking.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            2,
+            81
+        ],
+        "components": [
+            [
+                "change_ai",
+                "Guard"
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    255,
+                    127
+                ]
+            ]
+        ]
+    }
+]

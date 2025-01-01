@@ -94,5 +94,25 @@
     {
         "nid": "Flexibility",
         "desc": "Current Flexibility, used for summoning personas"
+    },
+    {
+        "nid": "Knowledge",
+        "desc": null
+    },
+    {
+        "nid": "Courage",
+        "desc": null
+    },
+    {
+        "nid": "Proficiency",
+        "desc": null
+    },
+    {
+        "nid": "Kindness",
+        "desc": null
+    },
+    {
+        "nid": "Charm",
+        "desc": null
     }
 ]

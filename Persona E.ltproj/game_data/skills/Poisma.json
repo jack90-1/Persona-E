@@ -2,7 +2,7 @@
     {
         "nid": "Poisma",
         "name": "Poisma",
-        "desc": "Inflicts <brown>poison</> on target for 2 turns.\nSP: 13",
+        "desc": "Inflicts <brown>poison</> on non-boss target for 2 turns.\nSP: 13",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             4,
@@ -16,6 +16,10 @@
             [
                 "ability",
                 "Poisma"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Evil_Smile",
         "name": "Evil Smile",
-        "desc": "Inflicts <violet>fear</> on target and adjacent foes for 2 turns.\nSP: 26",
+        "desc": "Inflicts <violet>fear</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "combat_condition",
-                "\"Omerta\" not in target.skills"
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
             ]
         ]
     }

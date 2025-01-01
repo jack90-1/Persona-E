@@ -2,7 +2,7 @@
     {
         "nid": "Poison_Mist",
         "name": "Poison Mist",
-        "desc": "Inflicts <brown>poison</> on target and adjacent foes for 2 turns.\nSP: 26",
+        "desc": "Inflicts <brown>poison</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             4,
@@ -16,6 +16,10 @@
             [
                 "ability",
                 "Poison_Mist"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
             ]
         ]
     }

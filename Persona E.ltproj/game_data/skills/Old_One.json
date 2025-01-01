@@ -2,7 +2,7 @@
     {
         "nid": "Old_One",
         "name": "Old One",
-        "desc": "Inflicts <brown>enervation</> on target and adjacent foes for 2 turns.\nSP: 26",
+        "desc": "Inflicts <brown>enervation</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             3,
@@ -16,6 +16,10 @@
             [
                 "ability",
                 "Old_One"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
             ]
         ]
     }

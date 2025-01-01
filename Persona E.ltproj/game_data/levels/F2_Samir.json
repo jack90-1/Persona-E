@@ -453,6 +453,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "NextFloor",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Next Floor",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
