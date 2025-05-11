@@ -20,7 +20,7 @@
             "end",
             "if;'{v:start}' == 'Summon Persona'",
             "    textbox;Flexibility;\"<icon>Flexibility</>\" + str({v:Flexibility});top_right;75;expression",
-            "    choice;Summon;Summon Persona;{v:VRoom_Personas};;;left;;Summon Persona;;7,1;expression",
+            "    choice;Summon;Summon Persona;{v:VRoom_Personas};;;left;;Summon Persona;;7,1;expression;",
             "end"
         ],
         "nid": "Velvet_Room Menu"

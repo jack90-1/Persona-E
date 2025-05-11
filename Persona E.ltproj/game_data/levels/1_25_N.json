@@ -153,6 +153,40 @@
                 "interrupt_move": false
             },
             {
+                "nid": "EleanorHallF2Down",
+                "region_type": "event",
+                "position": [
+                    90,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "EleanorHallF2Up",
+                "region_type": "event",
+                "position": [
+                    86,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
                 "nid": "PierceCenter",
                 "region_type": "event",
                 "position": [
@@ -204,6 +238,156 @@
                 "interrupt_move": false
             },
             {
+                "nid": "EleanorSign",
+                "region_type": "event",
+                "position": [
+                    19,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MarkSign",
+                "region_type": "event",
+                "position": [
+                    56,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TrinitySign",
+                "region_type": "event",
+                "position": [
+                    3,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Bulletin",
+                "region_type": "event",
+                "position": [
+                    34,
+                    47
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Bulletin2",
+                "region_type": "event",
+                "position": [
+                    58,
+                    59
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Mailbox",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "VernonRoom",
+                "region_type": "event",
+                "position": [
+                    103,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LanhRoom",
+                "region_type": "event",
+                "position": [
+                    99,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CynthiaRoom",
+                "region_type": "event",
+                "position": [
+                    95,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
                 "nid": "TrinityBuilding",
                 "region_type": "event",
                 "position": [
@@ -215,6 +399,40 @@
                     1
                 ],
                 "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Mirror",
+                "region_type": "event",
+                "position": [
+                    104,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Bed",
+                "region_type": "event",
+                "position": [
+                    103,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

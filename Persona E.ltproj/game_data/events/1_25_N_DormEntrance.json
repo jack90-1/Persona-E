@@ -21,7 +21,7 @@
             "move_unit;Jordan;90,4;normal;;100",
             "add_portrait;ButchP;Right;no_block",
             "speak;Desk Worker;You must be the transfer student, eh?{w} Some weather out there.{w} I've got one more thing for you to sign.{w} There's a pen right here.",
-            "remove_portrait;ButchP",
+            "remove_portrait;ButchP;",
             "transition;close",
             "transition;open",
             "text_entry;ProtagFirstName;First Name?;force_entry",
@@ -37,7 +37,7 @@
             "end",
             "add_portrait;ButchP;Right;no_block",
             "speak;Butch;Alright then, you're all set.{w} Here's your room key.{w} Looks like you're in room 206.{w} Have a good time.",
-            "remove_portrait;ButchP"
+            "remove_portrait;ButchP;"
         ],
         "nid": "1_25_N DormEntrance"
     }

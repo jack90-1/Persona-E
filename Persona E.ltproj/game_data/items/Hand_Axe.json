@@ -58,10 +58,6 @@
                 300
             ],
             [
-                "event_after_combat_on_hit",
-                "Global Flow:Phys"
-            ],
-            [
                 "multi_status_on_equip",
                 [
                     "Down_Phys",

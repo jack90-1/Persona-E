@@ -74,10 +74,6 @@
                 }
             ],
             [
-                "event_after_combat_on_hit",
-                "Global Flow:Gun"
-            ],
-            [
                 "multi_status_on_equip",
                 [
                     "Press_Gun",

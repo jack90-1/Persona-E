@@ -63,10 +63,6 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
-            ],
-            [
-                "event_after_combat_on_hit",
-                "Global Flow:Phys"
             ]
         ]
     }

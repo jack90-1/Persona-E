@@ -63,10 +63,6 @@
             [
                 "mana_cost_per_use",
                 8
-            ],
-            [
-                "event_after_combat_on_hit",
-                "Global Flow:Water"
             ]
         ]
     }
