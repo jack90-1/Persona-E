@@ -3,7 +3,7 @@
         "nid": "Go",
         "name": "Go",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Citizen",
         "tags": [],

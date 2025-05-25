@@ -32,6 +32,10 @@
             [
                 "map_hit_sfx",
                 "Battle Cry"
+            ],
+            [
+                "exp",
+                20
             ]
         ]
     }

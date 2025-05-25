@@ -60,6 +60,10 @@
                     "Press_Phys",
                     "3AS"
                 ]
+            ],
+            [
+                "level_exp",
+                null
             ]
         ]
     }

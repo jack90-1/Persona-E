@@ -40,6 +40,10 @@
             [
                 "spell",
                 null
+            ],
+            [
+                "heal_exp",
+                null
             ]
         ]
     }

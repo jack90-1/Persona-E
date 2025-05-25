@@ -71,6 +71,10 @@
             [
                 "brave",
                 null
+            ],
+            [
+                "level_exp",
+                null
             ]
         ]
     }

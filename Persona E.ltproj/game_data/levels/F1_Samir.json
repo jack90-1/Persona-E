@@ -92,8 +92,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    0
+                    8,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -107,10 +107,6 @@
                 "starting_items": [
                     [
                         "Iron_Sword",
-                        false
-                    ],
-                    [
-                        "Zio",
                         false
                     ]
                 ],
@@ -196,8 +192,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    1
+                    7,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -234,7 +230,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Garu",
+                        "Agi",
                         false
                     ]
                 ],
@@ -242,7 +238,7 @@
                 "team": "enemy",
                 "ai": "In_Range",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     2,
                     2
@@ -268,8 +264,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    8
+                    1,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -278,7 +274,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 2,
-                "klass": "Myrmidon",
+                "klass": "Mercenary",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -286,7 +282,7 @@
                         false
                     ],
                     [
-                        "Garu",
+                        "Zio",
                         false
                     ]
                 ],
@@ -294,10 +290,34 @@
                 "team": "enemy",
                 "ai": "Attack_In_2",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     0,
                     1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Shaman",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Maragi",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -357,6 +377,15 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "1",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

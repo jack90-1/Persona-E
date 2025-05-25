@@ -59,6 +59,10 @@
             [
                 "mana_cost_per_use",
                 8
+            ],
+            [
+                "level_exp",
+                null
             ]
         ]
     }

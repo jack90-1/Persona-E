@@ -11,7 +11,7 @@
             "# debug",
             "inc_game_var;Protag_Level",
             "inc_game_var;Protag_Level",
-            "give_exp;Jordan;100;silent",
+            "#give_exp;Jordan;100;silent",
             "change_party;Lanh;Exploration_Team",
             "change_party;Vernon;Exploration_Team",
             "change_party;John;Exploration_Team",

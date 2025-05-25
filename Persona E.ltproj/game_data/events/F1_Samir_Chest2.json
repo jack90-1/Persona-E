@@ -5,7 +5,7 @@
         "level_nid": "F1_Samir",
         "condition": "region.nid == 'Chest2'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "sound;Unlock",

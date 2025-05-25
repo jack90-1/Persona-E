@@ -32,6 +32,10 @@
             [
                 "map_hit_sfx",
                 "Poison"
+            ],
+            [
+                "exp",
+                20
             ]
         ]
     }

@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "if;region.nid == 'Debug'",
-            "win_game"
+            "win_game",
+            "END"
         ],
         "nid": "F2_Samir Debug"
     }

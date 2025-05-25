@@ -67,6 +67,10 @@
                     "Press_Gun",
                     "Down_Gun"
                 ]
+            ],
+            [
+                "level_exp",
+                null
             ]
         ]
     }
