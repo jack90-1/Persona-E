@@ -5,7 +5,7 @@
         "desc": "Esteemed clergymen who can aid their allies and smite their enemies.",
         "tier": 2,
         "movement_group": "Mages",
-        "promotes_from": "Cleric",
+        "promotes_from": "Curate",
         "turns_into": [],
         "tags": [],
         "max_level": 20,

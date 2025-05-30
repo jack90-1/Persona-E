@@ -425,7 +425,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 2,
-                "klass": "Cleric",
+                "klass": "Curate",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -510,7 +510,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_1",
@@ -527,7 +528,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_2",
@@ -544,7 +546,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_3",
@@ -561,7 +564,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "New Region",
@@ -578,7 +582,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [],

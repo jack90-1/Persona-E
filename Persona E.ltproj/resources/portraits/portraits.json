@@ -214,5 +214,17 @@
             0
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Sean (Endgame)",
+        "blinking_offset": [
+            16,
+            27
+        ],
+        "smiling_offset": [
+            16,
+            44
+        ],
+        "info_offset": 0
     }
 ]

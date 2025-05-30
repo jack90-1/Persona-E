@@ -56,10 +56,6 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Bufu",
-                        false
-                    ],
-                    [
                         "Steel_Lance",
                         false
                     ],
@@ -190,7 +186,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "In_Range",
+                "ai": "Charge",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -209,6 +205,10 @@
                 "starting_items": [
                     [
                         "Longbow",
+                        false
+                    ],
+                    [
+                        "Magna",
                         false
                     ]
                 ],
@@ -244,7 +244,7 @@
                 "team": "enemy",
                 "ai": "Attack_In_2",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     14,
                     2
@@ -272,7 +272,7 @@
                 "team": "enemy",
                 "ai": "In_Range",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     14,
                     1
@@ -312,7 +312,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Zio",
+                        "Bufu",
                         false
                     ],
                     [
@@ -364,7 +364,7 @@
                 "nid": "113",
                 "variant": null,
                 "level": 2,
-                "klass": "Cleric",
+                "klass": "Curate",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -401,7 +401,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_1",
@@ -418,7 +419,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_2",
@@ -435,7 +437,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Debug",
@@ -452,7 +455,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "NextFloor",
@@ -469,10 +473,20 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

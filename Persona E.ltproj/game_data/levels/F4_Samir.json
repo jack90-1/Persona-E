@@ -209,7 +209,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Cleric",
+                "klass": "Curate",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -409,7 +409,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 3,
-                "klass": "Cleric",
+                "klass": "Curate",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -450,7 +450,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_1",
@@ -467,7 +468,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_2",
@@ -484,7 +486,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Formation_3",
@@ -501,7 +504,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Door1",
@@ -518,7 +522,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Door2",
@@ -535,7 +540,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Chest",
@@ -552,7 +558,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "NextFloor",
@@ -569,7 +576,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [],

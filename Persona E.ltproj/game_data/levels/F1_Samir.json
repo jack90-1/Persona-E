@@ -306,7 +306,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Maragi",
+                        "Eiha",
                         false
                     ]
                 ],
@@ -339,7 +339,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Chest1",
@@ -356,7 +357,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Chest2",
@@ -373,17 +375,18 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
+                "nid": "1",
                 "trigger_threshold": 1
             },
             {
-                "nid": "1",
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

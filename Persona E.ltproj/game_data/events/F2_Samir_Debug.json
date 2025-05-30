@@ -10,7 +10,7 @@
         "_source": [
             "if;region.nid == 'Debug'",
             "win_game",
-            "END"
+            "end"
         ],
         "nid": "F2_Samir Debug"
     }
