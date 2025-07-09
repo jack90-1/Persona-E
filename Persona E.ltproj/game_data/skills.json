@@ -1,0 +1,4903 @@
+[
+    {
+        "nid": "Patient",
+        "name": "Patient",
+        "desc": "This unit is patient and will wait 1 turn before attacking.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            2,
+            81
+        ],
+        "components": [
+            [
+                "change_ai",
+                "Guard"
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    255,
+                    127
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Phys",
+        "name": "Down_Phys",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakPhys' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Phys",
+        "name": "Press Phys",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakPhys' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Gun",
+        "name": "Down_Gun",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakGun' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Gun",
+        "name": "Press Gun",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakGun' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Fire",
+        "name": "Down_Fire",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakFire' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Fire",
+        "name": "Press Fire",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakFire' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Ice",
+        "name": "Down_Ice",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakIce' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Ice",
+        "name": "Press Ice",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakIce' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Electric",
+        "name": "Down_Electric",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakElectricity' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Electric",
+        "name": "Press Electric",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakElectric' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Wind",
+        "name": "Down_Wind",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakWind' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Wind",
+        "name": "Press Wind",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakWind' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Water",
+        "name": "Down_Water",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakWater' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Water",
+        "name": "Press Water",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakWater' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Earth",
+        "name": "Down_Earth",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakEarth' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Earth",
+        "name": "Press Earth",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakEarth' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "one_more",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Light",
+        "name": "Down_Light",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakLight' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Light",
+        "name": "Press Light",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakLight' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Down_Dark",
+        "name": "Down_Dark",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "S_Down"
+            ],
+            [
+                "combat_condition",
+                "'WeakDark' in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Press_Dark",
+        "name": "Press Dark",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "one_more",
+                null
+            ],
+            [
+                "combat_condition",
+                "'WeakDark' in target.tags and target.team != 'player'"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Agi",
+        "name": "Agi",
+        "desc": "Fire. MT: 4 HIT:90 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Agi"
+            ]
+        ]
+    },
+    {
+        "nid": "Maragi",
+        "name": "Maragi",
+        "desc": "Fire. Damages adjacent foes. MT: 4 HIT:90 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maragi"
+            ]
+        ]
+    },
+    {
+        "nid": "Agilao",
+        "name": "Agilao",
+        "desc": "Fire. MT: 7 HIT: 90 SP: 8 ",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Agilao"
+            ]
+        ]
+    },
+    {
+        "nid": "Maragion",
+        "name": "Maragion",
+        "desc": "Fire. MT: 7 HIT: 90 SP: 16 ",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maragion"
+            ]
+        ]
+    },
+    {
+        "nid": "Bufu",
+        "name": "Bufu",
+        "desc": "Ice. MT: 4 HIT: 90 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Bufu"
+            ]
+        ]
+    },
+    {
+        "nid": "Mabufu",
+        "name": "Mabufu",
+        "desc": "Ice. Damages adjacent foes. MT: 4 HIT: 90 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mabufu"
+            ]
+        ]
+    },
+    {
+        "nid": "Bufula",
+        "name": "Bufula",
+        "desc": "Ice. MT: 7 HIT: 90 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Bufula"
+            ]
+        ]
+    },
+    {
+        "nid": "Mabufula",
+        "name": "Mabufula",
+        "desc": "Ice. Damages adjacent foes. MT: 7 HIT: 90 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mabufula"
+            ]
+        ]
+    },
+    {
+        "nid": "Zio",
+        "name": "Zio",
+        "desc": "Electric Damage. MT: 6 HIT: 80 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Zio"
+            ]
+        ]
+    },
+    {
+        "nid": "Mazio",
+        "name": "Mazio",
+        "desc": "Electric. Damages adjacent foes. MT: 6 HIT: 80 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mazio"
+            ]
+        ]
+    },
+    {
+        "nid": "Zionga",
+        "name": "Zionga",
+        "desc": "Electric. MT: 9 HIT: 80 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Zionga"
+            ]
+        ]
+    },
+    {
+        "nid": "Mazionga",
+        "name": "Mazionga",
+        "desc": "Electric. Damages adjacent foes. MT: 9 HIT: 80 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mazionga"
+            ]
+        ]
+    },
+    {
+        "nid": "Garu",
+        "name": "Garu",
+        "desc": "Wind. Brave. MT: 1 HIT:100 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Garu"
+            ]
+        ]
+    },
+    {
+        "nid": "Magaru",
+        "name": "Magaru",
+        "desc": "Wind. Damages adjacent foes.. Brave. MT: 1 HIT:100 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magaru"
+            ]
+        ]
+    },
+    {
+        "nid": "Garula",
+        "name": "Garula",
+        "desc": "Wind. Brave. MT: 4 HIT: 100 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Garula"
+            ]
+        ]
+    },
+    {
+        "nid": "Magarula",
+        "name": "Magarula",
+        "desc": "Wind. Damages adjacent foes. Brave. MT: 4 HIT: 100 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magarula"
+            ]
+        ]
+    },
+    {
+        "nid": "Aqua",
+        "name": "Aqua",
+        "desc": "Water. User heals for 1/4 damage dealt. MT: 3 HIT: 85 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Aqua"
+            ]
+        ]
+    },
+    {
+        "nid": "Malaqua",
+        "name": "Malaqua",
+        "desc": "Water. Damages adjacent foes. User heals for 1/4 damage dealt. MT: 3 HIT: 85 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Malaqua"
+            ]
+        ]
+    },
+    {
+        "nid": "Aqualao",
+        "name": "Aqualao",
+        "desc": "Water. User heals for 1/4 damage dealt. MT: 6 HIT: 85 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Aqualao"
+            ]
+        ]
+    },
+    {
+        "nid": "Malaqualao",
+        "name": "Malaqualao",
+        "desc": "Water. Damages adjacent foes. User heals for 1/4 damage dealt. MT: 6 HIT: 85 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Malaqualao"
+            ]
+        ]
+    },
+    {
+        "nid": "Magna",
+        "name": "Magna",
+        "desc": "Earth. MT: 7 HIT: 90 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magna"
+            ]
+        ]
+    },
+    {
+        "nid": "Mamagna",
+        "name": "Mamagna",
+        "desc": "Earth. Damages adjacent foes.. MT: 7 HIT: 90 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mamagna"
+            ]
+        ]
+    },
+    {
+        "nid": "Magnara",
+        "name": "Magnara",
+        "desc": "Earth. Damages adjacent foes. MT: 10 HIT: 90 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magnara"
+            ]
+        ]
+    },
+    {
+        "nid": "Mamagnara",
+        "name": "Mamagnara",
+        "desc": "Earth. MT: 10 HIT: 90 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Mamagnara"
+            ]
+        ]
+    },
+    {
+        "nid": "Kouha",
+        "name": "Kouha",
+        "desc": "Light. MT: 3 HIT: 100 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Magna"
+            ]
+        ]
+    },
+    {
+        "nid": "Makouha",
+        "name": "Makouha",
+        "desc": "Light. Damages adjacent foes.. MT: 3 HIT: 100 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Makouha"
+            ]
+        ]
+    },
+    {
+        "nid": "Kouga",
+        "name": "Kouga",
+        "desc": "Light. MT: 6 HIT: 100 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Kouga"
+            ]
+        ]
+    },
+    {
+        "nid": "Makouga",
+        "name": "Makouga",
+        "desc": "Light. Damages adjacent foes. MT: 6 HIT: 100 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Makouga"
+            ]
+        ]
+    },
+    {
+        "nid": "Eiha",
+        "name": "Eiha",
+        "desc": "Dark. Pierces target's RES .MT: 0 HIT: 85 SP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Eiha"
+            ]
+        ]
+    },
+    {
+        "nid": "Maeiha",
+        "name": "Maeiha",
+        "desc": "Dark. Damages adjacent foes. Pierces target's RES. MT: 0 HIT: 85 SP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maeiha"
+            ]
+        ]
+    },
+    {
+        "nid": "Eiga",
+        "name": "Eiga",
+        "desc": "Dark. Pierce's target's RES. MT: 4 HIT: 80 SP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Eiga"
+            ]
+        ]
+    },
+    {
+        "nid": "Maeiga",
+        "name": "Maeiga",
+        "desc": "Dark. Damages adjacent foes. Pierce's target's RES. MT: 4 HIT: 80 SP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Maeiga"
+            ]
+        ]
+    },
+    {
+        "nid": "Life_Drain",
+        "name": "Life Drain",
+        "desc": "Heals self for damage dealt.\nMT: 7 HIT: 90 SP: 12",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Life_Drain"
+            ]
+        ]
+    },
+    {
+        "nid": "Bash",
+        "name": "Bash",
+        "desc": "Phys.\nMT: 9 HIT: 95 HP: 9",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Bash"
+            ]
+        ]
+    },
+    {
+        "nid": "Slash",
+        "name": "Slash",
+        "desc": "Phys. Can Double. +3 AS.\nMT: 4 HIT: 105 HP: 4",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Slash"
+            ]
+        ]
+    },
+    {
+        "nid": "Vacuum_Slash",
+        "name": "Vacuum Slash.",
+        "desc": "Phys. Can Double. +3 AS. Damages adjacent foes.\nMT: 4 HIT: 105 HP: 7",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Vacuum_Slash"
+            ]
+        ]
+    },
+    {
+        "nid": "Snap",
+        "name": "Snap",
+        "desc": "Gun.\nMT: 3 HIT: 105 HP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Snap"
+            ]
+        ]
+    },
+    {
+        "nid": "Single_Shot",
+        "name": "Single Shot",
+        "desc": "Gun. Pierces DEF.\nMT: 6 HIT: 105 HP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Single_Shot"
+            ]
+        ]
+    },
+    {
+        "nid": "Dia",
+        "name": "Dia",
+        "desc": "Heals target for user's MAG + 5.\nSP: 5",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Dia"
+            ]
+        ]
+    },
+    {
+        "nid": "Diarama",
+        "name": "Diarama",
+        "desc": "Heals target for user's MAG +20.\nSP: 10",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Diarama"
+            ]
+        ]
+    },
+    {
+        "nid": "Patra",
+        "name": "Patra",
+        "desc": "Removes ailments from target.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Patra"
+            ]
+        ]
+    },
+    {
+        "nid": "Tarukaja",
+        "name": "Tarukaja",
+        "desc": "Increases target's STR/MAG by 3 for 2 turns.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            12,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Tarukaja"
+            ]
+        ]
+    },
+    {
+        "nid": "Rakukaja",
+        "name": "Rakukaja",
+        "desc": "Increases target's DEF/RES by 3 for 2 turns.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Rakukaja"
+            ]
+        ]
+    },
+    {
+        "nid": "Sukukaja",
+        "name": "Sukukaja",
+        "desc": "Increases target's HIT/AVO by 15 for 2 turns.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            16,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Sukukaja"
+            ]
+        ]
+    },
+    {
+        "nid": "Tarunda",
+        "name": "Tarunda",
+        "desc": "Decreases target's STR/MAG by 3 for 2 turns.\nSP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Tarunda"
+            ]
+        ]
+    },
+    {
+        "nid": "Rakunda",
+        "name": "Rakunda",
+        "desc": "Decreases target's DEF/RES by 3 for 2 turns.\nSP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            15,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Rakunda"
+            ]
+        ]
+    },
+    {
+        "nid": "Sukunda",
+        "name": "Sukunda",
+        "desc": "Decreases target's HIT/AVO by 15 for 2 turns.\nSP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            17,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Sukunda"
+            ]
+        ]
+    },
+    {
+        "nid": "Evil_Touch",
+        "name": "Evil Touch",
+        "desc": "Inflicts <violet>fear</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            80
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Evil_Touch"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Evil_Smile",
+        "name": "Evil Smile",
+        "desc": "Inflicts <violet>fear</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            80
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Evil_Touch"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Pulinpa",
+        "name": "Pulinpa",
+        "desc": "Inflicts <violet>confused</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Pulinpa"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Tentarafoo",
+        "name": "Tentarafoo",
+        "desc": "Inflicts <violet>confused</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Tentarafoo"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Marin_Karin",
+        "name": "Marin Karin",
+        "desc": "Inflicts <violet>charmed</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Marin_Karin"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Sexy_Dance",
+        "name": "Sexy Dance",
+        "desc": "Inflicts <violet>charmed</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Sexy_Dance"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills and \"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Balzac_Jordan",
+        "name": "Balzac",
+        "desc": "Inflicts <violet>enraged</> on target for 2 turns.\nSP: 7",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            5,
+            81
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Balzac_Jordan"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills"
+            ]
+        ]
+    },
+    {
+        "nid": "Valiant_Dance_Jordan",
+        "name": "Valiant Dance",
+        "desc": "Inflicts <violet>enraged</> on target and adjacent foes for 2 turns.\nSP: 15",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            5,
+            81
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Valiant_Dance_Jordan"
+            ],
+            [
+                "combat_condition",
+                "\"Omerta\" not in target.skills"
+            ]
+        ]
+    },
+    {
+        "nid": "Toxima",
+        "name": "Toxima",
+        "desc": "Inflicts <brown>toxin</> on target for 2 turns.\nSP: 7",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            1,
+            79
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Toxima"
+            ]
+        ]
+    },
+    {
+        "nid": "Toxic_Mist",
+        "name": "Toxic Mist",
+        "desc": "Inflicts <brown>toxin</> on target and adjacent foes for 2 turns.\nSP: 15",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            1,
+            79
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Toxic_Mist"
+            ]
+        ]
+    },
+    {
+        "nid": "Poisma",
+        "name": "Poisma",
+        "desc": "Inflicts <brown>poison</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            80
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Poisma"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Poison_Mist",
+        "name": "Poison Mist",
+        "desc": "Inflicts <brown>poison</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            80
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Poison_Mist"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Makajam",
+        "name": "Makajam",
+        "desc": "Inflicts <brown>silence</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            88
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Makajam"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Foolish_Whisper",
+        "name": "Foolish Whisper",
+        "desc": "Inflicts <brown>silence</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            88
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Foolish_Whisper"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Enervation",
+        "name": "Makajam",
+        "desc": "Inflicts <brown>enervation</> on non-boss target for 2 turns.\nSP: 13",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            3,
+            87
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Enervation"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Old_One",
+        "name": "Old One",
+        "desc": "Inflicts <brown>enervation</> on non-boss target and adjacent foes for 2 turns.\nSP: 26",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            3,
+            87
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Old_One"
+            ],
+            [
+                "combat_condition",
+                "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Attack_Up",
+        "name": "Attack Up",
+        "desc": "+3 STR/MAG.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            12,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Defense_Up",
+        "name": "Defense Up",
+        "desc": "+3 DEF/RES.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            14,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Agility_Up",
+        "name": "Agility Up",
+        "desc": "+15 HIT/AVO.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            16,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                15
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Attack_Down",
+        "name": "Attack Down",
+        "desc": "-3 STR/MAG.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ],
+                    [
+                        "MAG",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Defense_Down",
+        "name": "Defense Down",
+        "desc": "-3 DEF/RES.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            15,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -3
+                    ],
+                    [
+                        "RES",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Agility_Down",
+        "name": "Agility Down",
+        "desc": "-15 HIT/AVO.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            17,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                -15
+            ],
+            [
+                "avoid",
+                -15
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Down",
+        "name": "Down",
+        "desc": "This unit cannot counterattack for one round of combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    166,
+                    166,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "S_Fear",
+        "name": "Fear",
+        "desc": "<violet>Cognitive. </>Can't attack or counterattack. +15 AVO.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            80
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                15
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "end_time",
+                2
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    85,
+                    0,
+                    127
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "S_Confused",
+        "name": "Confused",
+        "desc": "<violet>Cognitive. </>Unit is confused and can no longer tell friend from foe.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "ignore_alliances",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "change_ai",
+                "Charge"
+            ],
+            [
+                "unit_anim",
+                "MapBerserk"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Charmed",
+        "name": "Charmed",
+        "desc": "<violet>Cognitive. </>Unit has been seduced by the enemy, lowering their STR/MAG/DEF/RES by 5.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -5
+                    ],
+                    [
+                        "MAG",
+                        -5
+                    ],
+                    [
+                        "DEF",
+                        -5
+                    ],
+                    [
+                        "RES",
+                        -5
+                    ]
+                ]
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    170,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "S_Enraged_Jordan",
+        "name": "Enraged",
+        "desc": "<violet>Cognitive. </>Unit will charge at and only attack the unit that angered them.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            5,
+            81
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "change_ai",
+                "Provoke_Jordan"
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Enraged_Juliette",
+        "name": "Enraged",
+        "desc": "<violet>Cognitive. </>Unit will charge at and only attack the unit that angered them.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            5,
+            81
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "change_ai",
+                "Provoke_Juliette"
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Toxin",
+        "name": "Toxin",
+        "desc": "<brown>Biological. </>-2 to all combat stats except LCK. Can stack up to 5 times.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            1,
+            79
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ],
+                    [
+                        "SKL",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -2
+                    ],
+                    [
+                        "DEF",
+                        -2
+                    ],
+                    [
+                        "RES",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Poison",
+        "name": "Poisoned",
+        "desc": "<brown>Biological. </>Unit takes 5 damage at the start of every turn.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            80
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_damage",
+                5
+            ],
+            [
+                "unit_anim",
+                "MapPoison"
+            ]
+        ]
+    },
+    {
+        "nid": "S_Silenced",
+        "name": "Silenced",
+        "desc": "<brown>Biological. </>Unit cannot use any skills.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_magic_items",
+                null
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Enervation",
+        "name": "Enervation",
+        "desc": "<brown>Biological. </>-10 STR/SPD.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            3,
+            87
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapStun"
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -10
+                    ],
+                    [
+                        "SPD",
+                        -10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "S_Bomb",
+        "name": "Bomb",
+        "desc": "<brown>Biological. </>Unit will explode after taking damage, instantly killing them and dealing 10 damage to enemies within 2 spaces.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Phys",
+        "name": "Weak: Physical",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakPhys"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Gun",
+        "name": "Weak: Gun",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakGun"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Fire",
+        "name": "Weak: Fire",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakFire"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Ice",
+        "name": "Weak: Ice",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakIce"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Electric",
+        "name": "Weak: Electric",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakElectricity"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Wind",
+        "name": "Weak: Wind",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakWind"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Water",
+        "name": "Weak: Water",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakWater"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Earth",
+        "name": "Weak: Earth",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakEarth"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Light",
+        "name": "Weak: Light",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            5,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakLight"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Weak_Dark",
+        "name": "Weak: Dark",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "WeakDark"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Persona",
+        "name": "Persona",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Change_Persona"
+            ],
+            [
+                "condition",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position)) == 0"
+            ]
+        ]
+    },
+    {
+        "nid": "_Stats",
+        "name": " Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        0
+                    ],
+                    [
+                        "MAG",
+                        0
+                    ],
+                    [
+                        "SKL",
+                        0
+                    ],
+                    [
+                        "SPD",
+                        0
+                    ],
+                    [
+                        "DEF",
+                        0
+                    ],
+                    [
+                        "RES",
+                        0
+                    ],
+                    [
+                        "LCK",
+                        0
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Persona_Change",
+        "name": "Persona Change",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "P_Jiibayaabooz",
+        "name": "Jiibayaabooz",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Fool"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Jiibayaabooz_stats",
+        "name": "Jiibayaabooz stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        4
+                    ],
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        6
+                    ],
+                    [
+                        "RES",
+                        5
+                    ],
+                    [
+                        "LCK",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Pixie",
+        "name": "Pixie",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Lovers"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Pixie_stats",
+        "name": "Pixie stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "MAG",
+                        6
+                    ],
+                    [
+                        "SKL",
+                        5
+                    ],
+                    [
+                        "SPD",
+                        6
+                    ],
+                    [
+                        "RES",
+                        6
+                    ],
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Angel",
+        "name": "Angel",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Justice"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Angel_Stats",
+        "name": "Angel Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        7
+                    ],
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        5
+                    ],
+                    [
+                        "RES",
+                        8
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Mokoi",
+        "name": "Mokoi",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Death"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Mokoi_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "SKL",
+                        3
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        9
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Nekomata",
+        "name": "Nekomata",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Hermit"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Nekomata_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "SKL",
+                        7
+                    ],
+                    [
+                        "SPD",
+                        9
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        7
+                    ],
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Apsaras",
+        "name": "Apsaras",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Priestess"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Apsaras_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        3
+                    ],
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "DEF",
+                        0
+                    ],
+                    [
+                        "RES",
+                        10
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Ara_Mitama",
+        "name": "Ara Mitama",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Chariot"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Ara_Mitama_Stats",
+        "name": "Mokoi Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        9
+                    ],
+                    [
+                        "MAG",
+                        0
+                    ],
+                    [
+                        "SKL",
+                        6
+                    ],
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        6
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        7
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Forneus",
+        "name": "Forneus",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Emperor"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Forneus_Stats",
+        "name": "Forneus Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        3
+                    ],
+                    [
+                        "DEF",
+                        9
+                    ],
+                    [
+                        "RES",
+                        8
+                    ],
+                    [
+                        "LCK",
+                        7
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Incubus",
+        "name": "Incubus",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Devil"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Incubus_Stats",
+        "name": "Incubus Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        8
+                    ],
+                    [
+                        "SKL",
+                        4
+                    ],
+                    [
+                        "SPD",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Valkyrie",
+        "name": "Valkyrie",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Strength"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Valkyrie_Stats",
+        "name": "Valkyrie Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        6
+                    ],
+                    [
+                        "MAG",
+                        6
+                    ],
+                    [
+                        "SKL",
+                        4
+                    ],
+                    [
+                        "SPD",
+                        6
+                    ],
+                    [
+                        "DEF",
+                        5
+                    ],
+                    [
+                        "RES",
+                        7
+                    ],
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Jack_Frost",
+        "name": "Jack Frost",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Magician"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Jack_Frost_Stats",
+        "name": "Jack Frost Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        7
+                    ],
+                    [
+                        "SPD",
+                        7
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        3
+                    ],
+                    [
+                        "LCK",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Slime",
+        "name": "Slime",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Chariot"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Slime_Stats",
+        "name": "Slime Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        6
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        0
+                    ],
+                    [
+                        "DEF",
+                        13
+                    ],
+                    [
+                        "RES",
+                        10
+                    ],
+                    [
+                        "LCK",
+                        7
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Fortuna",
+        "name": "Fortuna",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Fortune"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Fortuna_Stats",
+        "name": " Stats",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "subtle_stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        7
+                    ],
+                    [
+                        "SKL",
+                        6
+                    ],
+                    [
+                        "SPD",
+                        8
+                    ],
+                    [
+                        "DEF",
+                        0
+                    ],
+                    [
+                        "RES",
+                        2
+                    ],
+                    [
+                        "LCK",
+                        15
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Berith",
+        "name": "Berith",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Hierophant"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Neko_Shogun",
+        "name": "Neko Shogun",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Star"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Makami",
+        "name": "Makami",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Hanged Man"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "P_Mad_Gasser",
+        "name": "Mad Gasser",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Moon"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Omerta",
+        "name": "Omert\u00e0",
+        "desc": "This unit is immune to <violet>cognitive</> ailments.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            6,
+            85
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Flow_State",
+        "name": "Flow State",
+        "desc": "Gain +3 SPD/DEF until the end of the next phase after triggering a One More.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            86
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Flow",
+        "name": "Flow",
+        "desc": "+3 SPD/DEF until the end of the next phase.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            86
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ],
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    85,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Canto",
+        "name": "Canto",
+        "desc": "Can move again after certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fort",
+        "name": "Fort",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Throne",
+        "name": "Throne",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.10000000000000002
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Forest",
+        "name": "Forest",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Mountain",
+        "name": "Mountain",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Peak",
+        "name": "Peak",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                40
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid10",
+        "name": "Avoid10",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "NoAvoid",
+        "name": "NoAvoid",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    },
+    {
+        "nid": "NoHit",
+        "name": "NoHit",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                -100
+            ]
+        ]
+    },
+    {
+        "nid": "MaxAvoid",
+        "name": "MaxAvoid",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "avoid",
+                200
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid5",
+        "name": "Avoid5",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Flying",
+        "name": "Flying",
+        "desc": "Can fly.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "ignore_terrain",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Strength_Plus2",
+        "name": "Strength +2",
+        "desc": "Grants STR +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Strength_Plus5",
+        "name": "Strength +5",
+        "desc": "Grants STR +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance_Plus5",
+        "name": "Resistance +5",
+        "desc": "Grants RES +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Defense_Plus5",
+        "name": "Defense +5",
+        "desc": "Grants DEF +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Speed_Plus5",
+        "name": "Speed +5",
+        "desc": "Grants SPD +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Plus5",
+        "name": "Skill +5",
+        "desc": "Grants SKL +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Luck_Plus5",
+        "name": "Luck +5",
+        "desc": "Grants LCK +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonstone",
+        "name": "Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        12
+                    ],
+                    [
+                        "SKL",
+                        12
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "RES",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ResistPlus",
+        "name": "Resist+",
+        "desc": "Grants additional RES.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "Take half damage but inflicts -2 SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            7
+        ],
+        "components": [
+            [
+                "time",
+                4
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stunned",
+        "name": "Stunned",
+        "desc": "Unit cannot act.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sleep",
+        "name": "Sleep",
+        "desc": "Unit is asleep.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_items",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Petrify",
+        "name": "Petrify",
+        "desc": "Unit is petrified. Cannot avoid enemy attacks and suffers -30 dodge.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                -30
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    65,
+                    65,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Unit is weighed down with a traveler.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SKL",
+                        0.5
+                    ],
+                    [
+                        "SPD",
+                        0.5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Steal",
+        "name": "Steal",
+        "desc": "Can steal items from enemies with lower speed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Steal"
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "Locktouch",
+        "name": "Locktouch",
+        "desc": "Unit can opened locks without a key.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "locktouch",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Crit_Plus30",
+        "name": "Crit +30",
+        "desc": "Grants +30 Critical change",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Crit_Plus15",
+        "name": "Crit +15",
+        "desc": "Grants +15 Critical change",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    },
+    {
+        "nid": "Anticrit",
+        "name": "Anticrit",
+        "desc": "Grants immunity to critical hits.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    },
+    {
+        "nid": "Wretched_Air",
+        "name": "Wretched Air",
+        "desc": "Grants STR +10, SKL +10, DEF +10, RES +10.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        10
+                    ],
+                    [
+                        "RES",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Demon_Light",
+        "name": "Demon Light",
+        "desc": "Grants MAG +10, SKL +10, LCK +10, DEF +10, RES +15.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        10
+                    ],
+                    [
+                        "RES",
+                        15
+                    ],
+                    [
+                        "LCK",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Ravager",
+        "name": "Ravager",
+        "desc": "Grants STR +15, SKL +15, DEF +15, RES +15.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        15
+                    ],
+                    [
+                        "SKL",
+                        15
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "RES",
+                        15
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Sword_Hit_Plus10",
+        "name": "Sword Hit +10",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "Grants increased sight range in fog of war.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            5
+        ],
+        "components": [
+            [
+                "decreasing_sight_range_bonus",
+                4
+            ],
+            [
+                "time",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "Void_Curse",
+        "name": "Void Curse",
+        "desc": "No exp gained for attacking this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "enemy_exp_multiplier",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Inspiration",
+        "name": "Inspiration",
+        "desc": "Aura - Grants +1 damage and +1 resist to allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Inspiration_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Inspiration_child",
+        "name": "Inspired",
+        "desc": "Grants +1 damage and +1 resist.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "damage",
+                1
+            ],
+            [
+                "resist",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Devil_Luck",
+        "name": "Devil Luck",
+        "desc": "Skill gained by equipping the Devil Axe.\nReceives damage equal to damage dealt.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "lifelink",
+                -1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Eclipse_Helper",
+        "name": "Eclipse Helper",
+        "desc": "In order for enemies to use Eclipse, they must think they're inflicting a negative status or dealing damage.\nEclipse doesn't deal damage normally, so instead it secretly inflicts this status.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "mapcircleorange",
+        "name": "mapcircleorange",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "unit_anim",
+                "MapOrange"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Roam' not in game.level.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "mapcirclepurple",
+        "name": "p mapcircleorange",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "unit_anim",
+                "MapPurple"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Roam' not in game.level.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "mapcirclegreen",
+        "name": "p mapcircleorange",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "unit_anim",
+                "MapGreen"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Roam' not in game.level.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "3AS",
+        "name": "3AS",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "attack_speed",
+                3
+            ]
+        ]
+    }
+]

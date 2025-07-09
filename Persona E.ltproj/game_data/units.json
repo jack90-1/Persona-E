@@ -1,0 +1,1006 @@
+[
+    {
+        "nid": "Jordan",
+        "name": "Jordan",
+        "desc": "A transfer student at Poplar University.\nQuiet and unassuming.",
+        "variant": "_protag",
+        "level": 1,
+        "klass": "Spear_Fighter",
+        "tags": [],
+        "bases": {
+            "HP": 22,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 9,
+            "MOV": 5,
+            "SP": 81
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 0,
+            "SPD": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "SP": 140
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "DEF": 0,
+            "HP": 0,
+            "RES": 0,
+            "CON": 0,
+            "SP": 0
+        },
+        "starting_items": [
+            [
+                "Bronze_Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "mapcircleorange"
+            ],
+            [
+                1,
+                "Persona"
+            ],
+            [
+                1,
+                "P_Jiibayaabooz"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                1,
+                null
+            ],
+            "Gun": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Protag (Casual)",
+        "affinity": "Fool",
+        "fields": []
+    },
+    {
+        "nid": "John",
+        "name": "John",
+        "desc": "A mysterious being who lives in the Catacombs.\nSeems benevolent.",
+        "variant": "_john",
+        "level": 1,
+        "klass": "Gunman",
+        "tags": [],
+        "bases": {
+            "HP": 18,
+            "SP": 86,
+            "STR": 5,
+            "MAG": 8,
+            "SKL": 7,
+            "SPD": 4,
+            "LCK": 2,
+            "DEF": 2,
+            "RES": 7,
+            "CON": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "SP": 210,
+            "STR": 30,
+            "MAG": 40,
+            "SKL": 60,
+            "SPD": 50,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 80,
+            "MOV": 0,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [
+            [
+                "Six_Shooter",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Light"
+            ],
+            [
+                1,
+                "Eiha"
+            ],
+            [
+                1,
+                "Snap"
+            ],
+            [
+                2,
+                "Rakunda"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Gun": [
+                false,
+                31,
+                null
+            ],
+            "Knife": [
+                false,
+                0,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "John",
+        "affinity": "Tower",
+        "fields": []
+    },
+    {
+        "nid": "Lanh",
+        "name": "Lanh",
+        "desc": "A freshman at Poplar University.\nMaking the most of her newfound freedom at college.",
+        "variant": "_lanh",
+        "level": 2,
+        "klass": "Spellblade",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "CON": 10,
+            "STR": 3,
+            "MAG": 6,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 3,
+            "DEF": 3,
+            "RES": 5,
+            "MOV": 5,
+            "SP": 86
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 40,
+            "MAG": 55,
+            "SKL": 50,
+            "SPD": 45,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 40,
+            "MOV": 0,
+            "CON": 0,
+            "SP": 160
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "DEF": 0,
+            "HP": 0,
+            "RES": 0,
+            "CON": 0,
+            "SP": 0
+        },
+        "starting_items": [
+            [
+                "Bronze_Sword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Fire"
+            ],
+            [
+                1,
+                "Bufu"
+            ],
+            [
+                1,
+                "Slash"
+            ],
+            [
+                2,
+                "Garu"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                1,
+                null
+            ],
+            "Gun": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lanh (Casual)",
+        "affinity": "Magician",
+        "fields": []
+    },
+    {
+        "nid": "Vernon",
+        "name": "Vernon",
+        "desc": "A freshman at Poplar University.\nIncredibly friendly, sometimes to his own detriment.",
+        "variant": "_vernon",
+        "level": 1,
+        "klass": "Skirmisher",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 6,
+            "CON": 11,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 4,
+            "DEF": 6,
+            "RES": 2,
+            "MOV": 5,
+            "SP": 74
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 55,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 60,
+            "LCK": 30,
+            "DEF": 35,
+            "RES": 35,
+            "MOV": 0,
+            "CON": 0,
+            "SP": 150
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "LCK": 0,
+            "MOV": 0,
+            "DEF": 0,
+            "HP": 0,
+            "RES": 0,
+            "CON": 0,
+            "SP": 0
+        },
+        "starting_items": [
+            [
+                "Bronze_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Aqua"
+            ],
+            [
+                1,
+                "Bash"
+            ],
+            [
+                2,
+                "Dia"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ],
+            [
+                1,
+                "Weak_Electric"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                1,
+                null
+            ],
+            "Gun": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Vernon (Casual)",
+        "affinity": "Fortune",
+        "fields": []
+    },
+    {
+        "nid": "Marina",
+        "name": "Marina",
+        "desc": "Professor of anthropology at Poplar University.\nVery strict, but she cares about her students.",
+        "variant": "_marina",
+        "level": 3,
+        "klass": "Machinist",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "SP": 100,
+            "STR": 5,
+            "MAG": 5,
+            "SKL": 10,
+            "SPD": 3,
+            "LCK": 5,
+            "DEF": 7,
+            "RES": 3,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "SP": 175,
+            "STR": 45,
+            "MAG": 45,
+            "SKL": 70,
+            "SPD": 35,
+            "LCK": 40,
+            "DEF": 55,
+            "RES": 30,
+            "MOV": 0,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Crossbow",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Ice"
+            ],
+            [
+                1,
+                "Agi"
+            ],
+            [
+                2,
+                "Dia"
+            ],
+            [
+                3,
+                "Rakukaja"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                16,
+                null
+            ],
+            "Gun": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Marina (Battle)",
+        "affinity": "Hierophant",
+        "fields": []
+    },
+    {
+        "nid": "Samir",
+        "name": "Samir",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Dark"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Samir (Casual)",
+        "affinity": "Lovers",
+        "fields": []
+    },
+    {
+        "nid": "Juliette",
+        "name": "Juliette",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Wind"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Juliette (Battle)",
+        "affinity": "Priestess",
+        "fields": []
+    },
+    {
+        "nid": "Go",
+        "name": "Go",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Go (Battle)",
+        "affinity": "Emperor",
+        "fields": []
+    },
+    {
+        "nid": "Cynthia",
+        "name": "Cynthia",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Water"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Cynthia (Casual)",
+        "affinity": "Death",
+        "fields": []
+    },
+    {
+        "nid": "Robert",
+        "name": "Robert",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Earth"
+            ],
+            [
+                1,
+                "mapcircleorange"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Strength",
+        "fields": []
+    },
+    {
+        "nid": "Brutal_Shadow",
+        "name": "Brutal Shadow",
+        "desc": "A shadow that seems to be much stronger than its brethren.",
+        "variant": "",
+        "level": 5,
+        "klass": "Soldier",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 30,
+            "SP": 500,
+            "STR": 9,
+            "MAG": 2,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 4,
+            "DEF": 5,
+            "RES": 3,
+            "CON": 20,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Heavy_Spear",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Brutal Shadow",
+        "affinity": "Judgement",
+        "fields": []
+    },
+    {
+        "nid": "Tricky_Shadow",
+        "name": "Tricky Shadow",
+        "desc": "A shadow that seems to be much stronger than its brethren.",
+        "variant": "",
+        "level": 5,
+        "klass": "Thief",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 21,
+            "SP": 500,
+            "STR": 3,
+            "MAG": 5,
+            "SKL": 10,
+            "SPD": 12,
+            "LCK": 4,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Toxic_Dagger",
+                true
+            ],
+            [
+                "Poisma",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Knife": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Tricky Shadow",
+        "affinity": "Judgement",
+        "fields": []
+    },
+    {
+        "nid": "IgorP",
+        "name": "Igor",
+        "desc": "The mysterious proprietor of the Velvet Room.",
+        "variant": null,
+        "level": 40,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 99,
+            "SP": 500,
+            "STR": 30,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 30,
+            "MOV": 0
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "mapcirclegreen"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "IgorP",
+        "affinity": "Fool",
+        "fields": []
+    },
+    {
+        "nid": "ButchP",
+        "name": "Butch",
+        "desc": "Igor's surly attendant.\nHas a haunted look in his eyes.",
+        "variant": "",
+        "level": 40,
+        "klass": "Gunman",
+        "tags": [],
+        "bases": {
+            "HP": 99,
+            "SP": 500,
+            "STR": 30,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 30,
+            "MOV": 6
+        },
+        "growths": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "stat_cap_modifiers": {
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "SP": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "RES": 0,
+            "HP": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "mapcirclegreen"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "ButchP",
+        "affinity": "Hanged",
+        "fields": []
+    }
+]
