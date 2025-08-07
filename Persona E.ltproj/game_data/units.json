@@ -48,7 +48,7 @@
         },
         "starting_items": [
             [
-                "Bronze_Lance",
+                "Log",
                 false
             ]
         ],
@@ -226,7 +226,7 @@
         },
         "starting_items": [
             [
-                "Bronze_Sword",
+                "Curtain_Rod",
                 false
             ]
         ],
@@ -319,7 +319,7 @@
         },
         "starting_items": [
             [
-                "Bronze_Axe",
+                "Hockey_Stick",
                 false
             ]
         ],
@@ -878,6 +878,55 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Tricky Shadow",
+        "affinity": "Judgement",
+        "fields": []
+    },
+    {
+        "nid": "Bold_Shadow",
+        "name": "Bold Shadow",
+        "desc": "A shadow that seems to be much stronger than its brethren.",
+        "variant": null,
+        "level": 5,
+        "klass": "Gunman",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 27,
+            "SP": 500,
+            "STR": 4,
+            "MAG": 7,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 3,
+            "DEF": 3,
+            "RES": 7,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Six_Shooter",
+                false
+            ],
+            [
+                "Twin_Shot",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Gun": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "hackbox - Copy (6)",
         "affinity": "Judgement",
         "fields": []
     },

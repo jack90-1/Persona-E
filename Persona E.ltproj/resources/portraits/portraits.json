@@ -226,5 +226,17 @@
             44
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "hackbox - Copy (6)",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
     }
 ]

@@ -114,5 +114,9 @@
     {
         "nid": "Charm",
         "desc": null
+    },
+    {
+        "nid": "F6_Switches",
+        "desc": null
     }
 ]

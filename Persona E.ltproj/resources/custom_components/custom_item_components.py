@@ -45,3 +45,33 @@ class ManaCostPerUse(ItemComponent):
 
     def reverse_use(self, unit, item):
         action.do(action.ChangeMana(unit, self.value))
+
+class BlowBack(ItemComponent):
+    nid = 'blow_back'
+    desc = "Item moves user back on hit."
+    tag = ItemTags.SPECIAL
+
+    expose = ComponentType.Int
+    value = 1
+
+    def _check_blow_back(self, target, user, magnitude):
+        offset_x = utils.clamp(target.position[0] - user.position[0], -1, 1)
+        offset_y = utils.clamp(target.position[1] - user.position[1], -1, 1)
+        new_position_user = (user.position[0] - offset_x * magnitude,
+                             user.position[1] - offset_y * magnitude)
+
+        mcost_user = movement_funcs.get_mcost(user, new_position_user)
+
+        if game.board.check_bounds(new_position_user) and \
+                not game.board.get_unit(new_position_user) and \
+                (mcost_user <= 90 or skill_system.ignore_terrain(user)):
+            return new_position_user
+        return None
+
+    def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
+        if not skill_system.ignore_forced_movement(unit):
+            new_position_user = self._check_blow_back(target, unit, self.value)
+            if new_position_user:
+                actions.append(action.ForcedMovement(unit, new_position_user))
+                playback.append(pb.ShoveHit(unit, item, unit))
+                

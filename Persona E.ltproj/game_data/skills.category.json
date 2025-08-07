@@ -117,6 +117,7 @@
     "S_Poison": "Statuses/Ailments",
     "S_Silenced": "Statuses/Ailments",
     "S_Toxin": "Statuses/Ailments",
+    "S_Wounded": "Statuses/Ailments",
     "Sexy_Dance": "Ailment Skills",
     "Single_Shot": "Physical Skills/Gun",
     "Slash": "Physical Skills/Phys",

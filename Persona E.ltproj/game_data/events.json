@@ -2577,6 +2577,8 @@
             "# debug",
             "inc_game_var;Protag_Level",
             "inc_game_var;Protag_Level",
+            "#give_skill;Jordan;P_Pixie;no_banner",
+            "#give_skill;Jordan;P_Jack_Frost;no_banner",
             "#give_exp;Jordan;100;silent",
             "change_party;Lanh;Exploration_Team",
             "change_party;Vernon;Exploration_Team",
@@ -2719,13 +2721,13 @@
             "# debug purposes, delete before playest",
             "#inc_game_var;Protag_Level",
             "#inc_game_var;Protag_Level",
-            "add_lore;Jiibayabooz",
+            "#add_lore;Jiibayabooz",
             "#give_exp;Jordan;100;silent",
             "#give_exp;Jordan;100;silent",
             "#give_exp;Jordan;100;silent",
             "#give_exp;Jordan;100;silent",
             "# ^^^^^",
-            "prep;t;;Velvet Room;True;Velvet Room",
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
             "change_team;Marina;player",
             "remove_skill;Marina;mapcirclegreen;no_banner",
             "give_skill;Marina;mapcircleorange;no_banner"
@@ -3234,6 +3236,7 @@
             "if;region.nid == 'Chest'",
             "sound;Unlock",
             "show_layer;Chest",
+            "give_item;{unit};Goddess_Icon",
             "has_attacked;{unit}",
             "end"
         ],
@@ -3248,7 +3251,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "prep;t;;Velvet Room;True;Velvet Room"
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
         ],
         "nid": "F3_Samir Intro"
     },
@@ -3292,7 +3295,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "prep;t;;Velvet Room;True;Velvet Room"
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
         ],
         "nid": "F4_Samir Intro"
     },
@@ -3353,5 +3356,263 @@
             "win_game"
         ],
         "nid": "F4_Samir Outro"
+    },
+    {
+        "name": "New Event",
+        "trigger": "level_start",
+        "level_nid": "FEE3Intro",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_weather;night",
+            "music;Aria of the Soul- Persona 3 Reload",
+            "center_cursor;IgorP",
+            "transition;open",
+            "add_portrait;IgorP;Right",
+            "speak;Igor;Ah, it seems we have some visitors tonight.|Tell me, Butch, have the preparations been made?",
+            "remove_portrait;IgorP",
+            "add_portrait;ButchP;Right",
+            "speak;Butch;Just finished up, boss.|You sure we should be showing them this, though?",
+            "remove_portrait;ButchP",
+            "add_portrait;IgorP;Right",
+            "speak;Igor;I am quite sure.{w} Our new guest has quite the journey ahead of them,{w} and they shall need all the help they can get.{w} Now, guests, please sit back and enjoy the show.{w} I'm sure you shall find it most entertaining...",
+            "remove_portrait;IgorP",
+            "transition;close"
+        ],
+        "nid": "FEE3Intro New Event"
+    },
+    {
+        "name": "New Event",
+        "trigger": "level_start",
+        "level_nid": "FEE3Clip",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_talk;Jordan;Vernon",
+            "add_talk;Jordan;101",
+            "add_weather;snow"
+        ],
+        "nid": "FEE3Clip New Event"
+    },
+    {
+        "name": "New Event_1",
+        "trigger": "on_talk",
+        "level_nid": "FEE3Clip",
+        "condition": "check_pair('Jordan', 'Vernon')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Vernon (Casual);Right",
+            "speak;Vernon;What's up, Jordan?{w} Ready to head to class?{w} I'm freezing my butt off out here..."
+        ],
+        "nid": "FEE3Clip New Event_1"
+    },
+    {
+        "name": "New Event_2",
+        "trigger": "on_talk",
+        "level_nid": "FEE3Clip",
+        "condition": "check_pair('Jordan', '101')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;Chilly Student;I can't wait for winter to end...{w} Is it always this cold here?{w} Maybe I need to transfer..."
+        ],
+        "nid": "FEE3Clip New Event_2"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "F5_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
+        ],
+        "nid": "F5_Samir Intro"
+    },
+    {
+        "name": "Velvet Room",
+        "trigger": "Next Floor",
+        "level_nid": "F5_Samir",
+        "condition": "region.nid == 'NextFloor'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "skip_save;t",
+            "set_next_chapter;Velvet_Room",
+            "game_var;Current_Floor;\"F5_Samir\"",
+            "win_game"
+        ],
+        "nid": "F5_Samir Velvet Room"
+    },
+    {
+        "name": "Velvet Room",
+        "trigger": "Next Floor",
+        "level_nid": "F6_Samir",
+        "condition": "region.nid == 'NextFloor'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "skip_save;t",
+            "set_next_chapter;Velvet_Room",
+            "game_var;Current_Floor;\"F6_Samir\"",
+            "win_game"
+        ],
+        "nid": "F6_Samir Velvet Room"
+    },
+    {
+        "name": "Outro",
+        "trigger": null,
+        "level_nid": "F5_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music_clear",
+            "win_game"
+        ],
+        "nid": "F5_Samir Outro"
+    },
+    {
+        "name": "Outro",
+        "trigger": null,
+        "level_nid": "F6_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music_clear",
+            "win_game"
+        ],
+        "nid": "F6_Samir Outro"
+    },
+    {
+        "name": "Unlock",
+        "trigger": "Unlock",
+        "level_nid": "F5_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;region.nid =='Door1'",
+            "show_layer;Door1",
+            "end",
+            "if;region.nid =='Door2'",
+            "show_layer;Door2",
+            "end",
+            "if;region.nid == 'Chest1'",
+            "sound;Unlock",
+            "show_layer;Chest1",
+            "give_item;{unit};Six_Shooter",
+            "has_attacked;{unit}",
+            "end",
+            "if;region.nid == 'Chest2'",
+            "sound;Unlock",
+            "show_layer;Chest2",
+            "give_money;20",
+            "has_attacked;{unit}",
+            "end"
+        ],
+        "nid": "F5_Samir Unlock"
+    },
+    {
+        "name": "Wall",
+        "trigger": "unit_death",
+        "level_nid": "F5_Samir",
+        "condition": "unit.nid == 'Wall1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid== 'Wall1'",
+            "sound;VillageDestroyed",
+            "map_anim;Snag;6,9",
+            "show_layer;Wall",
+            "end"
+        ],
+        "nid": "F5_Samir Wall"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "F6_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
+            "game_var;F6_Switches;0",
+            "game_var;f6_bridge;0"
+        ],
+        "nid": "F6_Samir Intro"
+    },
+    {
+        "name": "Switches",
+        "trigger": "Switch",
+        "level_nid": "F6_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;region.nid == 'Switch_1'",
+            "sound;Weapon Push",
+            "game_var;F6_Switches;{v:F6_Switches} + 1",
+            "has_attacked;{unit}",
+            "end",
+            "if;region.nid == 'Switch_2'",
+            "sound;Weapon Push",
+            "game_var;F6_Switches;{v:F6_Switches} + 1",
+            "has_attacked;{unit}",
+            "end"
+        ],
+        "nid": "F6_Samir Switches"
+    },
+    {
+        "name": "Bridge",
+        "trigger": "unit_wait",
+        "level_nid": "F6_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:F6_Switches} == 2 and {v:f6_bridge} != 1",
+            "center_cursor;7,8",
+            "screen_shake;0",
+            "map_anim;Snag;6,9;no_block",
+            "map_anim;Snag;6,8;no_block",
+            "map_anim;Snag;6,7;no_block",
+            "map_anim;Snag;6,6;no_block",
+            "map_anim;Snag;7,9;no_block",
+            "map_anim;Snag;7,8;no_block",
+            "map_anim;Snag;7,7;no_block",
+            "map_anim;Snag;8,9;no_block",
+            "map_anim;Snag;8,8;no_block",
+            "map_anim;Snag;8,7;no_block",
+            "map_anim;Snag;9,9;no_block",
+            "map_anim;Snag;9,8;no_block",
+            "map_anim;Snag;9,7;no_block",
+            "sound;VillageDestroyed",
+            "show_layer;bridge;fade",
+            "screen_shake_end",
+            "game_var;f6_bridge;1",
+            "end"
+        ],
+        "nid": "F6_Samir Bridge"
     }
 ]
