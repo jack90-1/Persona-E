@@ -3522,7 +3522,7 @@
             "if;region.nid == 'Chest2'",
             "sound;Unlock",
             "show_layer;Chest2",
-            "give_money;20",
+            "give_item;{unit};Soul_Drop",
             "has_attacked;{unit}",
             "end"
         ],
@@ -3614,5 +3614,19 @@
             "end"
         ],
         "nid": "F6_Samir Bridge"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "F7_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
+            "game_var;brandon_minions;0"
+        ],
+        "nid": "F7_Samir Intro"
     }
 ]

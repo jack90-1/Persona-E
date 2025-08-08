@@ -2385,6 +2385,46 @@
         ]
     },
     {
+        "nid": "Departed_Arrow",
+        "name": "Departed Arrow",
+        "desc": "Almighty. Long Range. Deals melee damage.\nMT: 3 HIT: 90 SP: 9",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "mana_cost_per_use",
+                9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "global_range",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Physical_Template",
         "name": "Bash",
         "desc": "",
@@ -8756,6 +8796,46 @@
             [
                 "value",
                 15
+            ]
+        ]
+    },
+    {
+        "nid": "Soul_Drop",
+        "name": "Soul Drop",
+        "desc": "Restores 10 SP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "mana_cost",
+                -10
+            ],
+            [
+                "value",
+                25
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    26,
+                    95,
+                    180
+                ]
             ]
         ]
     },

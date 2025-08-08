@@ -216,6 +216,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Bold Shadow",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Brandon",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Sean (Endgame)",
         "blinking_offset": [
             16,
@@ -224,18 +248,6 @@
         "smiling_offset": [
             16,
             44
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "hackbox - Copy (6)",
-        "blinking_offset": [
-            0,
-            0
-        ],
-        "smiling_offset": [
-            0,
-            0
         ],
         "info_offset": 0
     }
