@@ -3338,6 +3338,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "#debug",
+            "speak;;There will now be a full HP/SP heal to simulate leaving the dungeon and coming back a different day.{w} The next heal will be after floor 5.{w} Now is a good time to take a break if you're getting tired or bored :);;;hint",
+            "for;PARTY_UNIT;[u.nid for u in game.get_all_units_in_party()]",
+            "set_current_hp;{PARTY_UNIT};{e:u('{PARTY_UNIT}').get_max_hp()}",
+            "set_current_mana;{PARTY_UNIT};{e:u('{PARTY_UNIT}').get_max_mana()}",
+            "endf",
+            "#",
             "music_clear",
             "win_game"
         ],
