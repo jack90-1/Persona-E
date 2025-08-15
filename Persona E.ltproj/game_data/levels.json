@@ -1438,7 +1438,7 @@
                 "nid": "Wall1",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Wall10",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -1457,7 +1457,7 @@
                 "nid": "Wall2",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Wall10",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -1482,6 +1482,10 @@
                     [
                         "Zio",
                         false
+                    ],
+                    [
+                        "Soul_Drop",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1500,11 +1504,11 @@
                 "nid": "102",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Soldier",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Agi",
+                        "Zio",
                         false
                     ]
                 ],
@@ -1672,15 +1676,11 @@
                 "nid": "109",
                 "variant": null,
                 "level": 2,
-                "klass": "Armor",
+                "klass": "Brigand",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
-                        false
-                    ],
-                    [
-                        "Bufu",
+                        "Magna",
                         false
                     ]
                 ],
@@ -1690,8 +1690,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    2
+                    14,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1810,7 +1810,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack_In_2",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -2699,7 +2699,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Toxic_Dagger",
+                        "Iron_Dagger",
                         false
                     ]
                 ],
@@ -2723,7 +2723,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Toxic_Dagger",
+                        "Iron_Dagger",
                         false
                     ]
                 ],
@@ -2827,7 +2827,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Toxic_Dagger",
+                        "Kidney_Spike",
                         false
                     ]
                 ],
@@ -2899,8 +2899,8 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Hand_Axe",
-                        false
+                        "Swordreaver",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -3052,7 +3052,7 @@
                 "nid": "Wall1",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Wall10",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -3499,6 +3499,10 @@
                     [
                         "Tarunda",
                         false
+                    ],
+                    [
+                        "Bandage",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -3523,6 +3527,10 @@
                     [
                         "Iron_Dagger",
                         false
+                    ],
+                    [
+                        "Red_Gem",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -3856,7 +3864,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
+                    8,
                     5
                 ],
                 "starting_traveler": null,
@@ -3882,14 +3890,479 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
+                    6,
                     5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 4,
+                "klass": "Armor",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 4,
+                "klass": "Pegasus_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 4,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 4,
+                "klass": "Curate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Kouha",
+                        false
+                    ],
+                    [
+                        "Goddess_Icon",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Heavy_Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Heavy_Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 4,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack_In_2",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Eiha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Killing_Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack_In_2",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Formation_1",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Formation_2",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Formation_3",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Formation_4",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     },

@@ -6361,8 +6361,8 @@
         "fields": []
     },
     {
-        "nid": "Wall25",
-        "name": "Wall",
+        "nid": "Wall10",
+        "name": "Wall10",
         "desc": "",
         "tier": 1,
         "movement_group": "Light Foot",
@@ -6373,7 +6373,7 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 25,
+            "HP": 10,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6468,6 +6468,26 @@
                 0,
                 251
             ],
+            "Knife": [
+                false,
+                0,
+                null
+            ],
+            "Gun": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
             "Staff": [
                 false,
                 0,
@@ -6484,16 +6504,6 @@
                 251
             ],
             "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
                 false,
                 0,
                 251

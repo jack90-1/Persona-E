@@ -18,7 +18,7 @@
             "RES": 0,
             "CON": 9,
             "MOV": 5,
-            "SP": 81
+            "SP": 94
         },
         "growths": {
             "HP": 60,
@@ -427,7 +427,7 @@
             ],
             [
                 2,
-                "Dia"
+                "Media"
             ],
             [
                 3,
@@ -716,7 +716,7 @@
         "nid": "Robert",
         "name": "Robert",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Citizen",
         "tags": [],
@@ -943,7 +943,7 @@
         "bases": {
             "HP": 32,
             "SP": 500,
-            "STR": 11,
+            "STR": 8,
             "MAG": 11,
             "SKL": 13,
             "SPD": 7,

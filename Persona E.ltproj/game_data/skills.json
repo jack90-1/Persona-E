@@ -279,7 +279,7 @@
             ],
             [
                 "combat_condition",
-                "'WeakElectric' in target.tags and target.team != 'player'"
+                "'WeakElectricity' in target.tags and target.team != 'player'"
             ],
             [
                 "charges_per_turn",
@@ -1328,6 +1328,26 @@
         ]
     },
     {
+        "nid": "Media",
+        "name": "Media",
+        "desc": "Heals allies within 2 spaces for user's MAG + 5.\nSP: 8",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Media"
+            ]
+        ]
+    },
+    {
         "nid": "Diarama",
         "name": "Diarama",
         "desc": "Heals target for user's MAG +20.\nSP: 10",
@@ -1860,6 +1880,26 @@
             [
                 "combat_condition",
                 "\"Boss\" not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "Lady_Luck",
+        "name": "Lady Luck",
+        "desc": "+25 CRIT.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                25
             ]
         ]
     },

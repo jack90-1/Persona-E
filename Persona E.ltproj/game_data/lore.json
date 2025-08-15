@@ -4,98 +4,98 @@
         "name": "p",
         "title": "Lv. 1: p",
         "category": "Persona",
-        "text": "Arcana: {br}Resist: {br}Weak: {br}Skills:{br}\nSTR: {br}MAG: {br}SKL: {br}SPD: {br}DEF: {br}RES: {br}LCK: \nBackground:{br}"
+        "text": "Arcana: {br}Weak: {br}Skills:{br}\nSTR: {br}MAG: {br}SKL: {br}SPD: {br}DEF: {br}RES: {br}LCK: \nBackground:{br}"
     },
     {
         "nid": "Jiibayabooz",
         "name": "Jiibayabooz",
         "title": "Lv. 1: Jiibayabooz",
         "category": "Persona",
-        "text": "Arcana: <icon>Fool</>Fool{br}Resist: <icon>Earth</>Earth{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Earth</>Magna     <icon>Tarunda</>Tarunda\nSTR: 3{br}MAG: 5{br}SKL: 4{br}SPD: 4{br}DEF: 6{br}RES: 5{br}LCK: 2\nBackground:{br}Brother of the hero Nanabozho in Ojibwe mythology. He was killed by water spirits and made the ruler of the underworld by his brother."
+        "text": "Arcana: <icon>Fool</>Fool{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Earth</>Magna     <icon>Tarunda</>Tarunda\nSTR: 3{br}MAG: 5{br}SKL: 4{br}SPD: 4{br}DEF: 6{br}RES: 5{br}LCK: 2\nBackground:{br}Brother of the hero Nanabozho in Ojibwe mythology. He was killed by water spirits and made the ruler of the underworld by his brother."
     },
     {
         "nid": "Pixie",
         "name": "Pixie",
         "title": "Lv. 2: Pixie",
         "category": "Persona",
-        "text": "Arcana: <icon>Lovers</>Lovers{br}Resist: <icon>Electric</>Electric{br}Weak: <icon>Wind</>Wind{br}Skills:{br}<icon>Electric</>Zio     <icon>Support</>Dia\nSTR: 1{br}MAG: 7{br}SKL: 5{br}SPD: 6{br}DEF: 1{br}RES: 6{br}LCK: 6\nBackground:{br}Friendly fairies of the forest that tend to hide from humans. They like to play tricks on lazy people. It is said they are the souls of dead, unbaptized children."
+        "text": "Arcana: <icon>Lovers</>Lovers{br}Weak: <icon>Wind</>Wind{br}Skills:{br}<icon>Electric</>Zio     <icon>Support</>Dia\nSTR: 1{br}MAG: 7{br}SKL: 5{br}SPD: 6{br}DEF: 1{br}RES: 6{br}LCK: 6\nBackground:{br}Friendly fairies of the forest that tend to hide from humans. They like to play tricks on lazy people. It is said they are the souls of dead, unbaptized children."
     },
     {
         "nid": "Angel",
         "name": "Angel",
         "title": "Lv. 2: Angel",
         "category": "Persona",
-        "text": "Arcana: <icon>Justice</>Justice{br}Resist: <icon>Wind</>Wind{br}Weak: <icon>Electric</>Electric{br}Skills:{br}<icon>Wind</>Garu     <icon>Sukukaja</>Sukukaja\nSTR: 3{br}MAG: 5{br}SKL: 7{br}SPD: 4{br}DEF: 3{br}RES: 8{br}LCK: 2\nBackground:{br}Ninth of the nine orders of angels. The watchers who never sleep. Among these are the guardian angels who are assigned to every human at birth."
+        "text": "Arcana: <icon>Justice</>Justice{br}Weak: <icon>Electric</>Electric{br}Skills:{br}<icon>Wind</>Garu     <icon>Sukukaja</>Sukukaja\nSTR: 3{br}MAG: 5{br}SKL: 7{br}SPD: 4{br}DEF: 3{br}RES: 8{br}LCK: 2\nBackground:{br}Ninth of the nine orders of angels. The watchers who never sleep. Among these are the guardian angels who are assigned to every human at birth."
     },
     {
         "nid": "Mokoi",
         "name": "Mokoi",
         "title": "Lv. 2: Mokoi",
         "category": "Persona",
-        "text": "Arcana: <icon>Death</>Death{br}Resist: <icon>Dark</>Dark{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Fear</>Evil Touch     <icon>Support</>Patra\nSTR: 4{br}MAG: 4{br}SKL: 3{br}SPD: 2{br}DEF: 7{br}RES: 3{br}LCK: 9\nBackground:{br}Evil spirits of Murngin lore believed to be reborn shadows. They kidnap and eat children, and strike down any sorcerer who uses black magic."
+        "text": "Arcana: <icon>Death</>Death{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Fear</>Evil Touch     <icon>Support</>Patra\nSTR: 4{br}MAG: 4{br}SKL: 3{br}SPD: 2{br}DEF: 7{br}RES: 3{br}LCK: 9\nBackground:{br}Evil spirits of Murngin lore believed to be reborn shadows. They kidnap and eat children, and strike down any sorcerer who uses black magic."
     },
     {
         "nid": "Nekomata",
         "name": "Nekomata",
         "title": "Lv. 3: Nekomata",
         "category": "Persona",
-        "text": "Arcana: <icon>Hermit</>Hermit{br}Resist: <icon>Wind</>Wind{br}Weak: <icon>Electric</>Electric{br}Skills:{br}<icon>Water</>Aqua     <icon>Fire</>Maragi{br}<icon>Rakunda</>Rakunda\nSTR: 2{br}MAG: 4{br}SKL: 7{br}SPD: 9{br}DEF: 2{br}RES: 7{br}LCK: 4\nBackground:{br}Incarnations of long-lived cats in Japanese mythology. They have various powers, including human speech and control over the dead."
+        "text": "Arcana: <icon>Hermit</>Hermit{br}Weak: <icon>Electric</>Electric{br}Skills:{br}<icon>Water</>Aqua     <icon>Fire</>Maragi{br}<icon>Rakunda</>Rakunda\nSTR: 2{br}MAG: 4{br}SKL: 7{br}SPD: 9{br}DEF: 2{br}RES: 7{br}LCK: 4\nBackground:{br}Incarnations of long-lived cats in Japanese mythology. They have various powers, including human speech and control over the dead."
     },
     {
         "nid": "Apsaras",
         "name": "Apsaras",
         "title": "Lv. 3: Apsaras",
         "category": "Persona",
-        "text": "Arcana: <icon>Priestess</>Priestess{br}Resist:<icon>Water</> Water{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Ice</>Bufu     <icon>Water</>Aqua{br}<icon>Support</>Patra\nSTR: 1{br}MAG: 10{br}SKL: 3{br}SPD: 5{br}DEF: 0{br}RES: 10{br}LCK: 6\nBackground:{br}Hindu water spirits, they are beautiful young women who dance for the gods. They also guide heroes fallen in battle to paradise."
+        "text": "Arcana: <icon>Priestess</>Priestess{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Ice</>Bufu     <icon>Water</>Aqua{br}<icon>Support</>Patra\nSTR: 1{br}MAG: 10{br}SKL: 3{br}SPD: 5{br}DEF: 0{br}RES: 10{br}LCK: 6\nBackground:{br}Hindu water spirits, they are beautiful young women who dance for the gods. They also guide heroes fallen in battle to paradise."
     },
     {
         "nid": "Ara_Mitama",
         "name": "Ara Mitama",
         "title": "Lv. 3: Ara Mitama",
         "category": "Persona",
-        "text": "Arcana: <icon>Chariot</>Chariot{br}Resist: <icon>Phys</>Phys, <icon>Fire</>Fire{br}Weak: <icon>Wind</>Wind{br}Skills:{br}<icon>Phys</>Bash     <icon>Rage</>Balzac{br}<icon>Rakukaja</>Rakukaja\nSTR: 9{br}MAG: 0{br}SKL: 6{br}SPD: 4{br}DEF: 6{br}RES: 3{br}LCK:7 \nBackground:{br}One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one\u2019s bravery, growth, and endeavors, though it can lead in a negative direction."
+        "text": "Arcana: <icon>Chariot</>Chariot{br}Weak: <icon>Wind</>Wind{br}Skills:{br}<icon>Phys</>Bash     <icon>Rage</>Balzac{br}<icon>Rakukaja</>Rakukaja\nSTR: 9{br}MAG: 0{br}SKL: 6{br}SPD: 4{br}DEF: 6{br}RES: 3{br}LCK:7 \nBackground:{br}One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one\u2019s bravery, growth, and endeavors, though it can lead in a negative direction."
     },
     {
         "nid": "Forneus",
         "name": "Forneus",
         "title": "Lv. 4: Forneus",
         "category": "Persona",
-        "text": "Arcana: <icon>Emperor</>Emperor{br}Resist: <icon>Ice</>Ice{br}Weak: <icon>Electric</>Electric{br}Skills:{br}<icon>Phys</>Slash     <icon>Ice</>Mabufu{br}<icon>Tarukaja</>Tarukaja\nSTR: 4{br}MAG: 5{br}SKL: 2{br}SPD: 3{br}DEF: 9{br}RES: 8{br}LCK: 7 \nBackground:{br}One of the 72 demons of the Goetia, he appears as a great sea monster. Known as the great Marquis of Hell, he is skilled linguistically, and is a master of rhetoric."
+        "text": "Arcana: <icon>Emperor</>Emperor{br}Weak: <icon>Earth</>Earthbr}Skills:{br}<icon>Phys</>Slash     <icon>Ice</>Mabufu{br}<icon>Tarukaja</>Tarukaja\nSTR: 4{br}MAG: 5{br}SKL: 2{br}SPD: 3{br}DEF: 9{br}RES: 8{br}LCK: 7 \nBackground:{br}One of the 72 demons of the Goetia, he appears as a great sea monster. Known as the great Marquis of Hell, he is skilled linguistically, and is a master of rhetoric."
     },
     {
         "nid": "Incubus",
         "name": "Incubus",
         "title": "Lv. 4: Incubus",
         "category": "Persona",
-        "text": "Arcana: <icon>Devil</>Devil{br}Resist: <icon>Electric</>Electric, <icon>Dark</>Dark{br}Weak: <icon>Light</>Light{br}Skills:{br}<icon>Fire</>Agi     <icon>Almighty</>Life Drain{br}<icon>Charm</>Marin Karin\nSTR: 3{br}MAG: 8{br}SKL: 4{br}SPD: 10{br}DEF: 4{br}RES: 3{br}LCK: 6 \nBackground:{br}A male demon of European lore in medieval times. They visit sleeping women and have sexual intercourse with them. The resulting children become witches or wizards."
+        "text": "Arcana: <icon>Devil</>Devil{br}Weak: <icon>Light</>Light{br}Skills:{br}<icon>Fire</>Agi     <icon>Almighty</>Life Drain{br}<icon>Charm</>Marin Karin\nSTR: 3{br}MAG: 8{br}SKL: 4{br}SPD: 10{br}DEF: 4{br}RES: 3{br}LCK: 6 \nBackground:{br}A male demon of European lore in medieval times. They visit sleeping women and have sexual intercourse with them. The resulting children become witches or wizards."
     },
     {
         "nid": "Valkyrie",
         "name": "Valkyrie",
         "title": "Lv. 4: Valkyrie",
         "category": "Persona",
-        "text": "Arcana: <icon>Strength</>Strength{br}Resist: <icon>Gun</>Gun, <icon>Light</>Light{br}Weak: <icon>Dark</>Dark{br}Skills:{br}<icon>Phys</>Slash     <icon>Phys</>Vacuum Slash{br}<icon>Light</>Kouha\nSTR: 6{br}MAG: 6{br}SKL: 4{br}SPD: 6{br}DEF: 5{br}RES: 7{br}LCK: 4 \nBackground:{br}Choosers of the slain in Norse lore. Armed with shining armor and swords, they look for brave warriors to take to Valhalla, so that they may fight in Ragnarok."
+        "text": "Arcana: <icon>Strength</>Strength{br}Weak: <icon>Dark</>Dark{br}Skills:{br}<icon>Phys</>Slash     <icon>Phys</>Vacuum Slash{br}<icon>Light</>Kouha\nSTR: 6{br}MAG: 6{br}SKL: 4{br}SPD: 6{br}DEF: 5{br}RES: 7{br}LCK: 4 \nBackground:{br}Choosers of the slain in Norse lore. Armed with shining armor and swords, they look for brave warriors to take to Valhalla, so that they may fight in Ragnarok."
     },
     {
         "nid": "Jack_Frost",
         "name": "Jack Frost",
         "title": "Lv. 5: Jack Frost",
         "category": "Persona",
-        "text": "Arcana: <icon>Magician</>Magician{br}Resist: <icon>Ice</>Ice{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Ice</>Bufula     <icon>Ice</>Mabufu{br}<icon>Confusion</>Pulinpa\nSTR: 2{br}MAG: 10{br}SKL: 7{br}SPD: 7{br}DEF: 2{br}RES: 3{br}LCK: 10 \nBackground:{br}A winter fairy of European descent. He leaves ice patterns on windows and nips people\u2019s noses. Though normally an innocent creature, he will freeze his victims to death if provoked."
+        "text": "Arcana: <icon>Magician</>Magician{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Ice</>Bufula     <icon>Ice</>Mabufu{br}<icon>Confusion</>Pulinpa\nSTR: 2{br}MAG: 10{br}SKL: 7{br}SPD: 7{br}DEF: 2{br}RES: 3{br}LCK: 10 \nBackground:{br}A winter fairy of European descent. He leaves ice patterns on windows and nips people\u2019s noses. Though normally an innocent creature, he will freeze his victims to death if provoked."
     },
     {
         "nid": "Slime",
         "name": "Slime",
         "title": "Lv. 5: Slime",
         "category": "Persona",
-        "text": "Arcana: <icon>Chariot</>Chariot{br}Resist: <icon>Phys</>Phys{br}Weak: <icon>Fire</>Fire, <icon>Water</>Water, <icon>Light</>Light{br}Skills:{br}<icon>Phys</>Bash     <icon>Dark</>Eiha{br}<icon>Fear</>Evil Touch\nSTR: 6{br}MAG: 3{br}SKL: 2{br}SPD: 0{br}DEF: 13{br}RES: 10{br}LCK: 7 \nBackground:{br}A primitive monster with a viscous body. There are various theories as to its origin, but it is still under debate. Said to compulsively collect shiny objects."
+        "text": "Arcana: <icon>Chariot</>Chariot{br}Weak: <icon>Fire</>Fire, <icon>Water</>Water, <icon>Light</>Light{br}Skills:{br}<icon>Phys</>Bash     <icon>Dark</>Eiha{br}<icon>Fear</>Evil Touch\nSTR: 6{br}MAG: 3{br}SKL: 2{br}SPD: 0{br}DEF: 13{br}RES: 10{br}LCK: 7 \nBackground:{br}A primitive monster with a viscous body. There are various theories as to its origin, but it is still under debate. Said to compulsively collect shiny objects."
     },
     {
         "nid": "Fortuna",
         "name": "Fortuna",
         "title": "Lv. 5: Fortuna",
         "category": "Persona",
-        "text": "Arcana: <icon>Fortune</>Fortune{br}Resist: <icon>Wind</>Wind{br}Weak: <icon>Fire</>Fire{br}Skills:{br}<icon>Wind</>Magaru     <icon>Support</>Patra{br}<icon>Almighty</>Lady Luck\nSTR: 3{br}MAG: 7{br}SKL: 6{br}SPD: 8{br}DEF: 0{br}RES: 2{br}LCK: 15 \nBackground:{br}The Roman goddess of luck, she spins the Wheel of Fortune. She is believed to have originally been a fertility goddess. Her Greek counterpart is Tyche."
+        "text": "Arcana: <icon>Fortune</>Fortune{br}Weak: <icon>Earth</>Earth{br}Skills:{br}<icon>Wind</>Magaru     <icon>Support</>Patra{br}<icon>Almighty</>Lady Luck\nSTR: 3{br}MAG: 7{br}SKL: 6{br}SPD: 8{br}DEF: 0{br}RES: 2{br}LCK: 15 \nBackground:{br}The Roman goddess of luck, she spins the Wheel of Fortune. She is believed to have originally been a fertility goddess. Her Greek counterpart is Tyche."
     },
     {
         "nid": "Fear",

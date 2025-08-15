@@ -3055,6 +3055,58 @@
         ]
     },
     {
+        "nid": "Media",
+        "name": "Media",
+        "desc": "",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "mana_cost",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "heal_exp",
+                null
+            ],
+            [
+                "ally_blast_aoe",
+                2
+            ]
+        ]
+    },
+    {
         "nid": "Diarama",
         "name": "Diarama",
         "desc": "",
