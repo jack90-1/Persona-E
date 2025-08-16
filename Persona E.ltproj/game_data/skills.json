@@ -1190,7 +1190,7 @@
     {
         "nid": "Life_Drain",
         "name": "Life Drain",
-        "desc": "Heals self for damage dealt.\nMT: 7 HIT: 90 SP: 12",
+        "desc": "Heals self for damage dealt.\nMT: 4 HIT: 90 SP: 7",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             8,
@@ -2225,7 +2225,7 @@
     {
         "nid": "S_Enraged_Jordan",
         "name": "Enraged",
-        "desc": "<violet>Cognitive. </>Unit will charge at and only attack the unit that angered them.",
+        "desc": "<violet>Cognitive. </>+5 STR. Unit will charge at and only attack the unit that angered them.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             5,
@@ -2247,13 +2247,22 @@
             [
                 "unit_anim",
                 "MapProvoke"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
             ]
         ]
     },
     {
         "nid": "S_Enraged_Juliette",
         "name": "Enraged",
-        "desc": "<violet>Cognitive. </>Unit will charge at and only attack the unit that angered them.",
+        "desc": "<violet>Cognitive. </>+5 STR. Unit will charge at and only attack the unit that angered them.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             5,
@@ -2275,6 +2284,15 @@
             [
                 "unit_anim",
                 "MapProvoke"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
             ]
         ]
     },

@@ -1296,6 +1296,48 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 2,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 2,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1390,7 +1432,25 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Rein",
+                "units": [
+                    "114",
+                    "115"
+                ],
+                "positions": {
+                    "114": [
+                        3,
+                        1
+                    ],
+                    "115": [
+                        13,
+                        9
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "1",
@@ -1895,6 +1955,69 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1989,8 +2112,36 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
-        "ai_groups": []
+        "unit_groups": [
+            {
+                "nid": "Rein",
+                "units": [
+                    "118",
+                    "119",
+                    "120"
+                ],
+                "positions": {
+                    "118": [
+                        0,
+                        9
+                    ],
+                    "119": [
+                        1,
+                        10
+                    ],
+                    "120": [
+                        2,
+                        11
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F4_Samir",
@@ -2154,11 +2305,11 @@
                 "nid": "105",
                 "variant": null,
                 "level": 3,
-                "klass": "Thief",
+                "klass": "Curate",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Tarunda",
+                        "Kouha",
                         false
                     ]
                 ],
@@ -2216,7 +2367,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
+                    12,
                     2
                 ],
                 "starting_traveler": null,
@@ -2234,11 +2385,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Patient"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "Charge",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -2278,11 +2427,11 @@
                 "nid": "110",
                 "variant": null,
                 "level": 3,
-                "klass": "Armor",
+                "klass": "Fighter",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Hand_Axe",
                         false
                     ]
                 ],
@@ -2302,7 +2451,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 3,
-                "klass": "Armor",
+                "klass": "Soldier",
                 "faction": "Shadow",
                 "starting_items": [
                     [
@@ -2427,6 +2576,69 @@
                     6,
                     3
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Killer_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -2577,10 +2789,37 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Rein",
+                "units": [
+                    "118",
+                    "119",
+                    "120"
+                ],
+                "positions": {
+                    "118": [
+                        8,
+                        14
+                    ],
+                    "119": [
+                        9,
+                        13
+                    ],
+                    "120": [
+                        10,
+                        14
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
