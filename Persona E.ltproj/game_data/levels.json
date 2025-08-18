@@ -2136,12 +2136,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "F4_Samir",
@@ -2817,10 +2812,6 @@
             {
                 "nid": "1",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
@@ -2843,7 +2834,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Battle"
+        ],
         "units": [
             {
                 "nid": "Jordan",
@@ -2992,6 +2985,10 @@
                     [
                         "Tarunda",
                         false
+                    ],
+                    [
+                        "Bandage",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -3086,21 +3083,21 @@
                 "nid": "110",
                 "variant": null,
                 "level": 3,
-                "klass": "Curate",
+                "klass": "Mage",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Kouha",
+                        "Magna",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Attack_In_2",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    3,
                     0
                 ],
                 "starting_traveler": null,
@@ -3110,21 +3107,21 @@
                 "nid": "111",
                 "variant": null,
                 "level": 3,
-                "klass": "Armor",
+                "klass": "Brigand",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Kouha",
+                        "Steel_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Attack_In_2",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    3,
                     3
                 ],
                 "starting_traveler": null,
@@ -3271,7 +3268,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -3303,6 +3300,48 @@
                     6,
                     9
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Killing_Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Killer_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -3489,10 +3528,32 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Rein",
+                "units": [
+                    "118",
+                    "119"
+                ],
+                "positions": {
+                    "118": [
+                        14,
+                        9
+                    ],
+                    "119": [
+                        10,
+                        12
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -3513,7 +3574,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Battle"
+        ],
         "units": [
             {
                 "nid": "Jordan",
@@ -4055,7 +4118,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Battle"
+        ],
         "units": [
             {
                 "nid": "Jordan",

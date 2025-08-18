@@ -3542,7 +3542,7 @@
     },
     {
         "name": "Outro",
-        "trigger": null,
+        "trigger": "Next Floor",
         "level_nid": "F5_Samir",
         "condition": "region.nid == 'NextFloor'",
         "commands": [],
@@ -3563,9 +3563,9 @@
     },
     {
         "name": "Outro",
-        "trigger": null,
+        "trigger": "Next Floor",
         "level_nid": "F6_Samir",
-        "condition": "True",
+        "condition": "region.nid == 'NextFloor'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -3787,5 +3787,35 @@
             "wait;1000"
         ],
         "nid": "F4_Samir Rein"
+    },
+    {
+        "name": "Charge",
+        "trigger": "unit_death",
+        "level_nid": "F5_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == '103'",
+            "    change_ai;114;Charge",
+            "    change_ai;116;Charge",
+            "end"
+        ],
+        "nid": "F5_Samir Charge"
+    },
+    {
+        "name": "Rein",
+        "trigger": "turn_change",
+        "level_nid": "F5_Samir",
+        "condition": "game.turncount== 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "spawn_group;Rein;south;Rein;warp;closest",
+            "wait;1000"
+        ],
+        "nid": "F5_Samir Rein"
     }
 ]
