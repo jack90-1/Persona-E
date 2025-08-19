@@ -3551,10 +3551,6 @@
             {
                 "nid": "1",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
@@ -3564,7 +3560,10 @@
         "tilemap": "New Tilemap_9",
         "bg_tilemap": null,
         "party": "Exploration_Team",
-        "music": {},
+        "music": {
+            "player_phase": "B.O.B. - Bombs Over Baghdad- Outkast",
+            "enemy_phase": "B.O.B. - Bombs Over Baghdad- Outkast"
+        },
         "objective": {
             "simple": "Reach stairs",
             "win": "Reach stairs",
@@ -3599,7 +3598,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Garu",
+                        "Bufu",
                         false
                     ]
                 ],
@@ -3705,7 +3704,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
+                    11,
                     14
                 ],
                 "starting_traveler": null,
@@ -3729,7 +3728,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
+                    12,
                     12
                 ],
                 "starting_traveler": null,
@@ -3739,17 +3738,19 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Armor",
+                "klass": "Shaman",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Short_Spear",
+                        "Magna",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Charge",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -3799,7 +3800,7 @@
                         false
                     ],
                     [
-                        "Tarunda",
+                        "Rakunda",
                         false
                     ],
                     [
@@ -3863,7 +3864,7 @@
                 "team": "enemy",
                 "ai": "In_Range",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     3,
                     5
@@ -3887,7 +3888,7 @@
                 "team": "enemy",
                 "ai": "In_Range",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "1",
                 "starting_position": [
                     5,
                     0
@@ -3914,7 +3915,7 @@
                 "ai_group": "",
                 "starting_position": [
                     7,
-                    2
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -3938,7 +3939,7 @@
                 "ai_group": "",
                 "starting_position": [
                     8,
-                    2
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -3964,6 +3965,166 @@
                     13,
                     2
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Agi",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 3,
+                "klass": "Pegasus_Knight",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Garu",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Patient"
+                ],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 3,
+                "klass": "Mercenary",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "In_Range",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Mercenary",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 3,
+                "klass": "Thief",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Dagger",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -3992,7 +4153,7 @@
                 "region_type": "event",
                 "position": [
                     12,
-                    10
+                    11
                 ],
                 "size": [
                     1,
@@ -4096,8 +4257,45 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
-        "ai_groups": []
+        "unit_groups": [
+            {
+                "nid": "Rein",
+                "units": [
+                    "119",
+                    "120",
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "119": [
+                        7,
+                        16
+                    ],
+                    "122": [
+                        8,
+                        16
+                    ],
+                    "121": [
+                        6,
+                        16
+                    ],
+                    "120": [
+                        9,
+                        16
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "1",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F7_Samir",
@@ -4106,8 +4304,8 @@
         "bg_tilemap": null,
         "party": "Exploration_Team",
         "music": {
-            "player_phase": "I'll Face Myself --Battle-- - Persona 4",
-            "enemy_phase": "I'll Face Myself --Battle-- - Persona 4"
+            "player_phase": "Battle -Awakening- - Megami Ibunroku Persona",
+            "enemy_phase": "Battle -Awakening- - Megami Ibunroku Persona"
         },
         "objective": {
             "simple": "Defeat Brandon",
@@ -4591,6 +4789,321 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Agi",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Garu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Eiha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Agi",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Garu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Eiha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Agi",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Zio",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Garu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 3,
+                "klass": "Spirit",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Eiha",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -4667,8 +5180,110 @@
                 "hide_time": false
             }
         ],
-        "unit_groups": [],
-        "ai_groups": []
+        "unit_groups": [
+            {
+                "nid": "Spirits",
+                "units": [
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123"
+                ],
+                "positions": {
+                    "119": [
+                        2,
+                        1
+                    ],
+                    "120": [
+                        0,
+                        6
+                    ],
+                    "121": [
+                        0,
+                        15
+                    ],
+                    "122": [
+                        13,
+                        12
+                    ],
+                    "123": [
+                        14,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "Spirits2",
+                "units": [
+                    "124",
+                    "125",
+                    "126",
+                    "127",
+                    "128"
+                ],
+                "positions": {
+                    "124": [
+                        13,
+                        12
+                    ],
+                    "125": [
+                        14,
+                        8
+                    ],
+                    "126": [
+                        2,
+                        1
+                    ],
+                    "127": [
+                        0,
+                        15
+                    ],
+                    "128": [
+                        0,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "Spirits3",
+                "units": [
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133"
+                ],
+                "positions": {
+                    "129": [
+                        0,
+                        15
+                    ],
+                    "130": [
+                        13,
+                        12
+                    ],
+                    "131": [
+                        0,
+                        6
+                    ],
+                    "132": [
+                        2,
+                        1
+                    ],
+                    "133": [
+                        14,
+                        8
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "Debug",
