@@ -570,7 +570,7 @@
     {
         "nid": "Maragi",
         "name": "Maragi",
-        "desc": "Fire. Damages adjacent foes. MT: 4 HIT:90 SP: 10",
+        "desc": "Fire. AOE 2. MT: 4 HIT:90 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -610,7 +610,7 @@
     {
         "nid": "Maragion",
         "name": "Maragion",
-        "desc": "Fire. MT: 7 HIT: 90 SP: 16 ",
+        "desc": "Fire. AOE 2.  MT: 7 HIT: 90 SP: 16 ",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -650,7 +650,7 @@
     {
         "nid": "Mabufu",
         "name": "Mabufu",
-        "desc": "Ice. Damages adjacent foes. MT: 4 HIT: 90 SP: 10",
+        "desc": "Ice. AOE 2. MT: 4 HIT: 90 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -690,7 +690,7 @@
     {
         "nid": "Mabufula",
         "name": "Mabufula",
-        "desc": "Ice. Damages adjacent foes. MT: 7 HIT: 90 SP: 16",
+        "desc": "Ice. AOE 2. MT: 7 HIT: 90 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -730,7 +730,7 @@
     {
         "nid": "Mazio",
         "name": "Mazio",
-        "desc": "Electric. Damages adjacent foes. MT: 6 HIT: 80 SP: 10",
+        "desc": "Electric. AOE 2. MT: 6 HIT: 80 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -770,7 +770,7 @@
     {
         "nid": "Mazionga",
         "name": "Mazionga",
-        "desc": "Electric. Damages adjacent foes. MT: 9 HIT: 80 SP: 16",
+        "desc": "Electric. AOE 2. MT: 9 HIT: 80 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -810,7 +810,7 @@
     {
         "nid": "Magaru",
         "name": "Magaru",
-        "desc": "Wind. Damages adjacent foes.. Brave. MT: 1 HIT:100 SP: 10",
+        "desc": "Wind. AOE 2. Brave. MT: 1 HIT:100 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -850,7 +850,7 @@
     {
         "nid": "Magarula",
         "name": "Magarula",
-        "desc": "Wind. Damages adjacent foes. Brave. MT: 4 HIT: 100 SP: 16",
+        "desc": "Wind. AOE 2. Brave. MT: 4 HIT: 100 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -890,7 +890,7 @@
     {
         "nid": "Malaqua",
         "name": "Malaqua",
-        "desc": "Water. Damages adjacent foes. User heals for 1/4 damage dealt. MT: 3 HIT: 85 SP: 10",
+        "desc": "Water. AOE 2. User heals for 1/4 damage dealt. MT: 3 HIT: 85 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -923,14 +923,14 @@
             ],
             [
                 "ability",
-                "Aqualao"
+                "Aquala"
             ]
         ]
     },
     {
         "nid": "Malaqualao",
         "name": "Malaqualao",
-        "desc": "Water. Damages adjacent foes. User heals for 1/4 damage dealt. MT: 6 HIT: 85 SP: 16",
+        "desc": "Water. AOE 2. User heals for 1/4 damage dealt. MT: 6 HIT: 85 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -943,7 +943,7 @@
             ],
             [
                 "ability",
-                "Malaqualao"
+                "Malaquala"
             ]
         ]
     },
@@ -970,7 +970,7 @@
     {
         "nid": "Mamagna",
         "name": "Mamagna",
-        "desc": "Earth. Damages adjacent foes.. MT: 7 HIT: 90 SP: 10",
+        "desc": "Earth. AOE 2. MT: 7 HIT: 90 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1010,7 +1010,7 @@
     {
         "nid": "Mamagnara",
         "name": "Mamagnara",
-        "desc": "Earth. MT: 10 HIT: 90 SP: 16",
+        "desc": "Earth. AOE 2.  MT: 10 HIT: 90 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1050,7 +1050,7 @@
     {
         "nid": "Makouha",
         "name": "Makouha",
-        "desc": "Light. Damages adjacent foes.. MT: 3 HIT: 100 SP: 10",
+        "desc": "Light. AOE 2. MT: 3 HIT: 100 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -1090,7 +1090,7 @@
     {
         "nid": "Makouga",
         "name": "Makouga",
-        "desc": "Light. Damages adjacent foes. MT: 6 HIT: 100 SP: 16",
+        "desc": "Light. AOE 2. MT: 6 HIT: 100 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -1130,7 +1130,7 @@
     {
         "nid": "Maeiha",
         "name": "Maeiha",
-        "desc": "Dark. Damages adjacent foes. Pierces target's RES. MT: 0 HIT: 85 SP: 10",
+        "desc": "Dark. AOE 2. Pierces target's RES. MT: 0 HIT: 85 SP: 10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -1170,7 +1170,7 @@
     {
         "nid": "Maeiga",
         "name": "Maeiga",
-        "desc": "Dark. Damages adjacent foes. Pierce's target's RES. MT: 4 HIT: 80 SP: 16",
+        "desc": "Dark. AOE 2. Pierce's target's RES. MT: 4 HIT: 80 SP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -1224,6 +1224,26 @@
             [
                 "ability",
                 "Bash"
+            ]
+        ]
+    },
+    {
+        "nid": "Assault_Dive",
+        "name": "Assault Dive",
+        "desc": "Phys.\nMT: 12 HIT: 95 HP: 13",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Assault_Dive"
             ]
         ]
     },
@@ -1304,6 +1324,26 @@
             [
                 "ability",
                 "Single_Shot"
+            ]
+        ]
+    },
+    {
+        "nid": "Twin_Shot",
+        "name": "Twin Shot",
+        "desc": "Gun. Pierces DEF. Brave.\nMT: 6 HIT: 105 HP: 16",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Twin_Shot"
             ]
         ]
     },
@@ -1444,6 +1484,26 @@
             [
                 "ability",
                 "Sukukaja"
+            ]
+        ]
+    },
+    {
+        "nid": "Rebellion",
+        "name": "Rebellion",
+        "desc": "Increase target's CRIT by 25 for 2 turns.\nSP: 6",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Rebellion"
             ]
         ]
     },
@@ -1904,6 +1964,51 @@
         ]
     },
     {
+        "nid": "Regenerate_I",
+        "name": "Regenerate I",
+        "desc": "Heal 10% HP at the start of each turn.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "regeneration",
+                0.1
+            ]
+        ]
+    },
+    {
+        "nid": "MOV_2",
+        "name": "MOV+2",
+        "desc": "+2 MOV.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            1,
+            60
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "S_Attack_Up",
         "name": "Attack Up",
         "desc": "+3 STR/MAG.",
@@ -1982,6 +2087,59 @@
             [
                 "time",
                 2
+            ]
+        ]
+    },
+    {
+        "nid": "S_Crit_Up",
+        "name": "Crit Up",
+        "desc": "+3 STR/MAG.",
+        "icon_nid": "{Cardcafe} Affinity All Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "crit",
+                25
+            ]
+        ]
+    },
+    {
+        "nid": "Supercharged",
+        "name": "Supercharged",
+        "desc": "+5 MAG/SKL.",
+        "icon_nid": "ZessDynamiteSkillsysSuneohair",
+        "icon_index": [
+            4,
+            77
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    192,
+                    97,
+                    203
+                ]
             ]
         ]
     },
@@ -4080,20 +4238,11 @@
             ],
             [
                 "avoid",
-                30
+                20
             ],
             [
                 "hidden",
                 null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "DEF",
-                        3
-                    ]
-                ]
             ]
         ]
     },

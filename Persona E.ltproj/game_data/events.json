@@ -2313,7 +2313,7 @@
             "if;'{v:CurrentPersona}' == 'P_Berith'",
             "    give_skill;{unit};Maragi;no_banner",
             "    give_skill;{unit};Twin_Shot;no_banner",
-            "    give_skill;{unit};MOV+2;no_banner",
+            "    give_skill;{unit};MOV_2;no_banner",
             "    give_skill;{unit};Berith_Stats;no_banner",
             "    give_skill;{unit};Weak_Electric;no_banner",
             "    give_skill;{unit};Weak_Light;no_banner",
@@ -3817,14 +3817,15 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "#debug",
+            "#kill_unit;101",
+            "#kill_unit;102",
+            "give_skill;Marina;Media;no_banner",
+            "give_item;Jordan;Bandage;no_banner",
+            "#",
             "prep;t;Battle -Awakening- - Megami Ibunroku Persona;Velvet Room;True;Velvet Room",
             "game_var;brandon_minions;0",
-            "game_var;brandon_spirits;0",
-            "game_var;spirit_spawn;0",
-            "#debug",
-            "kill_unit;101",
-            "kill_unit;102",
-            "#"
+            ""
         ],
         "nid": "F7_Samir Intro"
     },
@@ -3975,14 +3976,18 @@
         "_source": [
             "if;unit.nid == '101'",
             "    inc_game_var;brandon_minions",
+            "    change_ai;118;Charge",
             "end",
             "if;unit.nid == '102'",
             "    inc_game_var;brandon_minions",
+            "    change_ai;113;Charge",
             "end",
             "if;'{v:brandon_minions}' == '2'",
             "    flicker_cursor;Brandon",
             "    remove_item;Brandon;Departed_Arrow",
             "    game_var;brandon_minions;0",
+            "    sound;Divine1",
+            "    give_skill;Brandon;Supercharged",
             "end"
         ],
         "nid": "F7_Samir Minions Dead"
@@ -4043,5 +4048,46 @@
             "win_game"
         ],
         "nid": "F7_Samir Outro"
+    },
+    {
+        "name": "cav",
+        "trigger": "turn_change",
+        "level_nid": "F7_Samir",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;111;Charge"
+        ],
+        "nid": "F7_Samir cav"
+    },
+    {
+        "name": "mages",
+        "trigger": "turn_change",
+        "level_nid": "F7_Samir",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;102;Charge",
+            "change_ai;101;Charge"
+        ],
+        "nid": "F7_Samir mages"
+    },
+    {
+        "name": "Rein",
+        "trigger": "turn_change",
+        "level_nid": "F7_Samir",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "spawn_group;Rein;south;Rein;warp;closest",
+            "wait;1000"
+        ],
+        "nid": "F7_Samir Rein"
     }
 ]

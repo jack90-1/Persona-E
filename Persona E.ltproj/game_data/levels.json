@@ -4288,10 +4288,6 @@
         ],
         "ai_groups": [
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "1",
                 "trigger_threshold": 1
             }
@@ -4388,7 +4384,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Charge",
+                "ai": "BrandonCav",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -4526,7 +4522,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -4554,16 +4550,14 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Patient"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    11
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -4610,7 +4604,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Charge",
+                "ai": "BrandonCav",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -4658,7 +4652,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack_In_2",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -4704,16 +4698,14 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Patient"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Charge",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    11
+                    14,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -4774,13 +4766,13 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Killing_Edge",
+                        "Lancereaver",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack_In_2",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -5104,6 +5096,69 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Bufu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -5274,6 +5329,28 @@
                     "133": [
                         14,
                         8
+                    ]
+                }
+            },
+            {
+                "nid": "Rein",
+                "units": [
+                    "134",
+                    "135",
+                    "136"
+                ],
+                "positions": {
+                    "134": [
+                        7,
+                        16
+                    ],
+                    "135": [
+                        8,
+                        15
+                    ],
+                    "136": [
+                        6,
+                        15
                     ]
                 }
             }
