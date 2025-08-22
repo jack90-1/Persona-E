@@ -93,14 +93,14 @@
         "klass": "Gunman",
         "tags": [],
         "bases": {
-            "HP": 18,
+            "HP": 19,
             "SP": 86,
             "STR": 5,
-            "MAG": 8,
-            "SKL": 7,
-            "SPD": 4,
+            "MAG": 9,
+            "SKL": 8,
+            "SPD": 5,
             "LCK": 2,
-            "DEF": 2,
+            "DEF": 3,
             "RES": 7,
             "CON": 6,
             "MOV": 6
@@ -148,7 +148,7 @@
             ],
             [
                 1,
-                "Snap"
+                "Single_Shot"
             ],
             [
                 2,
@@ -157,6 +157,10 @@
             [
                 1,
                 "mapcircleorange"
+            ],
+            [
+                4,
+                "Life_Drain"
             ]
         ],
         "unit_notes": [],
@@ -182,14 +186,14 @@
         "name": "Lanh",
         "desc": "A freshman at Poplar University.\nMaking the most of her newfound freedom at college.",
         "variant": "_lanh",
-        "level": 2,
+        "level": 1,
         "klass": "Spellblade",
         "tags": [],
         "bases": {
             "HP": 20,
             "CON": 10,
             "STR": 4,
-            "MAG": 6,
+            "MAG": 7,
             "SKL": 5,
             "SPD": 7,
             "LCK": 3,
@@ -250,6 +254,10 @@
             [
                 1,
                 "mapcircleorange"
+            ],
+            [
+                4,
+                "Sukukaja"
             ]
         ],
         "unit_notes": [],
@@ -280,13 +288,13 @@
         "tags": [],
         "bases": {
             "HP": 25,
-            "STR": 6,
+            "STR": 8,
             "CON": 11,
             "MAG": 4,
-            "SKL": 3,
+            "SKL": 4,
             "SPD": 5,
             "LCK": 4,
-            "DEF": 6,
+            "DEF": 7,
             "RES": 2,
             "MOV": 5,
             "SP": 74
@@ -343,6 +351,10 @@
             [
                 1,
                 "Weak_Electric"
+            ],
+            [
+                4,
+                "Single_Shot"
             ]
         ],
         "unit_notes": [],
@@ -375,12 +387,12 @@
             "HP": 24,
             "SP": 100,
             "STR": 5,
-            "MAG": 5,
+            "MAG": 6,
             "SKL": 10,
-            "SPD": 3,
+            "SPD": 4,
             "LCK": 5,
             "DEF": 7,
-            "RES": 3,
+            "RES": 5,
             "CON": 7,
             "MOV": 5
         },
@@ -430,7 +442,7 @@
                 "Media"
             ],
             [
-                3,
+                4,
                 "Rakukaja"
             ],
             [
@@ -775,6 +787,110 @@
         "alternate_classes": [],
         "portrait_nid": "",
         "affinity": "Strength",
+        "fields": []
+    },
+    {
+        "nid": "Shadow_Lanh",
+        "name": "Shadow Lanh",
+        "desc": "",
+        "variant": null,
+        "level": 2,
+        "klass": "Myrmidon",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 17,
+            "SP": 500,
+            "STR": 4,
+            "MAG": 4,
+            "SKL": 7,
+            "SPD": 6,
+            "LCK": 3,
+            "DEF": 2,
+            "RES": 4,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Sword",
+                false
+            ],
+            [
+                "Bufu",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Earth"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lanh (Battle)",
+        "affinity": "Magician",
+        "fields": []
+    },
+    {
+        "nid": "Shadow_Vernon",
+        "name": "Shadow Vernon",
+        "desc": "",
+        "variant": null,
+        "level": 2,
+        "klass": "Fighter",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 23,
+            "SP": 500,
+            "STR": 6,
+            "MAG": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "LCK": 3,
+            "DEF": 4,
+            "RES": 2,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Weak_Dark"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Vernon (Battle)",
+        "affinity": "Fortune",
         "fields": []
     },
     {

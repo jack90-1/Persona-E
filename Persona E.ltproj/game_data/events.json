@@ -2542,17 +2542,17 @@
         "priority": 20,
         "_source": [
             "#debug purposes, delete before playest",
-            "inc_game_var;Protag_Level",
-            "inc_game_var;Protag_Level",
-            "add_lore;Jiibayabooz",
-            "give_exp;Jordan;100;silent",
-            "give_exp;Jordan;100;silent",
-            "give_exp;Jordan;100;silent",
-            "give_skill;Jordan;P_Apsaras",
-            "give_skill;Jordan;P_Pixie",
-            "give_skill;Jordan;P_Angel",
-            "# ^^^^^",
-            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
+            "#inc_game_var;Protag_Level",
+            "#inc_game_var;Protag_Level",
+            "#add_lore;Jiibayabooz",
+            "#give_exp;Jordan;100;silent",
+            "#give_exp;Jordan;100;silent",
+            "#give_exp;Jordan;100;silent",
+            "#give_skill;Jordan;P_Apsaras",
+            "#give_skill;Jordan;P_Pixie",
+            "#give_skill;Jordan;P_Angel",
+            "## ^^^^^",
+            "#prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
         ],
         "nid": "Debug Intro"
     },
@@ -2675,15 +2675,14 @@
         "priority": 20,
         "_source": [
             "# debug",
-            "inc_game_var;Protag_Level",
-            "inc_game_var;Protag_Level",
+            "",
             "#give_skill;Jordan;P_Pixie;no_banner",
             "#give_skill;Jordan;P_Jack_Frost;no_banner",
             "#give_exp;Jordan;100;silent",
             "change_party;Lanh;Exploration_Team",
             "change_party;Vernon;Exploration_Team",
             "change_party;John;Exploration_Team",
-            "#^^^^^"
+            ""
         ],
         "nid": "F1_Samir Intro"
     },
@@ -3289,6 +3288,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "set_next_chapter;F2_Samir",
             "music_clear",
             "win_game"
         ],
@@ -3348,11 +3348,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;unit.team == 'player' and unit.nid != 'Jordan'",
+            "if;unit.team == 'player'",
             "    sound;Death",
             "    remove_unit;{unit};fade;fade",
             "    resurrect;{unit}",
             "    change_party;{unit};DeadGuys",
+            "end",
+            "if;len(game.get_units_in_party()) < 1",
+            "    lose_game",
             "end"
         ],
         "nid": "Global 1.Player Death"
@@ -3461,8 +3464,8 @@
         "priority": 20,
         "_source": [
             "#debug",
-            "set_current_mana;Lanh;999",
-            "set_current_mana;Marina;999",
+            "#set_current_mana;Lanh;999",
+            "#set_current_mana;Marina;999",
             "#",
             "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
         ],
@@ -3680,6 +3683,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "set_next_chapter;F7_Samir",
             "music_clear",
             "win_game"
         ],
@@ -3749,7 +3753,12 @@
         "_source": [
             "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
             "game_var;F6_Switches;0",
-            "game_var;f6_bridge;0"
+            "game_var;f6_bridge;0",
+            "flicker_cursor;Switch_1",
+            "wait;1000",
+            "flicker_cursor;Switch_2",
+            "wait;1000",
+            "speak;;Press both switches to raise a bridge across the chasm.;;;hint"
         ],
         "nid": "F6_Samir Intro"
     },
@@ -3817,15 +3826,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#debug",
-            "#kill_unit;101",
-            "#kill_unit;102",
-            "give_skill;Marina;Media;no_banner",
-            "give_item;Jordan;Bandage;no_banner",
-            "#",
             "prep;t;Battle -Awakening- - Megami Ibunroku Persona;Velvet Room;True;Velvet Room",
             "game_var;brandon_minions;0",
-            ""
+            "flicker_cursor;102",
+            "wait;1000",
+            "flicker_cursor;101",
+            "wait;1000",
+            "speak;;Defeat these two mages to weaken Brandon.;;;hint"
         ],
         "nid": "F7_Samir Intro"
     },
@@ -4089,5 +4096,28 @@
             "wait;1000"
         ],
         "nid": "F7_Samir Rein"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "F0_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "inc_game_var;Protag_Level",
+            "inc_game_var;Protag_Level",
+            "change_party;John;Exploration_Team",
+            "music_clear",
+            "choice;tutorial;Would you like a tutorial on this game's mechanics?;Yes,No",
+            "if;'{v:tutorial}' == 'Yes'",
+            "speak;;Each unit has their own pool of HP and SP.{w} When a unit's HP reaches 0, they are defeated and will leave the map.{w} Defeated allies will return on the next floor of the dungeon with 1 HP.{w} SP is used to perform most skills. {w} Managing SP is important due to the powerful nature of these skills.{w} Items that restore HP and SP can be found in chests and on enemies throughout the dungeon.;;;hint",
+            "flicker_cursor;Jordan",
+            "wait;1000",
+            "speak;;Jordan is the leader of the party and wields the power of the Wild Card.{w} They are able to hold up to 5 different personas at once.{w} To change their equipped persona, select the Change Persona option in the unit menu before moving.{w} This is a free action and can be done as many times as you want per turn.{w} Jordan will have a choice of three new personas each time they level up.{w} Additionally, they will gain one point of Flexibility per level up, which can be used to purchase personas in the Velvet Room.{w} Stats and info for all known personas plus ones obtainable at the next level can be found in the guide in the Velvet Room.;;;hint",
+            "speak;;Each unit is weak to a certain element, visible in the unit info menu.{w} Every unit of the same class has the same weakness for ease of memory.{w} Upon striking a foes weakness, a player unit will perform a One More and be granted another turn.{w} Multiple One Mores can be triggered on the same phase by striking different weaknesses.{w} Additionally, enemies will be given the Down status upon having their weakness striked, preventing them from initiating combat for one turn or counterattacking for one round of combat.{w} Enemies are not able to Down players or tirgger One Mores at this time.{w} Please report if you trigger multiple One Mores with the same element in one phase, as this is not intended behavior.;;;hint"
+        ],
+        "nid": "F0_Samir Intro"
     }
 ]
