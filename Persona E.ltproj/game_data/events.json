@@ -2833,7 +2833,11 @@
             "#give_exp;Jordan;100;silent",
             "#give_exp;Jordan;100;silent",
             "# ^^^^^",
-            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
+            "if;'{v:Protag_Level}' > '1'",
+            "    prep;t;Theme- Arovane;Velvet Room;True;Velvet Room",
+            "else",
+            "    prep;t;Theme- Arovane;;True",
+            "end",
             "change_team;Marina;player",
             "remove_skill;Marina;mapcirclegreen;no_banner",
             "give_skill;Marina;mapcircleorange;no_banner"
@@ -3826,6 +3830,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "remove_skill;Brandon;Weak_Phys;no_banner",
             "prep;t;Battle -Awakening- - Megami Ibunroku Persona;Velvet Room;True;Velvet Room",
             "game_var;brandon_minions;0",
             "flicker_cursor;102",

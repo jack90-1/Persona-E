@@ -140,7 +140,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
-            0
+            5
         ],
         "components": [
             [
@@ -211,7 +211,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -414,7 +414,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
-            0
+            5
         ],
         "components": [
             [
@@ -485,7 +485,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
-            0
+            2
         ],
         "components": [
             [
@@ -690,7 +690,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
-            0
+            5
         ],
         "components": [
             [
@@ -761,7 +761,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
-            0
+            2
         ],
         "components": [
             [
@@ -970,7 +970,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
-            0
+            5
         ],
         "components": [
             [
@@ -1045,7 +1045,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
-            0
+            2
         ],
         "components": [
             [
@@ -1262,7 +1262,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
-            0
+            5
         ],
         "components": [
             [
@@ -1337,7 +1337,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
-            0
+            2
         ],
         "components": [
             [
@@ -1550,7 +1550,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
-            0
+            5
         ],
         "components": [
             [
@@ -1621,7 +1621,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
-            0
+            2
         ],
         "components": [
             [
@@ -1826,7 +1826,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
-            0
+            5
         ],
         "components": [
             [
@@ -1897,7 +1897,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
-            0
+            2
         ],
         "components": [
             [
@@ -2106,7 +2106,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
-            0
+            5
         ],
         "components": [
             [
@@ -2181,7 +2181,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
-            0
+            2
         ],
         "components": [
             [
@@ -2391,7 +2391,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             8,
-            0
+            2
         ],
         "components": [
             [
@@ -2585,7 +2585,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
-            0
+            2
         ],
         "components": [
             [
@@ -2724,7 +2724,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
-            0
+            5
         ],
         "components": [
             [
@@ -2786,77 +2786,6 @@
             [
                 "enemy_blast_aoe",
                 1
-            ]
-        ]
-    },
-    {
-        "nid": "Snap",
-        "name": "Snap",
-        "desc": "",
-        "icon_nid": "{Cardcafe} Affinity All Icons",
-        "icon_index": [
-            11,
-            0
-        ],
-        "components": [
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "weapon",
-                null
-            ],
-            [
-                "damage",
-                3
-            ],
-            [
-                "hit",
-                105
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "hp_cost",
-                6
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "WeakGun"
-                    ],
-                    "effective_multiplier": 1.9999999999999991,
-                    "effective_bonus_damage": 1,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "multi_status_on_equip",
-                [
-                    "Press_Gun",
-                    "Down_Gun"
-                ]
-            ],
-            [
-                "level_exp",
-                null
             ]
         ]
     },
@@ -2937,12 +2866,12 @@
     },
     {
         "nid": "Twin_Shot",
-        "name": "Twin_Shot",
+        "name": "Twin Shot",
         "desc": "",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
-            0
+            2
         ],
         "components": [
             [
@@ -3021,7 +2950,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
-            0
+            3
         ],
         "components": [
             [
@@ -3144,7 +3073,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
-            0
+            5
         ],
         "components": [
             [
@@ -3196,7 +3125,7 @@
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
-            0
+            2
         ],
         "components": [
             [

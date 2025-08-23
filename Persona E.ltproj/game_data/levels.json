@@ -47,7 +47,11 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Magna",
+                    "Magnara",
+                    "Mamagna"
+                ],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -186,7 +190,12 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F0_Samir",

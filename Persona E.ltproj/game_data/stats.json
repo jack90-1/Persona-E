@@ -60,7 +60,7 @@
         "name": "Def",
         "maximum": 30,
         "desc": "",
-        "position": "left",
+        "position": "right",
         "growth_colors": false
     },
     {
@@ -68,7 +68,7 @@
         "name": "Res",
         "maximum": 30,
         "desc": "",
-        "position": "left",
+        "position": "right",
         "growth_colors": false
     },
     {
@@ -76,7 +76,7 @@
         "name": "Con",
         "maximum": 25,
         "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
-        "position": "right",
+        "position": "hidden",
         "growth_colors": false
     },
     {

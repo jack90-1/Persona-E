@@ -9,7 +9,7 @@
     ],
     [
         "turnwheel",
-        true
+        false
     ],
     [
         "initiative",
@@ -25,7 +25,7 @@
     ],
     [
         "minimap",
-        true
+        false
     ],
     [
         "pairup",
@@ -181,7 +181,7 @@
     ],
     [
         "boss_crit",
-        false
+        true
     ],
     [
         "battle_platforms",
@@ -209,7 +209,7 @@
     ],
     [
         "talk_display",
-        true
+        false
     ],
     [
         "show_abilities",
