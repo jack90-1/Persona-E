@@ -98,7 +98,7 @@
             "STR": 5,
             "MAG": 9,
             "SKL": 8,
-            "SPD": 5,
+            "SPD": 6,
             "LCK": 2,
             "DEF": 3,
             "RES": 7,
@@ -791,9 +791,9 @@
     },
     {
         "nid": "Shadow_Lanh",
-        "name": "Shadow Lanh",
+        "name": "Lanh",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Myrmidon",
         "tags": [
@@ -869,7 +869,7 @@
     },
     {
         "nid": "Shadow_Vernon",
-        "name": "Shadow Vernon",
+        "name": "Vernon",
         "desc": "",
         "variant": null,
         "level": 2,
@@ -878,14 +878,14 @@
             "Boss"
         ],
         "bases": {
-            "HP": 23,
+            "HP": 20,
             "SP": 500,
             "STR": 6,
             "MAG": 3,
             "SKL": 3,
             "SPD": 4,
             "LCK": 3,
-            "DEF": 4,
+            "DEF": 3,
             "RES": 2,
             "CON": 9,
             "MOV": 5

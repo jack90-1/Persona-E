@@ -5,7 +5,8 @@
         "maximum": 60,
         "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
         "position": "hidden",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "SP",
@@ -13,7 +14,8 @@
         "maximum": 255,
         "desc": "",
         "position": "hidden",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "STR",
@@ -21,7 +23,8 @@
         "maximum": 30,
         "desc": "",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "MAG",
@@ -29,7 +32,8 @@
         "maximum": 30,
         "desc": "",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "SKL",
@@ -37,7 +41,8 @@
         "maximum": 30,
         "desc": "",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "SPD",
@@ -45,7 +50,8 @@
         "maximum": 30,
         "desc": "",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "LCK",
@@ -53,7 +59,8 @@
         "maximum": 30,
         "desc": "",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "DEF",
@@ -61,7 +68,8 @@
         "maximum": 30,
         "desc": "",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "RES",
@@ -69,7 +77,8 @@
         "maximum": 30,
         "desc": "",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "CON",
@@ -77,7 +86,8 @@
         "maximum": 25,
         "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
         "position": "hidden",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     },
     {
         "nid": "MOV",
@@ -85,6 +95,7 @@
         "maximum": 15,
         "desc": "The distance you can move in one turn.",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": false,
+        "hidden_stat": false
     }
 ]

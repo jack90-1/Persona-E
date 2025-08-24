@@ -4111,8 +4111,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "remove_skill;Shadow_Lanh;Weak_Electric;no_banner",
+            "remove_skill;Shadow_Vernon;Weak_Water;no_banner",
             "inc_game_var;Protag_Level",
             "inc_game_var;Protag_Level",
+            "game_var;F0_Bosses;0",
             "change_party;John;Exploration_Team",
             "music_clear",
             "choice;tutorial;Would you like a tutorial on this game's mechanics?;Yes,No",
@@ -4121,8 +4124,44 @@
             "flicker_cursor;Jordan",
             "wait;1000",
             "speak;;Jordan is the leader of the party and wields the power of the Wild Card.{w} They are able to hold up to 5 different personas at once.{w} To change their equipped persona, select the Change Persona option in the unit menu before moving.{w} This is a free action and can be done as many times as you want per turn.{w} Jordan will have a choice of three new personas each time they level up.{w} Additionally, they will gain one point of Flexibility per level up, which can be used to purchase personas in the Velvet Room.{w} Stats and info for all known personas plus ones obtainable at the next level can be found in the guide in the Velvet Room.;;;hint",
-            "speak;;Each unit is weak to a certain element, visible in the unit info menu.{w} Every unit of the same class has the same weakness for ease of memory.{w} Upon striking a foes weakness, a player unit will perform a One More and be granted another turn.{w} Multiple One Mores can be triggered on the same phase by striking different weaknesses.{w} Additionally, enemies will be given the Down status upon having their weakness striked, preventing them from initiating combat for one turn or counterattacking for one round of combat.{w} Enemies are not able to Down players or tirgger One Mores at this time.{w} Please report if you trigger multiple One Mores with the same element in one phase, as this is not intended behavior.;;;hint"
+            "speak;;Each unit is weak to a certain element, visible in the unit info menu.{w} Every unit of the same class has the same weakness for ease of memory.{w} Upon striking a foes weakness, a player unit will perform a One More and be granted another turn.{w} Multiple One Mores can be triggered on the same phase by striking different weaknesses.{w} Additionally, enemies will be given the Down status upon having their weakness striked, preventing them from initiating combat for one turn or counterattacking for one round of combat.{w} Enemies are not able to Down players or tirgger One Mores at this time.{w} Please report if you trigger multiple One Mores with the same element in one phase, as this is not intended behavior.;;;hint",
+            "end"
         ],
         "nid": "F0_Samir Intro"
+    },
+    {
+        "name": "Bosses",
+        "trigger": "unit_death",
+        "level_nid": "F0_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == 'Shadow_Lanh'",
+            "inc_game_var;F0_Bosses",
+            "end",
+            "if;unit.nid == 'Shadow_Vernon'",
+            "inc_game_var;F0_Bosses",
+            "end",
+            ""
+        ],
+        "nid": "F0_Samir Bosses"
+    },
+    {
+        "name": "Outro",
+        "trigger": "unit_wait",
+        "level_nid": "F0_Samir",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:F0_Bosses}' == '2'",
+            "music_clear",
+            "win_game",
+            "end"
+        ],
+        "nid": "F0_Samir Outro"
     }
 ]

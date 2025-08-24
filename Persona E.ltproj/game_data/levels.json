@@ -1,203 +1,5 @@
 [
     {
-        "nid": "Debug",
-        "name": "Debug",
-        "tilemap": "New Tilemap",
-        "bg_tilemap": null,
-        "party": "Exploration_Team",
-        "music": {
-            "player_phase": null,
-            "enemy_phase": null
-        },
-        "objective": {
-            "simple": "Fix bugs",
-            "win": ".",
-            "loss": "."
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [
-            "Battle"
-        ],
-        "units": [
-            {
-                "nid": "Jordan",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 5,
-                "klass": "Cavalier",
-                "faction": "Shadow",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Magna",
-                    "Magnara",
-                    "Mamagna"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 5,
-                "klass": "Cavalier",
-                "faction": "Shadow",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "MaxAvoid"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Shadow",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Pegasus_Knight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Charge",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Fighter",
-                "faction": "Shadow",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "MaxAvoid"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Archer",
-                "faction": "Shadow",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            }
-        ],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
-    },
-    {
         "nid": "F0_Samir",
         "name": "Floor 0",
         "tilemap": "New Tilemap_11",
@@ -299,8 +101,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    2
+                    0,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -312,7 +114,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
+                    2,
                     0
                 ],
                 "starting_traveler": null,
@@ -326,7 +128,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -337,7 +139,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    2
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -345,7 +147,12 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F1_Samir",
@@ -5964,6 +5771,199 @@
                 }
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "Debug",
+        "name": "Debug",
+        "tilemap": "New Tilemap",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null
+        },
+        "objective": {
+            "simple": "Fix bugs",
+            "win": ".",
+            "loss": "."
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "Battle"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Magna",
+                    "Magnara",
+                    "Mamagna"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "MaxAvoid"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Charge",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "MaxAvoid"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Shadow",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     }
 ]
