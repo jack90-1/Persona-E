@@ -1210,7 +1210,7 @@
     {
         "nid": "Bash",
         "name": "Bash",
-        "desc": "Phys.\nMT: 9 HIT: 95 HP: 9",
+        "desc": "Phys. Cannot counter. \nMT: 9 HIT: 95 HP: 9",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -1230,7 +1230,7 @@
     {
         "nid": "Assault_Dive",
         "name": "Assault Dive",
-        "desc": "Phys.\nMT: 12 HIT: 95 HP: 13",
+        "desc": "Phys. Cannot counter. \nMT: 12 HIT: 95 HP: 13",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -1250,7 +1250,7 @@
     {
         "nid": "Slash",
         "name": "Slash",
-        "desc": "Phys. Can Double. +3 AS.\nMT: 4 HIT: 105 HP: 4",
+        "desc": "Phys. Can Double. +3 AS. Cannot counter. \nMT: 4 HIT: 105 HP: 4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -1270,7 +1270,7 @@
     {
         "nid": "Vacuum_Slash",
         "name": "Vacuum Slash.",
-        "desc": "Phys. Can Double. +3 AS. Damages adjacent foes.\nMT: 4 HIT: 105 HP: 7",
+        "desc": "Phys. Can Double. +3 AS. Damages adjacent foes. Cannot counter. \nMT: 4 HIT: 105 HP: 7",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -1290,7 +1290,7 @@
     {
         "nid": "Single_Shot",
         "name": "Single Shot",
-        "desc": "Gun. Pierces DEF.\nMT: 6 HIT: 105 HP: 8",
+        "desc": "Gun. Pierces DEF. Cannot counter. \nMT: 6 HIT: 105 HP: 8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
@@ -1310,7 +1310,7 @@
     {
         "nid": "Twin_Shot",
         "name": "Twin Shot",
-        "desc": "Gun. Pierces DEF. Brave.\nMT: 6 HIT: 105 HP: 16",
+        "desc": "Gun. Pierces DEF. Brave. Cannot counter. \nMT: 6 HIT: 105 HP: 16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,

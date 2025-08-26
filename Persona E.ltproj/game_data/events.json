@@ -2364,7 +2364,7 @@
         "_source": [
             "if;'{v:Protag_Level}' == '2'",
             "    game_var;VRoom_Personas;[]",
-            "    choice;PersonaChoice;Choose a new persona.;Pixie,Angel,Mokoi",
+            "    choice;PersonaChoice;Choose a new persona.;Pixie|Pixie <icon>Electric</> <icon>Support</>,Angel|Angel <icon>Wind</> <icon>Sukukaja</>,Mokoi|Mokoi <icon>Dark</> <icon>Phys</> <icon>Fear</>",
             "    inc_game_var;Protag_Level",
             "    if;'{v:PersonaChoice}' == 'Pixie'",
             "        give_skill;{unit};P_Pixie;no_banner",
@@ -2403,7 +2403,7 @@
         "priority": 20,
         "_source": [
             "if;'{v:Protag_Level}' == '3'",
-            "    choice;PersonaChoice;Choose a new persona.;Nekomata,Apsaras,Ara Mitama",
+            "    choice;PersonaChoice;Choose a new persona.;Nekomata|Nekomata <icon>Water</> <icon>Fire</> <Rakunda</>,Apsaras|Apsaras <icon>Ice</> <icon>Water</> <icon>Support</>,Ara Mitama|Ara Mitama <icon>Phys</> <icon>Rage</> <icon>Rakukaja</>",
             "    inc_game_var;Protag_Level",
             "    if;'{v:PersonaChoice}' == 'Nekomata'",
             "        give_skill;{unit};P_Nekomata;no_banner",
@@ -2439,7 +2439,7 @@
         "priority": 20,
         "_source": [
             "if;'{v:Protag_Level}' == '4'",
-            "    choice;PersonaChoice;Choose a new persona.;Forneus,Incubus,Valkyrie",
+            "    choice;PersonaChoice;Choose a new persona.;Forneus|Forneus <icon>Ice</> <icon>Phys</> <icon>Tarukaja</>,Incubus|Incubus <icon>Fire</> <icon>Almighty</> <icon>Charm</>,Valkyrie|Valkyrie <icon>Phys</> <icon>Light</>",
             "    inc_game_var;Protag_Level",
             "    if;'{v:PersonaChoice}' == 'Forneus'",
             "        give_skill;{unit};P_Forneus;no_banner",
@@ -2476,7 +2476,7 @@
         "priority": 20,
         "_source": [
             "if;'{v:Protag_Level}' == '5'",
-            "    choice;PersonaChoice;Choose a new persona.;Jack Frost,Slime,Fortuna",
+            "    choice;PersonaChoice;Choose a new persona.;Jack Frost|Jack Frost <icon>Ice</> <icon>Confusion</>,Slime|Slime <icon>Dark</> <icon>Phys</> <icon>Fear</>,Fortuna|Fortuna <icon>Wind</> <icon<Support</>",
             "    inc_game_var;Protag_Level",
             "    if;'{v:PersonaChoice}' == 'Jack Frost'",
             "        give_skill;{unit};P_Jack_Frost;no_banner",
@@ -2509,7 +2509,7 @@
         "priority": 20,
         "_source": [
             "if;'{v:Protag_Level}' == '6'",
-            "    choice;PersonaChoice;Choose a new persona.;Berith,Neko Shogun,Makami",
+            "    choice;PersonaChoice;Choose a new persona.;Berith|Berith <icon>Fire</> <icon>Gun</>,Neko Shogun|Neko Shogun <icon>Phys</>,Makami|Makami <icon>Earth</> <icon>Fire</> <icon>Silence</>",
             "    inc_game_var;Protag_Level",
             "    if;'{v:PersonaChoice}' == 'Berith'",
             "        give_skill;{unit};P_Berith;no_banner",
@@ -2542,17 +2542,19 @@
         "priority": 20,
         "_source": [
             "#debug purposes, delete before playest",
-            "#inc_game_var;Protag_Level",
-            "#inc_game_var;Protag_Level",
+            "inc_game_var;Protag_Level",
+            "inc_game_var;Protag_Level",
             "#add_lore;Jiibayabooz",
-            "#give_exp;Jordan;100;silent",
-            "#give_exp;Jordan;100;silent",
-            "#give_exp;Jordan;100;silent",
+            "give_exp;Jordan;100;silent",
+            "give_exp;Jordan;100;silent",
+            "give_exp;Jordan;100;silent",
+            "give_exp;Jordan;100;silent",
+            "give_exp;Jordan;100;silent",
             "#give_skill;Jordan;P_Apsaras",
             "#give_skill;Jordan;P_Pixie",
             "#give_skill;Jordan;P_Angel",
             "## ^^^^^",
-            "#prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
+            "prep;t;Theme- Arovane;Velvet Room;True;Velvet Room"
         ],
         "nid": "Debug Intro"
     },
@@ -2681,7 +2683,7 @@
             "#give_exp;Jordan;100;silent",
             "change_party;Lanh;Exploration_Team",
             "change_party;Vernon;Exploration_Team",
-            "change_party;John;Exploration_Team",
+            "",
             ""
         ],
         "nid": "F1_Samir Intro"
@@ -2726,7 +2728,7 @@
             "    if;game.get_unit(\"{enemy_unit}\").klass == 'Armor'",
             "        change_affinity;{enemy_unit};Emperor",
             "    end",
-            "    if;game.get_unit(\"{enemy_unit}\").klass == 'Cleric'",
+            "    if;game.get_unit(\"{enemy_unit}\").klass == 'Curate'",
             "        change_affinity;{enemy_unit};Hierophant",
             "    end",
             "    if;game.get_unit(\"{enemy_unit}\").klass == 'Troubador'",
@@ -3875,7 +3877,7 @@
         "name": "Rein",
         "trigger": "turn_change",
         "level_nid": "F3_Samir",
-        "condition": "game.turncount == 8",
+        "condition": "game.turncount == 7",
         "commands": [],
         "only_once": false,
         "priority": 20,

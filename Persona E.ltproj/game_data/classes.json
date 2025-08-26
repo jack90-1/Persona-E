@@ -296,7 +296,7 @@
     {
         "nid": "Gunman",
         "name": "Gunman",
-        "desc": "A modern fighter who uses all types of firearms. Also capable of using knives.",
+        "desc": "A modern fighter who uses all types of firearms.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -405,12 +405,12 @@
                 0,
                 null
             ],
-            "Default": [
+            "Staff": [
                 false,
                 0,
                 null
             ],
-            "Staff": [
+            "Default": [
                 false,
                 0,
                 null
@@ -5122,7 +5122,7 @@
         "max_level": 20,
         "bases": {
             "HP": 18,
-            "STR": 500,
+            "STR": 0,
             "MAG": 4,
             "SKL": 2,
             "SPD": 2,
@@ -5227,14 +5227,14 @@
                 0,
                 251
             ],
-            "Default": [
-                false,
-                1,
-                251
-            ],
             "Staff": [
                 false,
                 31,
+                251
+            ],
+            "Default": [
+                false,
+                1,
                 251
             ],
             "Light": [

@@ -69,7 +69,7 @@
     {
         "nid": "Agi",
         "name": "Agi",
-        "desc": "",
+        "desc": "Fire. MT:4 HIT:90 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -136,7 +136,7 @@
     {
         "nid": "Maragi",
         "name": "Maragi",
-        "desc": "",
+        "desc": "Fire. AOE 2. MT:4 HIT:90 SP:10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -207,7 +207,7 @@
     {
         "nid": "Agilao",
         "name": "Agilao",
-        "desc": "",
+        "desc": "Fire. MT:7 HIT:90 SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -273,7 +273,7 @@
     {
         "nid": "Maragion",
         "name": "Maragion",
-        "desc": "",
+        "desc": "Fire. AOE 2. MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             0,
@@ -343,7 +343,7 @@
     {
         "nid": "Bufu",
         "name": "Bufu",
-        "desc": "",
+        "desc": "Ice. MT:4 HIT:90 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -410,7 +410,7 @@
     {
         "nid": "Mabufu",
         "name": "Mabufu",
-        "desc": "",
+        "desc": "Ice. AOE 2. MT:4 HIT:90 SP:10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -481,7 +481,7 @@
     {
         "nid": "Bufula",
         "name": "Bufula",
-        "desc": "",
+        "desc": "Ice. MT:7 HIT:90 SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -548,7 +548,7 @@
     {
         "nid": "Mabufula",
         "name": "Mabufula",
-        "desc": "",
+        "desc": "Ice. AOE 2. MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             7,
@@ -619,7 +619,7 @@
     {
         "nid": "Zio",
         "name": "Zio",
-        "desc": "",
+        "desc": "Electric. MT:6 HIT:80 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -686,7 +686,7 @@
     {
         "nid": "Mazio",
         "name": "Mazio",
-        "desc": "",
+        "desc": "Electric. AOE 2. MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -757,7 +757,7 @@
     {
         "nid": "Zionga",
         "name": "Zionga",
-        "desc": "",
+        "desc": "Electric. MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -824,7 +824,7 @@
     {
         "nid": "Mazionga",
         "name": "Mazionga",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             4,
@@ -895,7 +895,7 @@
     {
         "nid": "Garu",
         "name": "Garu",
-        "desc": "",
+        "desc": "Wind. Strikes Twice. MT:1 HIT:100 SP:2/Hit",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -959,14 +959,14 @@
             ],
             [
                 "mana_cost_per_use",
-                4
+                2
             ]
         ]
     },
     {
         "nid": "Magaru",
         "name": "Magaru",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -1041,7 +1041,7 @@
     {
         "nid": "Garula",
         "name": "Garula",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -1112,7 +1112,7 @@
     {
         "nid": "Magarula",
         "name": "Magarula",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             2,
@@ -1187,7 +1187,7 @@
     {
         "nid": "Aqua",
         "name": "Aqua",
-        "desc": "",
+        "desc": "Water. MT:3 HIT:85 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -1258,7 +1258,7 @@
     {
         "nid": "Malaqua",
         "name": "Malaqua",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -1333,7 +1333,7 @@
     {
         "nid": "Aquala",
         "name": "Aquala",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -1404,7 +1404,7 @@
     {
         "nid": "Malaquala",
         "name": "Malaquala",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             1,
@@ -1479,7 +1479,7 @@
     {
         "nid": "Magna",
         "name": "Magna",
-        "desc": "",
+        "desc": "Earth. MT:7 HIT:90 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1523,6 +1523,14 @@
                 }
             ],
             [
+                "mana_cost_per_use",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
                 "weapon",
                 null
             ],
@@ -1532,21 +1540,13 @@
                     "Down_Earth",
                     "Press_Earth"
                 ]
-            ],
-            [
-                "mana_cost_per_use",
-                4
-            ],
-            [
-                "level_exp",
-                null
             ]
         ]
     },
     {
         "nid": "Mamagna",
         "name": "Mamagna",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1617,7 +1617,7 @@
     {
         "nid": "Magnara",
         "name": "Magnara",
-        "desc": "",
+        "desc": "Earth. MT:10 HIT:90 SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1684,7 +1684,7 @@
     {
         "nid": "Mamagnara",
         "name": "Mamagnara",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             3,
@@ -1755,7 +1755,7 @@
     {
         "nid": "Kouha",
         "name": "Kouha",
-        "desc": "",
+        "desc": "Light. MT:3 HIT:100 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -1822,7 +1822,7 @@
     {
         "nid": "Makouha",
         "name": "Makouha",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -1893,7 +1893,7 @@
     {
         "nid": "Kouga",
         "name": "Kouga",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -1960,7 +1960,7 @@
     {
         "nid": "Makouga",
         "name": "Makouga",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             5,
@@ -2031,7 +2031,7 @@
     {
         "nid": "Eiha",
         "name": "Eiha",
-        "desc": "",
+        "desc": "Dark. MT:0 HIT:80 SP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -2102,7 +2102,7 @@
     {
         "nid": "Maeiha",
         "name": "Maeiha",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -2177,7 +2177,7 @@
     {
         "nid": "Eiga",
         "name": "Eiga",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -2248,7 +2248,7 @@
     {
         "nid": "Maeiga",
         "name": "Maeiga",
-        "desc": "",
+        "desc": "MT: HIT: SP:",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             6,
@@ -2323,7 +2323,7 @@
     {
         "nid": "Life_Drain",
         "name": "Life Drain",
-        "desc": "",
+        "desc": "Almighty. Heals user for damage dealt. MT:4 HIT:90 SP:7",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             8,
@@ -2431,7 +2431,7 @@
                 "S_Wounded"
             ],
             [
-                "no_double",
+                "no_equip",
                 null
             ]
         ]
@@ -2504,13 +2504,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "no_equip",
+                null
             ]
         ]
     },
     {
         "nid": "Bash",
         "name": "Bash",
-        "desc": "",
+        "desc": "Phys. Cannot counter. MT:9 HIT:95 HP:9",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -2547,7 +2551,7 @@
             ],
             [
                 "hp_cost",
-                9
+                8
             ],
             [
                 "effective_damage",
@@ -2575,13 +2579,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Assault_Dive",
         "name": "Assault Dive",
-        "desc": "",
+        "desc": "Phys. Cannot counter. MT:12 HIT:95 HP:13",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -2644,7 +2652,7 @@
                 ]
             ],
             [
-                "level_exp",
+                "cannot_counter",
                 null
             ]
         ]
@@ -2652,7 +2660,7 @@
     {
         "nid": "Slash",
         "name": "Slash",
-        "desc": "+3 AS.",
+        "desc": "Phys. Cannot counter. +3 AS. MT:4 HIT:105 HP:4",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -2714,13 +2722,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Vacuum_Slash",
         "name": "Vacuum Slash",
-        "desc": "+3 AS.",
+        "desc": "Phys. Cannot counter. AOE 2. +3 AS. MT:4 HIT:105 HP:7",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             10,
@@ -2785,14 +2797,18 @@
             ],
             [
                 "enemy_blast_aoe",
-                1
+                2
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Single_Shot",
         "name": "Single Shot",
-        "desc": "",
+        "desc": "Gun. Cannot counter. MT:6 HIT:105 HP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
@@ -2829,7 +2845,7 @@
             ],
             [
                 "hp_cost",
-                8
+                6
             ],
             [
                 "effective_damage",
@@ -2861,13 +2877,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Twin_Shot",
         "name": "Twin Shot",
-        "desc": "",
+        "desc": "Gun. Strikes Twice. Cannot counter. MT:6 HIT:105 HP:16",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
@@ -2940,13 +2960,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Triple_Down",
         "name": "Triple Down",
-        "desc": "",
+        "desc": "Gun. Strikes Thrice. Cannot counter. MT:6 HIT:105 HP:24",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             11,
@@ -2983,7 +3007,7 @@
             ],
             [
                 "hp_cost",
-                24
+                8
             ],
             [
                 "effective_damage",
@@ -3015,13 +3039,17 @@
             [
                 "level_exp",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
             ]
         ]
     },
     {
         "nid": "Dia",
         "name": "Dia",
-        "desc": "",
+        "desc": "Heals for users MAG +5. SP:5",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
@@ -3069,7 +3097,7 @@
     {
         "nid": "Media",
         "name": "Media",
-        "desc": "",
+        "desc": "Heals for user's MAG +5. AOE 2. SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
@@ -3121,7 +3149,7 @@
     {
         "nid": "Diarama",
         "name": "Diarama",
-        "desc": "",
+        "desc": "Heals for user's MAG +120. SP:10",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
@@ -3169,7 +3197,7 @@
     {
         "nid": "Patra",
         "name": "Patra",
-        "desc": "",
+        "desc": "Cures Ailments. Can attack after using. SP:6",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             9,
@@ -3209,7 +3237,7 @@
     {
         "nid": "Tarukaja",
         "name": "Tarukaja",
-        "desc": "",
+        "desc": "Increases STR/MAG by 3. SP:6",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             12,
@@ -3261,7 +3289,7 @@
     {
         "nid": "Rakukaja",
         "name": "Rakukaja",
-        "desc": "",
+        "desc": "Increases DEF/RES by 3. SP:6",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             14,
@@ -3313,7 +3341,7 @@
     {
         "nid": "Sukukaja",
         "name": "Sukukaja",
-        "desc": "",
+        "desc": "Increases HIT/AVO by 15. SP:6",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             16,
@@ -3365,7 +3393,7 @@
     {
         "nid": "Rebellion",
         "name": "Rebellion",
-        "desc": "",
+        "desc": "Increases CRIT by 25.  SP:6",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             8,
@@ -3417,7 +3445,7 @@
     {
         "nid": "Tarunda",
         "name": "Tarunda",
-        "desc": "",
+        "desc": "Decrease STR/MAG by 3. SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             13,
@@ -3469,7 +3497,7 @@
     {
         "nid": "Rakunda",
         "name": "Rakunda",
-        "desc": "",
+        "desc": "Decrease DEF/RES by 3. SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             15,
@@ -3521,7 +3549,7 @@
     {
         "nid": "Sukunda",
         "name": "Sukunda",
-        "desc": "",
+        "desc": "Decrease HIT/AVO by 15. SP:8",
         "icon_nid": "{Cardcafe} Affinity All Icons",
         "icon_index": [
             17,
@@ -7866,17 +7894,6 @@
                 5
             ],
             [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -7946,17 +7963,6 @@
             [
                 "weapon_rank",
                 "D"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "weight",
@@ -8036,17 +8042,6 @@
             [
                 "weapon_rank",
                 "A"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "weight",
@@ -8209,21 +8204,6 @@
                 "Bow"
             ],
             [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 7
             ],
@@ -8265,6 +8245,10 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "weapon_rank",
+                "C"
             ]
         ]
     },
@@ -8305,17 +8289,6 @@
             [
                 "weapon_rank",
                 "B"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "brave",
@@ -8399,17 +8372,6 @@
             [
                 "weapon_rank",
                 "D"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "weight",

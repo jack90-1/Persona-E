@@ -388,7 +388,7 @@
             "SP": 100,
             "STR": 5,
             "MAG": 6,
-            "SKL": 10,
+            "SKL": 7,
             "SPD": 4,
             "LCK": 5,
             "DEF": 7,
@@ -846,6 +846,10 @@
             [
                 "Bufu",
                 false
+            ],
+            [
+                "Soul_Drop",
+                true
             ]
         ],
         "learned_skills": [
@@ -920,6 +924,10 @@
             [
                 "Iron_Axe",
                 false
+            ],
+            [
+                "Bandage",
+                true
             ]
         ],
         "learned_skills": [
@@ -1180,7 +1188,7 @@
             "HP": 32,
             "SP": 500,
             "STR": 11,
-            "MAG": 6,
+            "MAG": 8,
             "SKL": 13,
             "SPD": 7,
             "LCK": 6,
