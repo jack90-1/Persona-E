@@ -4314,7 +4314,7 @@
             ],
             [
                 "weight",
-                2
+                0
             ],
             [
                 "level_exp",
@@ -4381,7 +4381,7 @@
             ],
             [
                 "weight",
-                5
+                0
             ],
             [
                 "level_exp",
@@ -4448,7 +4448,7 @@
             ],
             [
                 "weight",
-                10
+                3
             ],
             [
                 "level_exp",
@@ -4515,7 +4515,7 @@
             ],
             [
                 "weight",
-                8
+                2
             ],
             [
                 "level_exp",
@@ -4578,7 +4578,7 @@
             ],
             [
                 "weight",
-                12
+                5
             ],
             [
                 "crit",
@@ -4649,7 +4649,7 @@
             ],
             [
                 "weight",
-                14
+                8
             ],
             [
                 "crit",
@@ -4731,7 +4731,7 @@
             ],
             [
                 "weight",
-                13
+                6
             ],
             [
                 "crit",
@@ -4806,7 +4806,7 @@
             ],
             [
                 "weight",
-                5
+                0
             ],
             [
                 "level_exp",
@@ -4873,7 +4873,7 @@
             ],
             [
                 "weight",
-                7
+                1
             ],
             [
                 "level_exp",
@@ -4962,7 +4962,7 @@
             ],
             [
                 "weight",
-                11
+                2
             ],
             [
                 "crit",
@@ -5052,7 +5052,7 @@
             ],
             [
                 "weight",
-                5
+                2
             ],
             [
                 "crit",
@@ -5142,7 +5142,7 @@
             ],
             [
                 "weight",
-                11
+                2
             ],
             [
                 "crit",
@@ -5225,7 +5225,7 @@
             ],
             [
                 "weight",
-                9
+                0
             ],
             [
                 "level_exp",
@@ -5311,7 +5311,7 @@
             ],
             [
                 "weight",
-                12
+                4
             ],
             [
                 "level_exp",
@@ -5393,7 +5393,7 @@
             ],
             [
                 "weight",
-                4
+                0
             ],
             [
                 "level_exp",
@@ -5460,7 +5460,7 @@
             ],
             [
                 "weight",
-                8
+                0
             ],
             [
                 "level_exp",
@@ -5523,7 +5523,7 @@
             ],
             [
                 "weight",
-                13
+                3
             ],
             [
                 "wexp",
@@ -5598,7 +5598,7 @@
             ],
             [
                 "weight",
-                10
+                2
             ],
             [
                 "level_exp",
@@ -5665,7 +5665,7 @@
             ],
             [
                 "weight",
-                9
+                1
             ],
             [
                 "level_exp",
@@ -5678,17 +5678,6 @@
             [
                 "weapon_rank",
                 "C"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "warning",
@@ -5747,7 +5736,7 @@
             ],
             [
                 "weight",
-                11
+                5
             ],
             [
                 "level_exp",
@@ -5810,7 +5799,7 @@
             ],
             [
                 "weight",
-                12
+                5
             ],
             [
                 "crit",
@@ -5881,7 +5870,7 @@
             ],
             [
                 "weight",
-                10
+                5
             ],
             [
                 "level_exp",
@@ -5943,23 +5932,12 @@
                 "B"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "brave",
                 null
             ],
             [
                 "weight",
-                14
+                4
             ],
             [
                 "crit",
@@ -6025,19 +6003,8 @@
                 "D"
             ],
             [
-                "uses",
-                16
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                13
+                3
             ],
             [
                 "crit",
@@ -6115,19 +6082,8 @@
                 "D"
             ],
             [
-                "uses",
-                16
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                14
+                5
             ],
             [
                 "crit",
@@ -6205,19 +6161,8 @@
                 "C"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                8
+                3
             ],
             [
                 "crit",
@@ -6295,23 +6240,12 @@
                 "D"
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "reaver",
                 null
             ],
             [
                 "weight",
-                11
+                0
             ],
             [
                 "wexp",
@@ -6386,7 +6320,7 @@
             ],
             [
                 "weight",
-                9
+                0
             ],
             [
                 "level_exp",
@@ -6457,7 +6391,7 @@
             ],
             [
                 "weight",
-                4
+                0
             ],
             [
                 "level_exp",
@@ -6524,7 +6458,7 @@
             ],
             [
                 "weight",
-                10
+                0
             ],
             [
                 "level_exp",
@@ -6591,7 +6525,7 @@
             ],
             [
                 "weight",
-                15
+                3
             ],
             [
                 "level_exp",
@@ -6662,7 +6596,7 @@
             ],
             [
                 "weight",
-                12
+                2
             ],
             [
                 "level_exp",
@@ -6725,7 +6659,7 @@
             ],
             [
                 "weight",
-                12
+                5
             ],
             [
                 "level_exp",
@@ -6792,18 +6726,7 @@
             ],
             [
                 "weight",
-                14
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                5
             ],
             [
                 "level_exp",
@@ -6869,19 +6792,8 @@
                 "C"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                11
+                1
             ],
             [
                 "crit",
@@ -6951,19 +6863,8 @@
                 "D"
             ],
             [
-                "uses",
-                18
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                15
+                3
             ],
             [
                 "crit",
@@ -7041,19 +6942,8 @@
                 "D"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                15
+                5
             ],
             [
                 "crit",
@@ -7135,19 +7025,8 @@
                 "C"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                11
+                3
             ],
             [
                 "crit",
@@ -7230,18 +7109,7 @@
             ],
             [
                 "weight",
-                13
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                0
             ],
             [
                 "level_exp",
@@ -7307,23 +7175,12 @@
                 "B"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "brave",
                 null
             ],
             [
                 "weight",
-                16
+                4
             ],
             [
                 "crit",
@@ -7465,7 +7322,7 @@
             ],
             [
                 "weight",
-                2
+                0
             ],
             [
                 "level_exp",
@@ -7536,7 +7393,7 @@
             ],
             [
                 "weight",
-                7
+                1
             ],
             [
                 "level_exp",
@@ -7607,7 +7464,7 @@
             ],
             [
                 "weight",
-                6
+                0
             ],
             [
                 "level_exp",
@@ -7678,7 +7535,7 @@
             ],
             [
                 "weight",
-                9
+                4
             ],
             [
                 "level_exp",
@@ -7749,7 +7606,7 @@
             ],
             [
                 "weight",
-                3
+                0
             ],
             [
                 "level_exp",
@@ -7820,7 +7677,7 @@
             ],
             [
                 "weight",
-                4
+                1
             ],
             [
                 "level_exp",
@@ -7891,7 +7748,7 @@
             ],
             [
                 "weight",
-                5
+                0
             ],
             [
                 "level_exp",
@@ -7966,7 +7823,7 @@
             ],
             [
                 "weight",
-                9
+                3
             ],
             [
                 "crit",
@@ -8045,7 +7902,7 @@
             ],
             [
                 "weight",
-                6
+                2
             ],
             [
                 "crit",
@@ -8128,7 +7985,7 @@
             ],
             [
                 "weight",
-                8
+                0
             ],
             [
                 "level_exp",
@@ -8205,7 +8062,7 @@
             ],
             [
                 "weight",
-                7
+                1
             ],
             [
                 "crit",
@@ -8296,7 +8153,7 @@
             ],
             [
                 "weight",
-                12
+                4
             ],
             [
                 "crit",
@@ -8375,7 +8232,7 @@
             ],
             [
                 "weight",
-                10
+                5
             ],
             [
                 "crit",
@@ -8541,7 +8398,7 @@
             ],
             [
                 "weight",
-                2
+                0
             ],
             [
                 "level_exp",
@@ -8624,7 +8481,7 @@
             ],
             [
                 "weight",
-                5
+                2
             ],
             [
                 "level_exp",
@@ -8707,7 +8564,7 @@
             ],
             [
                 "weight",
-                3
+                0
             ],
             [
                 "level_exp",
