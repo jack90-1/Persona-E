@@ -49,5 +49,15 @@
     "Judgement",
     "World",
     "Roam",
-    "Battle"
+    "Battle",
+    "Phys",
+    "Gun",
+    "Fire",
+    "Ice",
+    "Electric",
+    "Wind",
+    "Water",
+    "Earth",
+    "Light",
+    "Dark"
 ]

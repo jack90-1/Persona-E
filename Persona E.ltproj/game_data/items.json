@@ -57,12 +57,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                1
             ]
         ]
     },
@@ -124,12 +124,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -195,12 +195,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -261,12 +261,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -331,12 +331,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -398,12 +398,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -469,12 +469,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -536,12 +536,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -607,12 +607,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -674,12 +674,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -745,12 +745,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -812,12 +812,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -883,12 +883,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -958,8 +958,8 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                2
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -1029,12 +1029,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -1100,12 +1100,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -1175,12 +1175,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -1246,12 +1246,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -1321,12 +1321,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -1392,12 +1392,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -1467,12 +1467,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -1523,10 +1523,6 @@
                 }
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -1540,6 +1536,10 @@
                     "Down_Earth",
                     "Press_Earth"
                 ]
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -1605,12 +1605,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -1672,12 +1672,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -1743,12 +1743,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -1810,12 +1810,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -1881,12 +1881,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -1948,12 +1948,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -2019,12 +2019,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -2090,12 +2090,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                4
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -2165,12 +2165,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                10
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -2236,12 +2236,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                8
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -2311,12 +2311,12 @@
                 ]
             ],
             [
-                "mana_cost_per_use",
-                16
-            ],
-            [
                 "level_exp",
                 null
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -2371,16 +2371,16 @@
                 null
             ],
             [
-                "mana_cost_per_use",
-                7
-            ],
-            [
                 "level_exp",
                 null
             ],
             [
                 "lifelink",
                 1.0
+            ],
+            [
+                "mana_cost",
+                7
             ]
         ]
     },
@@ -2409,10 +2409,6 @@
             [
                 "weapon",
                 null
-            ],
-            [
-                "mana_cost_per_use",
-                9
             ],
             [
                 "level_exp",
@@ -5401,7 +5397,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5417,8 +5413,8 @@
         ]
     },
     {
-        "nid": "Iron_Lance",
-        "name": "Iron Lance",
+        "nid": "Iron_Spear",
+        "name": "Iron Spear",
         "desc": "Physical.",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5468,7 +5464,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5484,8 +5480,8 @@
         ]
     },
     {
-        "nid": "Steel_Lance",
-        "name": "Steel Lance",
+        "nid": "Steel_Spear",
+        "name": "Steel Spear",
         "desc": "Physical.",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5515,7 +5511,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5555,8 +5551,8 @@
         ]
     },
     {
-        "nid": "Silver_Lance",
-        "name": "Silver Lance",
+        "nid": "Silver_Spear",
+        "name": "Silver Spear",
         "desc": "Physical.",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5606,7 +5602,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5622,8 +5618,8 @@
         ]
     },
     {
-        "nid": "Killer_Lance",
-        "name": "Killer Lance",
+        "nid": "Killer_Spear",
+        "name": "Killer Spear",
         "desc": "Physical.",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5673,7 +5669,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5744,7 +5740,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5791,7 +5787,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5827,8 +5823,8 @@
         ]
     },
     {
-        "nid": "Spear",
-        "name": "Spear",
+        "nid": "Long_Spear",
+        "name": "Long Spear",
         "desc": "",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5878,7 +5874,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5894,8 +5890,8 @@
         ]
     },
     {
-        "nid": "Brave_Lance",
-        "name": "Brave Lance",
+        "nid": "Brave_Spear",
+        "name": "Brave Spear",
         "desc": "Physical. Allows two consecutive hits.",
         "icon_nid": "Lance",
         "icon_index": [
@@ -5925,7 +5921,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -5996,7 +5992,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -6075,7 +6071,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -6154,7 +6150,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -6233,7 +6229,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",
@@ -6328,7 +6324,7 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Spear"
             ],
             [
                 "weapon_rank",

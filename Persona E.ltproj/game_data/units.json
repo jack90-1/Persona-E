@@ -77,6 +77,11 @@
                 false,
                 1,
                 null
+            ],
+            "Spear": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1011,6 +1016,11 @@
                 false,
                 71,
                 null
+            ],
+            "Spear": [
+                false,
+                71,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1093,6 +1103,11 @@
             "Knife": [
                 false,
                 71,
+                null
+            ],
+            "Spear": [
+                false,
+                0,
                 null
             ]
         },

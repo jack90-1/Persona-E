@@ -14,8 +14,8 @@
         ]
     },
     {
-        "nid": "Lance",
-        "name": "Lance",
+        "nid": "Spear",
+        "name": "Spear",
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],

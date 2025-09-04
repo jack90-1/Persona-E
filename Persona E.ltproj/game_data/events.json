@@ -2677,7 +2677,8 @@
         "priority": 20,
         "_source": [
             "# debug",
-            "",
+            "inc_game_var;Protag_Level",
+            "inc_game_var;Protag_Level",
             "#give_skill;Jordan;P_Pixie;no_banner",
             "#give_skill;Jordan;P_Jack_Frost;no_banner",
             "#give_exp;Jordan;100;silent",

@@ -252,11 +252,11 @@
                 "nid": "102",
                 "variant": null,
                 "level": 2,
-                "klass": "Mercenary",
+                "klass": "Soldier",
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -304,7 +304,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -328,7 +328,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -529,6 +529,10 @@
         "ai_groups": [
             {
                 "nid": "1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -1119,7 +1123,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ],
                     [
@@ -1171,7 +1175,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -1299,7 +1303,7 @@
                         false
                     ],
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         true
                     ]
                 ],
@@ -1742,7 +1746,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -1862,7 +1866,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ],
                     [
@@ -1990,7 +1994,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -2135,7 +2139,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -2345,7 +2349,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -3033,7 +3037,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -3370,7 +3374,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -4030,7 +4034,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -4054,7 +4058,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -4078,7 +4082,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -4813,7 +4817,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Silver_Lance",
+                        "Silver_Spear",
                         false
                     ]
                 ],
@@ -4885,7 +4889,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -5537,7 +5541,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Steel_Lance",
+                        "Steel_Spear",
                         false
                     ]
                 ],
@@ -5812,7 +5816,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -5840,13 +5844,11 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "MaxAvoid"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -5866,7 +5868,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -5890,7 +5892,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Spear",
                         false
                     ]
                 ],
@@ -5968,10 +5970,28 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
