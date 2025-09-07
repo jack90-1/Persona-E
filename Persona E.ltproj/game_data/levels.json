@@ -530,16 +530,12 @@
             {
                 "nid": "1",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
     {
-        "nid": "1_25_N",
-        "name": "January 25, 2024",
+        "nid": "1_23_N",
+        "name": "January 23, 2025",
         "tilemap": "New Tilemap_3",
         "bg_tilemap": null,
         "party": "Exploration_Team",
@@ -547,7 +543,7 @@
             "player_phase": "_Blizzard Ambience"
         },
         "objective": {
-            "simple": "1/25/24",
+            "simple": "1/23/25",
             "win": "None",
             "loss": "None"
         },
@@ -1001,7 +997,7 @@
         "ai_groups": []
     },
     {
-        "nid": "1_26_V",
+        "nid": "1_24_V",
         "name": "Velvet Room Intro",
         "tilemap": "New Tilemap_4",
         "bg_tilemap": null,
@@ -1065,6 +1061,498 @@
         "regions": [],
         "unit_groups": [],
         "ai_groups": []
+    },
+    {
+        "nid": "1_26_D",
+        "name": "January 26, 2025",
+        "tilemap": "New Tilemap_3",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "Eclipse- Nujabes, Substantial"
+        },
+        "objective": {
+            "simple": "1/26/25",
+            "win": "None",
+            "loss": "None"
+        },
+        "roam": true,
+        "roam_unit": "Jordan",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [
+            "Roam"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    38
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ButchP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    61,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Vernon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    66,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    60
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Samir",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    59,
+                    45
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": "Walker1",
+                "ai_group": "",
+                "starting_position": [
+                    40,
+                    39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "MarkHall",
+                "region_type": "event",
+                "position": [
+                    54,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHall",
+                "region_type": "event",
+                "position": [
+                    17,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallExit",
+                "region_type": "event",
+                "position": [
+                    91,
+                    10
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF1",
+                "region_type": "event",
+                "position": [
+                    87,
+                    0
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Down",
+                "region_type": "event",
+                "position": [
+                    90,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Up",
+                "region_type": "event",
+                "position": [
+                    86,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "PierceCenter",
+                "region_type": "event",
+                "position": [
+                    11,
+                    59
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MainHall",
+                "region_type": "event",
+                "position": [
+                    35,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "BrownLibrary",
+                "region_type": "event",
+                "position": [
+                    64,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorSign",
+                "region_type": "event",
+                "position": [
+                    19,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MarkSign",
+                "region_type": "event",
+                "position": [
+                    56,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinitySign",
+                "region_type": "event",
+                "position": [
+                    3,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin",
+                "region_type": "event",
+                "position": [
+                    34,
+                    47
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin2",
+                "region_type": "event",
+                "position": [
+                    58,
+                    59
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mailbox",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "VernonRoom",
+                "region_type": "event",
+                "position": [
+                    103,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "LanhRoom",
+                "region_type": "event",
+                "position": [
+                    99,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "CynthiaRoom",
+                "region_type": "event",
+                "position": [
+                    95,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinityBuilding",
+                "region_type": "event",
+                "position": [
+                    4,
+                    36
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mirror",
+                "region_type": "event",
+                "position": [
+                    104,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bed",
+                "region_type": "event",
+                "position": [
+                    103,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F2_Samir",
@@ -5987,11 +6475,6 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

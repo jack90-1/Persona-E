@@ -2083,7 +2083,9 @@
         "commands": [],
         "only_once": false,
         "priority": 20,
-        "_source": [],
+        "_source": [
+            ""
+        ],
         "nid": "5 Outro"
     },
     {
@@ -2561,7 +2563,7 @@
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "1_25_N",
+        "level_nid": "1_23_N",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2571,12 +2573,12 @@
             "add_weather;snow",
             "set_game_board_bounds;2;2;77;67"
         ],
-        "nid": "1_25_N Intro"
+        "nid": "1_23_N Intro"
     },
     {
         "name": "Event",
         "trigger": "level_start",
-        "level_nid": "1_26_V",
+        "level_nid": "1_24_V",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2623,12 +2625,12 @@
             "skip_save;t",
             "win_game"
         ],
-        "nid": "1_26_V Event"
+        "nid": "1_24_V Event"
     },
     {
-        "name": "DormEntrance",
+        "name": "R. DormEntrance",
         "trigger": "Enter",
-        "level_nid": "1_25_N",
+        "level_nid": "1_23_N",
         "condition": "region.nid == 'EleanorHall'",
         "commands": [],
         "only_once": false,
@@ -2665,7 +2667,28 @@
             "speak;Butch;Alright then, you're all set.{w} Here's your room key.{w} Looks like you're in room 206.{w} Have a good time.",
             "remove_portrait;ButchP;"
         ],
-        "nid": "1_25_N DormEntrance"
+        "nid": "1_23_N R. DormEntrance"
+    },
+    {
+        "name": "R. DormEntrance",
+        "trigger": "Enter",
+        "level_nid": "1_26_D",
+        "condition": "region.nid == 'EleanorHall'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;92,10;immediate;closest",
+            "set_game_board_bounds;85;0;99;11",
+            "remove_weather;snow",
+            "center_cursor;Jordan;immediate",
+            "music;_buzz ambience",
+            "change_music;player_phase;_buzz ambience",
+            "transition;open",
+            ""
+        ],
+        "nid": "1_26_D R. DormEntrance"
     },
     {
         "name": "Intro",
@@ -2848,9 +2871,9 @@
         "nid": "F2_Samir Preps"
     },
     {
-        "name": "EleanorHall_F1",
+        "name": "R. EleanorHall_F1",
         "trigger": "Stairs",
-        "level_nid": "1_25_N",
+        "level_nid": "1_23_N",
         "condition": "region.nid == 'EleanorHallF1'",
         "commands": [],
         "only_once": false,
@@ -2945,7 +2968,25 @@
             "skip_save;t",
             "win_game"
         ],
-        "nid": "1_25_N EleanorHall_F1"
+        "nid": "1_23_N R. EleanorHall_F1"
+    },
+    {
+        "name": "R. EleanorHall_F1",
+        "trigger": "Stairs",
+        "level_nid": "1_26_D",
+        "condition": "region.nid == 'EleanorHallF1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;91,20;immediate;closest",
+            "set_game_board_bounds;85;19;112;34",
+            "center_cursor;Jordan;immediate",
+            "transition;open",
+            ""
+        ],
+        "nid": "1_26_D R. EleanorHall_F1"
     },
     {
         "name": "Velvet Room",
@@ -4166,5 +4207,89 @@
             "end"
         ],
         "nid": "F0_Samir Outro"
+    },
+    {
+        "name": "Intro_Sunday",
+        "trigger": "level_start",
+        "level_nid": "1_26_D",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_weather;snow",
+            "set_game_board_bounds;2;2;77;67",
+            "add_talk;Jordan;Vernon",
+            "add_talk;Jordan;Lanh",
+            "add_talk;Jordan;Samir"
+        ],
+        "nid": "1_26_D Intro_Sunday"
+    },
+    {
+        "name": "R.DormExit",
+        "trigger": "Enter",
+        "level_nid": "1_26_D",
+        "condition": "region.nid == 'EleanorHallExit'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;17,37;immediate;closest",
+            "set_game_board_bounds;2;2;77;67",
+            "add_weather;snow",
+            "center_cursor;Jordan;immediate",
+            "music;Eclipse- Nujabes, Substantial",
+            "change_music;player_phase;Eclipse- Nujabes, Substantial",
+            "transition;open"
+        ],
+        "nid": "1_26_D R.DormExit"
+    },
+    {
+        "name": "R. EleanorHallF2Down",
+        "trigger": "Stairs",
+        "level_nid": "1_26_D",
+        "condition": "region.nid == 'EleanorHallF2Down'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;87,2;immediate;closest",
+            "set_game_board_bounds;85;0;99;11",
+            "center_cursor;Jordan;immediate",
+            "transition;open"
+        ],
+        "nid": "1_26_D R. EleanorHallF2Down"
+    },
+    {
+        "name": "R. Talk_Sunday",
+        "trigger": "on_talk",
+        "level_nid": "1_26_D",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;check_pair('Jordan', 'Vernon')",
+            "add_portrait;Vernon (Casual);Right",
+            "speak;Vernon;What's up, {v:ProtagFirstName}?{w} Feeling any better?{w} You probably shouldn't stay out in this cold for too long...{w} Don't wanna end up back in the hospital!{w} We already burn enough money on tuition here.",
+            "remove_portrait;Vernon (Casual)",
+            "remove_talk;Jordan;Vernon",
+            "end",
+            "if;check_pair('Jordan', 'Lanh')",
+            "add_portrait;Lanh (Casual);Right",
+            "speak;Lanh;Oh, hey, {v:ProtagFirstName}.{w} You sure you should be out and about right now?{w} It'd really suck if you got sick again.{w}...{w} Look at me, sounding like I'm your mom.{w} You're a grown ass adult, I'm sure you know how you feel better than I do! Silly me...",
+            "remove_portrait;Lanh (Casual)",
+            "remove_talk;Jordan;Lanh",
+            "end",
+            "if;check_pair('Jordan', 'Samir')",
+            "add_portrait;Samir (Casual);Right",
+            "speak;Samir;How you holding up, {v:ProtagFirstName}?{w} If you ever need help with anything, let me know.{w} It's my job, y'know?{w} And I got more connections than you could dream of, heh.",
+            "remove_portrait;Samir (Casual)",
+            "remove_talk;Jordan;Samir",
+            "end"
+        ],
+        "nid": "1_26_D R. Talk_Sunday"
     }
 ]
