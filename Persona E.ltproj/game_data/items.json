@@ -8517,7 +8517,7 @@
         ]
     },
     {
-        "nid": "MAC11",
+        "nid": "MAC_11",
         "name": "MAC-11",
         "desc": "Gun. Hits 5 times. Calculates damage using user's SKL.",
         "icon_nid": "items",
