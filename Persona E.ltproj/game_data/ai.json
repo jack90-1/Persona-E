@@ -780,6 +780,530 @@
                 "roam_speed": 35,
                 "desired_proximity": 1,
                 "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
+    },
+    {
+        "nid": "Walker2",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    48
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    48
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    46
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    46
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    39
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    39
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    39
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    46
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    46
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    48
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 25,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
+    },
+    {
+        "nid": "Walker3",
+        "behaviours": [
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": [
+                    35,
+                    48
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    49
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    47
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    47
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    40
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    40
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    40
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    47
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    31,
+                    47
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 45,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
+    },
+    {
+        "nid": "Walker4",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    29
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    36
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    45
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    49
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    61
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    69,
+                    61
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    61
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    49
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    45
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    29,
+                    36
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    29
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 35,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 10000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
             }
         ],
         "priority": 20,
