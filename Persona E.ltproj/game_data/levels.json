@@ -58,7 +58,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "15avo"
+                ],
                 "team": "enemy",
                 "ai": "Charge",
                 "roam_ai": null,
@@ -82,7 +84,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "15avo"
+                ],
                 "team": "enemy",
                 "ai": "Charge",
                 "roam_ai": null,
@@ -132,7 +136,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "15avo"
+                ],
                 "team": "enemy",
                 "ai": "Charge",
                 "roam_ai": null,
@@ -147,7 +153,12 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "F1_Samir",
@@ -6662,11 +6673,6 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

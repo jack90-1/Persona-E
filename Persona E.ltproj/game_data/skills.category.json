@@ -132,7 +132,6 @@
     "Single_Shot": "Physical Skills/Gun",
     "Slash": "Physical Skills/Phys",
     "Slime_Stats": "Personas",
-    "Snap": "Physical Skills/Gun",
     "Sukukaja": "Support Skills/Buffs",
     "Sukunda": "Support Skills/Debuffs",
     "Supercharged": "Statuses/Buffs",
@@ -157,6 +156,5 @@
     "Weak_Wind": "Weaknesses",
     "Zio": "Elemental Skills/Zio",
     "Zionga": "Elemental Skills/Zio",
-    "_Stats": "Personas",
-    "new": "Physical Skills/Gun"
+    "_Stats": "Personas"
 }

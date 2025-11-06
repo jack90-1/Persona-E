@@ -353,11 +353,11 @@
     ],
     [
         "kill_multiplier",
-        3.2
+        3.0
     ],
     [
         "boss_bonus",
-        13
+        8
     ],
     [
         "min_exp",
