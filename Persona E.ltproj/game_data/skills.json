@@ -431,7 +431,7 @@
             ],
             [
                 "combat_condition",
-                "'Earth' in unit.get_weapon().tags and 'WeakEarth' in target.tags and target.team != 'player'"
+                "'WeakEarth' in target.tags and target.team != 'player'"
             ],
             [
                 "charges_per_turn",
@@ -2236,6 +2236,10 @@
                     166,
                     0
                 ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
             ]
         ]
     },
