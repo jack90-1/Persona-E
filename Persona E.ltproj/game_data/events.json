@@ -3956,6 +3956,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;9,13",
             "spawn_group;Rein;south;Rein;warp;closest",
             "wait;1000"
         ],
@@ -3986,6 +3987,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;12,11",
             "spawn_group;Rein;south;Rein;warp;closest",
             "wait;1000"
         ],
@@ -4000,6 +4002,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;7,16",
             "spawn_group;Rein;south;Rein;warp;closest",
             "wait;1000"
         ],

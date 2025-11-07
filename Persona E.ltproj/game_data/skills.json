@@ -5277,7 +5277,7 @@
             ],
             [
                 "condition",
-                "'Roam' not in game.level.tags"
+                "'Roam' not in game.level.tags and 'Tile' not in unit.tags"
             ]
         ]
     },

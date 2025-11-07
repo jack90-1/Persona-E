@@ -6658,7 +6658,7 @@
                 0,
                 251
             ],
-            "Lance": [
+            "Spear": [
                 false,
                 0,
                 251
@@ -6688,12 +6688,17 @@
                 0,
                 251
             ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
             "Default": [
                 false,
                 0,
                 251
             ],
-            "Staff": [
+            "Lance": [
                 false,
                 0,
                 251
@@ -6709,11 +6714,6 @@
                 251
             ],
             "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Spear": [
                 false,
                 0,
                 251

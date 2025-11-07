@@ -3911,7 +3911,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Swordreaver",
+                        "Halberd",
                         true
                     ]
                 ],
@@ -3972,7 +3972,7 @@
                 "faction": "Shadow",
                 "starting_items": [
                     [
-                        "Lancereaver",
+                        "Wyrmslayer",
                         true
                     ]
                 ],
@@ -4326,6 +4326,10 @@
         "ai_groups": [
             {
                 "nid": "1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
@@ -5803,7 +5807,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Lancereaver",
+                        "Steel_Sword",
                         false
                     ]
                 ],
@@ -6640,7 +6644,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -6668,6 +6674,11 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

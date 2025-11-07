@@ -3597,7 +3597,7 @@
     {
         "nid": "Evil_Touch",
         "name": "Evil Touch",
-        "desc": "",
+        "desc": "Inflicts fear.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             0,
@@ -3637,7 +3637,7 @@
     {
         "nid": "Evil_Smile",
         "name": "Evil Smile",
-        "desc": "",
+        "desc": "Inflicts fear. AOE 1.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             0,
@@ -3681,7 +3681,7 @@
     {
         "nid": "Pulinpa",
         "name": "Pulinpa",
-        "desc": "",
+        "desc": "Inflicts confusion.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             4,
@@ -3721,7 +3721,7 @@
     {
         "nid": "Tentarafoo",
         "name": "Tentarafoo",
-        "desc": "",
+        "desc": "Inflicts confusion. AOE: 1.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             4,
@@ -4017,7 +4017,7 @@
     {
         "nid": "Poisma",
         "name": "Poisma",
-        "desc": "",
+        "desc": "Inflicts <brown>poison</>.",
         "icon_nid": "ZessDynamiteSkillsysSuneohair",
         "icon_index": [
             4,
@@ -4330,6 +4330,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4397,6 +4409,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4464,6 +4488,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4531,6 +4567,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4602,6 +4650,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4673,6 +4733,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4715,17 +4787,6 @@
                 "A"
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 6
             ],
@@ -4755,6 +4816,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4822,6 +4895,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4884,17 +4969,6 @@
                 "C"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "warning",
                 null
             ],
@@ -4904,6 +4978,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4980,10 +5066,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Armor"
+                        "Armor",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 16,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -5021,7 +5108,7 @@
             ],
             [
                 "damage",
-                8
+                6
             ],
             [
                 "hit",
@@ -5033,18 +5120,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "E"
             ],
             [
                 "weight",
@@ -5070,10 +5146,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Dragon"
+                        "Dragon",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 16,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -5160,99 +5237,14 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Horse"
+                        "Horse",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 12,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "multi_status_on_equip",
-                [
-                    "Down_Phys",
-                    "Press_Phys"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Lancereaver",
-        "name": "Lancereaver",
-        "desc": "Physical. Reverses the weapon triangle.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            16
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                0
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "reaver",
-                null
             ],
             [
                 "multi_status_on_equip",
@@ -5342,6 +5334,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5409,6 +5413,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5476,6 +5492,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5547,6 +5575,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5614,6 +5654,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5685,6 +5737,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5752,6 +5816,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5819,6 +5895,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5886,6 +5974,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -5957,6 +6057,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6022,10 +6134,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Horse"
+                        "Horse",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -6063,7 +6176,7 @@
             ],
             [
                 "damage",
-                9
+                6
             ],
             [
                 "hit",
@@ -6075,7 +6188,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "weight",
@@ -6101,10 +6214,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Armor"
+                        "Armor",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 18,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -6180,88 +6294,14 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Dragon"
+                        "Dragon",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 20,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "multi_status_on_equip",
-                [
-                    "Down_Phys",
-                    "Press_Phys"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Axereaver",
-        "name": "Axereaver",
-        "desc": "Physical. Reverses the weapon triangle.",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                6
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Spear"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "reaver",
-                null
-            ],
-            [
-                "weight",
-                0
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                1950
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
             ],
             [
                 "multi_status_on_equip",
@@ -6340,6 +6380,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Toxin"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6407,6 +6459,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6474,6 +6538,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6545,6 +6621,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6612,6 +6700,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6679,6 +6779,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6746,6 +6858,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6817,6 +6941,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -6844,7 +6980,7 @@
             ],
             [
                 "damage",
-                10
+                9
             ],
             [
                 "hit",
@@ -6856,7 +6992,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "weight",
@@ -6882,10 +7018,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Horse"
+                        "Horse",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 20,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -6965,10 +7102,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Armor"
+                        "Armor",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 20,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -7044,84 +7182,14 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Dragon"
+                        "Dragon",
+                        "WeakPhys"
                     ],
                     "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 24,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "multi_status_on_equip",
-                [
-                    "Down_Phys",
-                    "Press_Phys"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Swordreaver",
-        "name": "Swordreaver",
-        "desc": "Physical. Reverses the weapon triangle.",
-        "icon_nid": "Axe",
-        "icon_index": [
-            0,
-            11
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                2100
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                0
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "reaver",
-                null
             ],
             [
                 "multi_status_on_equip",
@@ -7200,6 +7268,18 @@
                     "Down_Phys",
                     "Press_Phys"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7271,6 +7351,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Wounded"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7342,6 +7434,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Wounded"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7413,6 +7517,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Wounded"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7484,6 +7600,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Wounded"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7555,6 +7683,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Wounded"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7626,6 +7766,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Poison"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7697,6 +7849,18 @@
             [
                 "status_after_combat_on_hit",
                 "S_Toxin"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "WeakPhys"
+                    ],
+                    "effective_multiplier": 1.9999999999999991,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7762,10 +7926,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 12,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -7841,10 +8006,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 18,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -7920,10 +8086,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 26,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -8005,7 +8172,8 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
                     "effective_multiplier": 1.9999999999999991,
                     "effective_bonus_damage": 1,
@@ -8084,10 +8252,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 18,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -8171,10 +8340,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 20,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -8250,10 +8420,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Flying",
+                        "WeakPhys"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 10,
+                    "effective_multiplier": 2.000000000000001,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }

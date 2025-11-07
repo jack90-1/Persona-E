@@ -1088,11 +1088,15 @@
         "starting_items": [
             [
                 "Toxic_Dagger",
-                true
+                false
             ],
             [
                 "Poisma",
                 false
+            ],
+            [
+                "Talisman",
+                true
             ]
         ],
         "learned_skills": [],
