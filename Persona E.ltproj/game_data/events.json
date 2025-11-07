@@ -2700,8 +2700,8 @@
         "priority": 20,
         "_source": [
             "# debug",
-            "inc_game_var;Protag_Level",
-            "inc_game_var;Protag_Level",
+            "#inc_game_var;Protag_Level",
+            "#inc_game_var;Protag_Level",
             "#give_skill;Jordan;P_Pixie;no_banner",
             "#give_skill;Jordan;P_Jack_Frost;no_banner",
             "#give_exp;Jordan;100;silent",
@@ -4213,8 +4213,6 @@
             "set_current_mana;{PARTY_UNIT};{e:u('{PARTY_UNIT}').get_max_mana()}",
             "endf",
             "#",
-            "music_clear",
-            "win_game",
             "music_clear",
             "win_game",
             "end"
