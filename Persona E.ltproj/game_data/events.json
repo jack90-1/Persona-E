@@ -2691,6 +2691,27 @@
         "nid": "1_26_D R. DormEntrance"
     },
     {
+        "name": "R. DormEntrance",
+        "trigger": "Enter",
+        "level_nid": "1_26_N",
+        "condition": "region.nid == 'EleanorHall'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;92,10;immediate;closest",
+            "set_game_board_bounds;85;0;99;11",
+            "remove_weather;snow",
+            "center_cursor;Jordan;immediate",
+            "music;_buzz ambience",
+            "change_music;player_phase;_buzz ambience",
+            "transition;open",
+            ""
+        ],
+        "nid": "1_26_N R. DormEntrance"
+    },
+    {
         "name": "Intro",
         "trigger": "level_start",
         "level_nid": "F1_Samir",
@@ -2987,6 +3008,24 @@
             ""
         ],
         "nid": "1_26_D R. EleanorHall_F1"
+    },
+    {
+        "name": "R. EleanorHall_F1",
+        "trigger": "Stairs",
+        "level_nid": "1_26_N",
+        "condition": "region.nid == 'EleanorHallF1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;91,20;immediate;closest",
+            "set_game_board_bounds;85;19;112;34",
+            "center_cursor;Jordan;immediate",
+            "transition;open",
+            ""
+        ],
+        "nid": "1_26_N R. EleanorHall_F1"
     },
     {
         "name": "Velvet Room",
@@ -3875,6 +3914,8 @@
         "priority": 20,
         "_source": [
             "remove_skill;Brandon;Weak_Phys;no_banner",
+            "remove_skill;101;Weak_Dark;no_banner",
+            "remove_skill;102;Weak_Light;no_banner",
             "prep;t;Battle -Awakening- - Megami Ibunroku Persona;Velvet Room;True;Velvet Room",
             "game_var;brandon_minions;0",
             "flicker_cursor;102",
@@ -4125,7 +4166,7 @@
         "name": "mages",
         "trigger": "turn_change",
         "level_nid": "F7_Samir",
-        "condition": "game.turncount == 3",
+        "condition": "game.turncount == 4",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -4256,6 +4297,39 @@
         "nid": "1_26_D Intro_Sunday"
     },
     {
+        "name": "Intro_Sunday",
+        "trigger": "level_start",
+        "level_nid": "1_26_N",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background;BlackBackground",
+            "transition;close",
+            "if;'{v:Velvet_Entered}' == '1'",
+            "    move_unit;Jordan;61,32;immediate",
+            "    set_game_board_bounds;2;2;77;67",
+            "    add_weather;snow",
+            "    center_cursor;Jordan;immediate",
+            "    change_background",
+            "    transition;open",
+            "else",
+            "    set_game_board_bounds;85;19;112;34",
+            "    center_cursor;Jordan;immediate",
+            "    change_background",
+            "    transition;open",
+            "end",
+            "add_talk;Jordan;Vernon",
+            "add_talk;Jordan;Lanh",
+            "add_talk;Jordan;Samir",
+            "add_talk;Jordan;ButchP",
+            "",
+            ""
+        ],
+        "nid": "1_26_N Intro_Sunday"
+    },
+    {
         "name": "R.DormExit",
         "trigger": "Enter",
         "level_nid": "1_26_D",
@@ -4277,6 +4351,27 @@
         "nid": "1_26_D R.DormExit"
     },
     {
+        "name": "R.DormExit",
+        "trigger": "Enter",
+        "level_nid": "1_26_N",
+        "condition": "region.nid == 'EleanorHallExit'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;17,37;immediate;closest",
+            "set_game_board_bounds;2;2;77;67",
+            "add_weather;snow",
+            "center_cursor;Jordan;immediate",
+            "music;Eclipse- Nujabes, Substantial",
+            "change_music;player_phase;Eclipse- Nujabes, Substantial",
+            "transition;open",
+            ""
+        ],
+        "nid": "1_26_N R.DormExit"
+    },
+    {
         "name": "R. EleanorHallF2Down",
         "trigger": "Stairs",
         "level_nid": "1_26_D",
@@ -4292,6 +4387,23 @@
             "transition;open"
         ],
         "nid": "1_26_D R. EleanorHallF2Down"
+    },
+    {
+        "name": "R. EleanorHallF2Down",
+        "trigger": "Stairs",
+        "level_nid": "1_26_N",
+        "condition": "region.nid == 'EleanorHallF2Down'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "move_unit;Jordan;87,2;immediate;closest",
+            "set_game_board_bounds;85;0;99;11",
+            "center_cursor;Jordan;immediate",
+            "transition;open"
+        ],
+        "nid": "1_26_N R. EleanorHallF2Down"
     },
     {
         "name": "R. Talk_Sunday",
@@ -4339,5 +4451,77 @@
             "end"
         ],
         "nid": "1_26_D R. Talk_Sunday"
+    },
+    {
+        "name": "R. Talk_Sunday",
+        "trigger": "on_talk",
+        "level_nid": "1_26_N",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;check_pair('Jordan', 'ButchP')",
+            "    add_portrait;ButchP;Right",
+            "    speak;Butch;You need to go to the Velvet Room?",
+            "    remove_portrait;ButchP",
+            "    choice;vroom;Enter the Velvet Room?;Yes,No",
+            "    if;'{v:vroom}' == 'Yes'",
+            "        skip_save;t",
+            "        set_next_chapter;Velvet_Room",
+            "        game_var;Current_Floor;\"1_26_D\"",
+            "        game_var;Velvet_Entered;1",
+            "        win_game",
+            "    else",
+            "        add_portrait;ButchP;Right",
+            "        speak;Butch;Suit yourself.",
+            "        remove_portrait;ButchP",
+            "    end",
+            "end"
+        ],
+        "nid": "1_26_N R. Talk_Sunday"
+    },
+    {
+        "name": "SLink_Lanh",
+        "trigger": "on_talk",
+        "level_nid": "1_26_N",
+        "condition": "check_pair('Jordan', 'Lanh')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#debug",
+            "game_var;SLink_Magician;0",
+            "###",
+            "choice;SLink_Lanh;Spend time with Lanh?;Yes,No",
+            "if;'{v:_last_choice}' == 'Yes'",
+            "    if;{v:SLink_Magician} < 1",
+            "        set_next_chapter;SLink_Magician_1",
+            "        skip_save;t",
+            "        game_var;Next_Day;'1_27_D'",
+            "        music_clear",
+            "        win_game",
+            "    end",
+            "end"
+        ],
+        "nid": "1_26_N SLink_Lanh"
+    },
+    {
+        "name": "SLink_Magician_1",
+        "trigger": "level_start",
+        "level_nid": "SLink_Magician_1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Lanh;immediate",
+            "sound;Legendary Weapon",
+            "inc_game_var;SLink_Magician",
+            "alert;Rank up! Magician: Level 1",
+            "set_next_chapter;{v:Next_Day}",
+            "win_game"
+        ],
+        "nid": "SLink_Magician_1 SLink_Magician_1"
     }
 ]

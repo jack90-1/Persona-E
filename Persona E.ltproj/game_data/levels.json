@@ -1123,8 +1123,1248 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
+                    103,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    26,
+                    59
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Samir",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    108,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": "Walker1",
+                "ai_group": "",
+                "starting_position": [
+                    40,
+                    39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker2",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    63
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker3",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    49
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker4",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Smoking_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    37
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Waiting_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    34,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Unlucky_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    38,
+                    59
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Wistful_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    58,
+                    44
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "MarkHall",
+                "region_type": "event",
+                "position": [
+                    54,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHall",
+                "region_type": "event",
+                "position": [
+                    17,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallExit",
+                "region_type": "event",
+                "position": [
+                    91,
+                    10
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF1",
+                "region_type": "event",
+                "position": [
+                    87,
+                    0
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Down",
+                "region_type": "event",
+                "position": [
+                    90,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Up",
+                "region_type": "event",
+                "position": [
+                    86,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "PierceCenter",
+                "region_type": "event",
+                "position": [
+                    11,
+                    59
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MainHall",
+                "region_type": "event",
+                "position": [
+                    35,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "BrownLibrary",
+                "region_type": "event",
+                "position": [
+                    64,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorSign",
+                "region_type": "event",
+                "position": [
+                    19,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MarkSign",
+                "region_type": "event",
+                "position": [
+                    56,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinitySign",
+                "region_type": "event",
+                "position": [
+                    3,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin",
+                "region_type": "event",
+                "position": [
+                    34,
+                    47
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin2",
+                "region_type": "event",
+                "position": [
+                    58,
+                    59
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mailbox",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "VernonRoom",
+                "region_type": "event",
+                "position": [
+                    103,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "LanhRoom",
+                "region_type": "event",
+                "position": [
+                    99,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "CynthiaRoom",
+                "region_type": "event",
+                "position": [
+                    95,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinityBuilding",
+                "region_type": "event",
+                "position": [
+                    4,
+                    36
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mirror",
+                "region_type": "event",
+                "position": [
+                    104,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bed",
+                "region_type": "event",
+                "position": [
+                    103,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "1_26_N",
+        "name": "January 26, 2025",
+        "tilemap": "New Tilemap_3",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "Eclipse- Nujabes, Substantial"
+        },
+        "objective": {
+            "simple": "1/26/25",
+            "win": "None",
+            "loss": "None"
+        },
+        "roam": true,
+        "roam_unit": "Jordan",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [
+            "Roam"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    103,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ButchP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    61,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Vernon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
                     66,
                     3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    103,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Samir",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    108,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": "Walker1",
+                "ai_group": "",
+                "starting_position": [
+                    40,
+                    39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker2",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    63
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker3",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    49
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "Walker4",
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Smoking_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    37
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Waiting_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    34,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Unlucky_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    38,
+                    59
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Wistful_Student",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    58,
+                    44
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "MarkHall",
+                "region_type": "event",
+                "position": [
+                    54,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHall",
+                "region_type": "event",
+                "position": [
+                    17,
+                    37
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallExit",
+                "region_type": "event",
+                "position": [
+                    91,
+                    10
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF1",
+                "region_type": "event",
+                "position": [
+                    87,
+                    0
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Down",
+                "region_type": "event",
+                "position": [
+                    90,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorHallF2Up",
+                "region_type": "event",
+                "position": [
+                    86,
+                    19
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "PierceCenter",
+                "region_type": "event",
+                "position": [
+                    11,
+                    59
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MainHall",
+                "region_type": "event",
+                "position": [
+                    35,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "BrownLibrary",
+                "region_type": "event",
+                "position": [
+                    64,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "EleanorSign",
+                "region_type": "event",
+                "position": [
+                    19,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "MarkSign",
+                "region_type": "event",
+                "position": [
+                    56,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinitySign",
+                "region_type": "event",
+                "position": [
+                    3,
+                    38
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin",
+                "region_type": "event",
+                "position": [
+                    34,
+                    47
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bulletin2",
+                "region_type": "event",
+                "position": [
+                    58,
+                    59
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mailbox",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "VernonRoom",
+                "region_type": "event",
+                "position": [
+                    103,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "LanhRoom",
+                "region_type": "event",
+                "position": [
+                    99,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "CynthiaRoom",
+                "region_type": "event",
+                "position": [
+                    95,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "TrinityBuilding",
+                "region_type": "event",
+                "position": [
+                    4,
+                    36
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Mirror",
+                "region_type": "event",
+                "position": [
+                    104,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Bed",
+                "region_type": "event",
+                "position": [
+                    103,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "1_27_D",
+        "name": "January 27, 2025",
+        "tilemap": "New Tilemap_3",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "Eclipse- Nujabes, Substantial"
+        },
+        "objective": {
+            "simple": "1/27/25",
+            "win": "None",
+            "loss": "None"
+        },
+        "roam": true,
+        "roam_unit": "Jordan",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [
+            "Roam"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    103,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ButchP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    61,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Vernon",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    103,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -4327,10 +5567,6 @@
             {
                 "nid": "1",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     },
@@ -5074,267 +6310,6 @@
         ]
     },
     {
-        "nid": "Velvet_Room",
-        "name": "Velvet Room",
-        "tilemap": "New Tilemap_4",
-        "bg_tilemap": null,
-        "party": "Exploration_Team",
-        "music": {
-            "player_phase": "Aria of the Soul- Persona 3 Reload"
-        },
-        "objective": {
-            "simple": "Velvet",
-            "win": "Room",
-            "loss": "Yay"
-        },
-        "roam": false,
-        "roam_unit": "Jordan",
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [
-            "Roam"
-        ],
-        "units": [
-            {
-                "nid": "Jordan",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "IgorP",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "ButchP",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "FEE3Intro",
-        "name": "Chapter 0",
-        "tilemap": "New Tilemap_4",
-        "bg_tilemap": null,
-        "party": "Exploration_Team",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [
-            {
-                "nid": "IgorP",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "ButchP",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "FEE3Clip",
-        "name": "Chapter 0",
-        "tilemap": "New Tilemap_3",
-        "bg_tilemap": null,
-        "party": "Exploration_Team",
-        "music": {},
-        "objective": {
-            "simple": "2/12/24",
-            "win": "",
-            "loss": ""
-        },
-        "roam": true,
-        "roam_unit": "Jordan",
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [
-            "Roam"
-        ],
-        "units": [
-            {
-                "nid": "Jordan",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    39
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    32,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    29,
-                    35
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    39,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    31,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    31,
-                    47
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Vernon",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    37,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
         "nid": "F7_Samir",
         "name": "Floor 7",
         "tilemap": "New Tilemap_10",
@@ -5395,16 +6370,14 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Patient"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "Charge",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    5
+                    10,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5421,16 +6394,14 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Patient"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "BrandonCav",
+                "ai": "In_Range",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    5
+                    3,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5697,8 +6668,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    1
+                    5,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5817,8 +6788,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    2
+                    8,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -6399,6 +7370,121 @@
         "ai_groups": []
     },
     {
+        "nid": "Velvet_Room",
+        "name": "Velvet Room",
+        "tilemap": "New Tilemap_4",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {
+            "player_phase": "Aria of the Soul- Persona 3 Reload"
+        },
+        "objective": {
+            "simple": "Velvet",
+            "win": "Room",
+            "loss": "Yay"
+        },
+        "roam": false,
+        "roam_unit": "Jordan",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [
+            "Roam"
+        ],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "IgorP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ButchP",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "SLink_Magician_1",
+        "name": ".",
+        "tilemap": "New Tilemap_3",
+        "bg_tilemap": null,
+        "party": "Exploration_Team",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Jordan",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    109,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lanh",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    109,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
         "nid": "Debug",
         "name": "Debug",
         "tilemap": "New Tilemap",
@@ -6674,11 +7760,6 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
